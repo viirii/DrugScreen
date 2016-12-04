@@ -1,0 +1,134 @@
+
+\title{Active Learning for Drug Selection on Identified Target Protein}
+%
+%%% Preamble
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+
+\usepackage[english]{babel}															% English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[pdftex]{graphicx}	
+\usepackage{url}
+\usepackage{color}
+\usepackage{color,soul}
+
+%%% Custom sectioning
+\usepackage{sectsty}
+\allsectionsfont{\centering \normalfont\scshape}
+
+
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+
+
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{TODO: } #1}}
+
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{Carnegie Mellon University - Computational Biology Department} \\ [25pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge Active Learning for Drug Selection\\ on Identified Target Protein \\
+		\horrule{2pt} \\[0.5cm]
+}
+\author{
+  Christine Baek\\
+  \normalsize\texttt{christib@andrew.cmu.edu}
+  \and
+  Qi Chu\\
+  \normalsize\texttt{qchu@andrew.cmu.edu}
+}
+\date{}
+
+
+%%% Begin document
+\begin{document}
+\maketitle
+\section{Introduction}
+
+In this project, we explore three datasets of different noise level, for identification compounds, or drugs that bind to specific target protein associated with disease. We use DHM as our active learning strategy to determine when to query the Oracle, and SVM to train our model on the oracle-obtained as well as inferred labels. 
+
+\section{Methods}
+
+\subsection{Base Learner Strategy}
+
+\TODO{DHM}
+\begin{itemize}
+\item why chosen
+\item any modifications/source?
+\end{itemize}
+
+\subsection{Classifier Strategy}
+
+\TODO{SVM}
+\begin{itemize}
+\item why chosen
+\item any modifications/source?
+\end{itemize}
+
+\section{Results}
+
+\subsection{Easy}
+
+
+\TODO{error curve (Traint,test)}
+
+\TODO{f1 score curve (train, test)}
+
+\TODO{error / num calls to oracle (train, test) }
+
+\subsection{Moderate}
+
+
+\TODO{error curve (Traint,test)}
+
+\TODO{f1 score curve (train, test)}
+
+\TODO{error / num calls to oracle (train, test) }
+
+
+\subsection{Difficult}
+
+
+\TODO{error curve (Traint,test)}
+
+\TODO{f1 score curve (train, test)}
+
+\TODO{error / num calls to oracle (train, test) }
+
+
+\section{Conclusion}
+
+\TODO{briefly summarize}
+
+
+\begin{thebibliography}{1}
+
+
+\bibitem{ref:dhm}S. Dasgupta, D. Hsu, C. Monteleoni, \emph{A general agnostic active learning algorithm}, NIPS, 2008 
+
+\bibitem{ref:twoface}
+S. Dasgupta, \emph{Two faces of active learning}, \texttt{http://cseweb.ucsd.edu/$\sim$dasgupta/papers/}, 2010
+
+\end{thebibliography}
+
+\end{document}
