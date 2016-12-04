@@ -3,5 +3,4 @@
 The topic of the project is: Drug screening
 
 Authors:
-Christine Baek
-Qi Chu
+Christine Baek, Qi Chu
