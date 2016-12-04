@@ -8,12 +8,13 @@ function DHM(difficulty)
 %% ALGORITHM PARAMETERS
 numsamples = 4000;
 % vectors for identifying points in sets S and T
-SMask = zeros(1,numsamples);
-TMask = zeros(1,numsamples);
+SMask = zeros(numsamples, 1);
+TMask = zeros(numsamples, 1);
 
 % Labels for the points in S and T
-Slabels = zeros(1,numsamples);
-Tlabels = zeros(1,numsamples);
+Slabels = zeros(numsamples, 1);
+Tlabels = zeros(numsamples, 1);
+
 
 % R is a bit vector indicating which samples have been queried by a random learner
 R = zeros(1,numsamples);
@@ -51,22 +52,24 @@ for t=1:numsamples
     % model) and hminuserr (the error by the h-minus-one-model). Of course,
     % you need to re-compute hpluserr and hminuserr each iteration. 
     xr = t;
-    [hneg, hnflag] = subroutineSVM([XTrain(SMask == 1) XTrain(xr)], XTrain(TMask == 1), [Slabels(SMask == 1) 0], Tlabels(TMask == 1));
+    [hneg, hnflag] = subroutineSVM([XTrain(SMask == 1);XTrain(xr)], XTrain(TMask == 1), [Slabels(SMask == 1);0], Tlabels(TMask == 1));
     if (hnflag == 1)
         SMask(xr) = 1;
         Slabels(xr) = 1;
         continue;
     end
     
-    [hplus, hpflag] = subroutineSVM([XTrain(SMask == 1) XTrain(xr)], XTrain(TMask == 1), [Slabels(SMask == 1) 1], Tlabels(TMask == 1));
+
+    [hplus, hpflag] = subroutineSVM([XTrain(SMask == 1); XTrain(xr)], XTrain(TMask == 1), [Slabels(SMask == 1);1], Tlabels(TMask == 1));
     if (hpflag == 1)
         SMask(xr) = 1;
         Slabels(xr) = 0;
         continue;
     end
     currentLength = size([SMask; TMask], 1);
-    hminuserr = sum(abs(hneg.predict([XTrain(SMask == 1) XTrain(TMask == 1)]) - [Slabels(SMask == 1) Tlabels(TMask == 1)]));
-    hpluserr = sum(abs(hplus.predict([XTrain(SMask == 1) XTrain(TMask == 1)]) - [Slabels(SMask == 1) Tlabels(TMask == 1)]));
+
+    hminuserr = sum(abs(hneg.predict([XTrain(SMask == 1);XTrain(TMask == 1)]) - [Slabels(SMask == 1);Tlabels(TMask == 1)]));
+    hpluserr = sum(abs(hplus.predict([XTrain(SMask == 1);XTrain(TMask == 1)]) - [Slabels(SMask == 1);Tlabels(TMask == 1)]));
     hminuserr = hminuserr / (2 * currentLength); % (1 - (-1)) = 2
     hpluserr = hpluserr / (2 * currentLength);
     

@@ -1,7 +1,7 @@
 classdef DefaultModel
         methods 
-            function label = predict(~)
-                label = -1;
+            function label = predict(~, x)
+                label = ones(size(x, 1), 1) * -1;
             end
         end
 end

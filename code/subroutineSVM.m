@@ -48,16 +48,16 @@ else % S and T have elements in them
 %         end
     else % both have positive elements
     modifier = 1;
-    while (true)
+%     while (true)
         weights = [ones(size(Slabels, 1), 1) * 1; ones(size(Tlabels, 1), 1)];
         h = fitclinear([S; T], [Slabels; Tlabels], 'Learner', 'svm', 'Weights', weights);
-        if(sum(h.predict(S) - Slabels) == 0) % only keep models that are consistent
+%         if(sum(h.predict(S) - Slabels) == 0) % only keep models that are consistent
             flag = 0;
-            return
-        end
-        modifier = modifier + 1;
-        sprintf('modifier increased to %d', modifier)
-    end
+%             return
+%         end
+%         modifier = modifier + 1;
+%         sprintf('modifier increased to %d', modifier)
+%     end
         
     end
     return
