@@ -21,5 +21,5 @@ def stack(base, mask, to_stack_on):
             return np.zeros((0, num_features))
         return to_stack_on
     result = np.vstack((select(base, mask), to_stack_on))
-    assert result.shape == (num_features, sum(mask) + to_stack_on.shape[1])
+    assert result.shape == (sum(mask) + to_stack_on.shape[0], num_features)
     return result

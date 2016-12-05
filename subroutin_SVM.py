@@ -31,25 +31,30 @@ def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
         assert train_s_labels.size == 0
 
         flag = 0
-        if train_t_labels[train_t_labels == 1].size == 0:  # T has no positive samples
+        if select(train_t_labels, train_t_labels).size == 0:  # T has no positive samples
             return h, flag
+        if select(train_t_labels, train_t_labels).size == train_t_labels.size: # T has no negative samples
+            return PositiveModel(), flag
         h = SVC()
-        h.fit(train_t, train_t_labels)
+        h.fit(train_t, np.reshape(train_t_labels, train_t_labels.size))
         return h, flag
     elif train_t.size == 0:
         s, num_features = train_s.shape
         assert train_s_labels.shape == (s, 1)
         assert train_t_labels.size == 0
 
-        if train_s_labels[train_s_labels == 1].size == 0:
+        if select(train_s_labels, train_s_labels).size == 0:
             flag = 0
-        elif train_s_labels[train_s_labels == 0].size == 0:
+        elif select(train_s_labels, train_s_labels).size == train_s_labels.size:  # all positive in S
             flag = 0
             h = PositiveModel()
         else:
             h = SVC()
-            h.fit(train_s, train_s_labels)
-            if np.sum(np.absolute(np.subtract(h.predict(train_s), train_s_labels))) == 0:
+            h.fit(train_s, np.reshape(train_s_labels, train_s_labels.size))
+            predictions = h.predict(train_s)
+            if len(predictions.shape) == 1:
+                predictions = np.reshape(predictions, (predictions.size, 1))
+            if np.sum(np.absolute(np.subtract(predictions, train_s_labels))) == 0:
                 flag = 0
         return h, flag
     else:
@@ -59,17 +64,20 @@ def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
         assert train_t_labels.shape == (t, 1)
         assert train_s_labels.shape == (s, 1)
 
-        if train_s_labels[train_s_labels == 1].size == 0 and train_t_labels[train_t_labels == 1].size == 0:
+        if select(train_s_labels, train_s_labels).size == 0 and select(train_t_labels, train_t_labels).size == 0:
             flag = 0
         else:
             train_s_t = np.vstack((train_s, train_t))
             train_s_t_labels = np.vstack((train_s_labels, train_t_labels))
             assert train_s_t.shape == (s + t, num_features)
-            assert train_s_t_labels == (s + t, 1)
+            assert train_s_t_labels.shape == (s + t, 1)
 
             h = SVC()
-            h.fit(train_s_t, train_s_t_labels)
-            if np.sum(np.absolute(np.subtract(h.predict(train_s), train_s_labels))) == 0:
+            h.fit(train_s_t, np.reshape(train_s_t_labels, train_s_t_labels.size))
+            predictions = h.predict(train_s)
+            if len(predictions.shape) == 1:
+                predictions = np.reshape(predictions, (predictions.size, 1))
+            if np.sum(np.absolute(np.subtract(predictions, train_s_labels))) == 0:
                 flag = 0
         return h, flag
 

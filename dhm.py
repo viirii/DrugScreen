@@ -54,6 +54,8 @@ R_mask = np.full((num_samples, ), 0, dtype=np.int)
 cost = 0
 # this is the main loop of the DHM algorithm
 for x in range(num_samples):
+    if x == 4:
+        print("debug")
 
     # XTrain(t) is the next instance in the data stream
     next_instance = X_train[[x], :]
@@ -157,8 +159,12 @@ for x in range(num_samples):
     assert train_t_label.shape == (t, 1)
 
     h, _ = subroutine_SVM(train_s, train_t, train_s_label, train_t_label)
-    SVMError = np.sum(np.absolute(np.subtract(h.predict(X_test), y_test))) / y_test.size
-    print('SVM error after {} rounds is {}'.format(x, SVMError))
+    predictions = h.predict(X_test)
+    if len(predictions.shape) == 1:
+        predictions = np.reshape(predictions, (predictions.size, 1))
+    assert predictions.shape == (num_test, 1)
+    SVMError = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
+    print('SVM error after {} queries is {}'.format(t, SVMError))
 
     xr = select_random_unlabeled_point(R_mask)
     R_mask[xr] = 1
@@ -171,6 +177,10 @@ for x in range(num_samples):
     assert train_r_label.shape == (r, 1)
 
     hR, _ = subroutine_SVM(np.zeros((0, num_features)), train_r, np.zeros((0, 1)), train_r_label)
-    # hR, _ = subroutine_SVM(np.array([]), select(X_train, R_mask), np.array([]), select(y_train, R_mask))
-    RandomError = np.sum(np.absolute(np.subtract(hR.predict(X_test), y_test))) / y_test.size
-    print('Random error after {} rounds is {}'.format(x, RandomError))
+    predictions = hR.predict(X_test)
+    if len(predictions.shape) == 1:
+        predictions = np.reshape(predictions, (predictions.size, 1))
+    assert predictions.shape == (num_test, 1)
+    RandomError = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
+    print('Random error after {} queries is {}'.format(r, RandomError))
+    print("round {}".format(x))
