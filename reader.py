@@ -8,7 +8,7 @@ def read_train_test(filename):
     :param filename: train/test file
     :return: (feature_matrix, label_vector)
     """
-    my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.dtype(np.int32))
+    my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.int)
     return my_data[:, :-1], my_data[:, -1]
 
 
@@ -18,7 +18,7 @@ def read_blind(filename):
     :param filename: blind file
     :return: (feature_matrix, id_vector)
     """
-    my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.dtype(np.int32))
+    my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.int)
     return my_data[:, 1:], my_data[:, 1]
 
 

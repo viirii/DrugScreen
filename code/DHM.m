@@ -97,6 +97,10 @@ for t=1:numsamples
     cost = cost + 1;
     
     [h, ~] = subroutineSVM(XTrain(SMask == 1), XTrain(TMask == 1), Slabels(SMask == 1), Tlabels(TMask == 1));
+    XTrain(SMask == 1)
+    XTrain(TMask == 1)
+    Slabels(SMask == 1)
+    Tlabels(TMask == 1)
     SVMError = sum(abs(h.predict(XTest) - YTest)) / (2 * size(YTest, 1));
     sprintf('SVM error after %d rounds is %f', t, SVMError)
     
