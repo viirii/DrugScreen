@@ -3,12 +3,12 @@ import numpy as np
 
 def select(base, mask):
     assert base.size > 0
-    if sum(mask) == 0:
+    if np.sum(mask) == 0:
         return np.zeros((0, base.shape[1]))
     boolean_mask = np.reshape(mask == 1, mask.size)
     assert boolean_mask.shape == (mask.shape[0], )
     result = base[boolean_mask]
-    assert result.shape == (sum(mask), base.shape[1])
+    assert result.shape == (np.sum(mask), base.shape[1])
     return result
 
 

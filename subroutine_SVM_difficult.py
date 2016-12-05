@@ -31,10 +31,12 @@ def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
         assert train_s_labels.size == 0
 
         flag = 0
-        if select(train_t_labels, train_t_labels).size == 0:  # T has no positive samples
+        if select(train_t_labels, train_t_labels > 0).size == 0:  # T has no positive/strong samples
             return h, flag
-        if select(train_t_labels, train_t_labels).size == train_t_labels.size: # T has no negative samples
+        if select(train_t_labels, train_t_labels == 1).size == train_t_labels.size:  # T has all 1 samples
             return PositiveModel(), flag
+        if select(train_t_labels, train_t_labels == 2).size == train_t_labels.size:  # T has all 2 samples
+            return StrongModel(), flag
         h = SVC(class_weight='balanced')
         h.fit(train_t, np.reshape(train_t_labels, train_t_labels.size))
         return h, flag
@@ -43,11 +45,14 @@ def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
         assert train_s_labels.shape == (s, 1)
         assert train_t_labels.size == 0
 
-        if select(train_s_labels, train_s_labels).size == 0:
+        if select(train_s_labels, train_s_labels > 0).size == 0: # all neg in S
             flag = 0
-        elif select(train_s_labels, train_s_labels).size == train_s_labels.size:  # all positive in S
+        elif select(train_s_labels, train_s_labels ==  1).size == train_s_labels.size:  # all 1 in S
             flag = 0
             h = PositiveModel()
+        elif select(train_s_labels, train_s_labels ==  2).size == train_s_labels.size:  # all 2 in S
+            flag = 0
+            h = StrongModel()
         else:
             h = SVC(class_weight='balanced')
             h.fit(train_s, np.reshape(train_s_labels, train_s_labels.size))
@@ -64,7 +69,13 @@ def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
         assert train_t_labels.shape == (t, 1)
         assert train_s_labels.shape == (s, 1)
 
-        if select(train_s_labels, train_s_labels).size == 0 and select(train_t_labels, train_t_labels).size == 0:
+        if select(train_s_labels, train_s_labels > 0).size == 0 and select(train_t_labels, train_t_labels > 0).size == 0:
+            flag = 0
+        elif select(train_s_labels, train_s_labels != 1).size == 0 and select(train_t_labels, train_t_labels != 1).size == 0:
+            h = PositiveModel()
+            flag = 0
+        elif select(train_s_labels, train_s_labels != 2).size == 0 and select(train_t_labels, train_t_labels != 2).size == 0:
+            h = StrongModel()
             flag = 0
         else:
             train_s_t = np.vstack((train_s, train_t))

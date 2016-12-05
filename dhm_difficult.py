@@ -49,7 +49,6 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
     S_labels = np.full((num_samples, 1), 0, dtype=np.int)
     T_labels = np.full((num_samples, 1), 0, dtype=np.int)
 
-
     # fill a base number of samples to T
     for _ in range(num_init_label):
         x = select_random_unlabeled_point(T_mask)
@@ -233,7 +232,7 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
         print('SVM error after {} queries is {}'.format(t, SVMError))
         svm_errors.append(SVMError)
         queries[x] = t
-        svm_f1_score = f1_score(y_test, predictions)
+        svm_f1_score = f1_score(y_test, predictions, average='micro')
         print('SVM F1 after {} queries is {}'.format(t, svm_f1_score))
         svm_f1s.append(svm_f1_score)
 
@@ -256,7 +255,7 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
         random_error = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
         print('Random error after {} queries is {}'.format(r, random_error))
         random_errors.append(random_error)
-        random_f1_score = f1_score(y_test, predictions)
+        random_f1_score = f1_score(y_test, predictions, average='micro')
         print('Random F1 after {} queries is {}'.format(t, random_f1_score))
         random_f1s.append(random_f1_score)
 
@@ -264,7 +263,7 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
         blank_error = np.sum(np.absolute(np.subtract(B_predictions, y_test))) / y_test.size
         print('Blank learner error queries is {}'.format(blank_error))
         blank_errors.append(blank_error)
-        blank_f1_score = f1_score(B_predictions, predictions)
+        blank_f1_score = f1_score(B_predictions, predictions, average='micro')
         print('Blank F1 after {} queries is {}'.format(t, blank_f1_score))
         blank_f1s.append(random_f1_score)
 
@@ -312,5 +311,7 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
-        dhm(difficulty='EASY', num_init_label=500)
+        dhm(difficulty='DIFFICULT', num_init_label=500)
+    if len(sys.argv) == 2:
+        dhm(difficulty='DIFFICULT', num_init_label=int(sys.argv[1]))
     dhm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))
