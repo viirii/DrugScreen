@@ -9,7 +9,7 @@ def read_train_test(filename):
     :return: (feature_matrix, label_vector)
     """
     my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.int)
-    return my_data[:, :-1], my_data[:, -1]
+    return my_data[:, :-1], my_data[:, [-1]]
 
 
 def read_blind(filename):
@@ -19,7 +19,7 @@ def read_blind(filename):
     :return: (feature_matrix, id_vector)
     """
     my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.int)
-    return my_data[:, 1:], my_data[:, 1]
+    return my_data[:, 1:], my_data[:, [1]]
 
 
 def write_prediction(filename, id_vector, prediction_vector):
