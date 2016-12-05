@@ -2,49 +2,74 @@ import numpy as np
 from sklearn.svm import SVC
 from util import select, stack
 
-def subroutine_SVM(S, T, S_labels, T_labels):
+
+def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
     """
     This function learns a SVM model from training data. It takes two inputs, S and T. The algorithm
     tries to find a model consisent with S. If it can't, it returns a flag.
     If it can, it returns a model that minimizes the error on T, while still
     being consistent with S.
-    :param S: training data with inferred labels, s x n
-    :param T: training data with actual labels, t x n
-    :param S_labels: labels for S, s x 1
-    :param T_labels: labels for T, t x 1
-    :return: [h, flag] learned SVM model, flag = 1 means inconsistent with
+    :param train_s: training data with inferred labels, s x n
+    :param train_t: training data with actual labels, t x n
+    :param train_s_labels: labels for S, s x 1
+    :param train_t_labels: labels for T, t x 1
+    :return: [h, flag] learned SVM model, flag = 1 means inconsistent with s
     """
+
     flag = 1
     h = DefaultModel()
 
-    if len(S) == 0 and len(T) == 0:
+    if train_s.size == 0 and train_t.size == 0:
+        assert train_s_labels.size == 0
+        assert train_t_labels.size == 0
+        # no data return default model, predicting all 0s
         flag = 0
         return h, flag
-    elif len(S) == 0:
+    elif train_s.size == 0:
+        t, num_features = train_t.shape
+        assert train_t_labels.shape == (t, 1)
+        assert train_s_labels.size == 0
+
         flag = 0
-        if not len(T_labels[T_labels == 1]) == 0:
-            h = SVC()
-            h.fit(T, T_labels)
+        if train_t_labels[train_t_labels == 1].size == 0:  # T has no positive samples
+            return h, flag
+        h = SVC()
+        h.fit(train_t, train_t_labels)
         return h, flag
-    elif len(T) == 0:
-        if len(S_labels[S_labels == 1]) == 0:
+    elif train_t.size == 0:
+        s, num_features = train_s.shape
+        assert train_s.shape == (s, 1)
+        assert train_t_labels.size == 0
+
+        if train_s_labels[train_s_labels == 1].size == 0:
             flag = 0
-        elif len(S_labels[S_labels == 0]) == 0:
+        elif train_s_labels[train_s_labels == 0].size == 0:
             flag = 0
             h = PositiveModel()
         else:
             h = SVC()
-            h.fit(S, S_labels)
-            if sum(abs(h.predict(S) - S_labels)) == 0:
+            h.fit(train_s, train_s_labels)
+            if np.sum(np.absolute(np.subtract(h.predict(train_s), train_s_labels))) == 0:
                 flag = 0
         return h, flag
     else:
-        if len(S_labels[S_labels == 1]) == 0 and len(T_labels[T_labels == 1]) == 0:
+        t, num_features = train_t.shape
+        s, _ = train_s.shape
+        assert train_s.shape == (s, num_features)
+        assert train_t_labels.shape == (t, 1)
+        assert train_s_labels.shape == (s, 1)
+
+        if train_s_labels[train_s_labels == 1].size == 0 and train_t_labels[train_t_labels == 1].size == 0:
             flag = 0
         else:
+            train_s_t = np.vstack((train_s, train_t))
+            train_s_t_labels = np.vstack((train_s_labels, train_t_labels))
+            assert train_s_t.shape == (s + t, num_features)
+            assert train_s_t_labels == (s + t, 1)
+
             h = SVC()
-            h.fit(np.vstack((S, T)), np.vstack((S_labels, T_labels)))
-            if sum(abs(h.predict(S) - S_labels)) == 0:
+            h.fit(train_s_t, train_s_t_labels)
+            if np.sum(np.absolute(np.subtract(h.predict(train_s), train_s_labels))) == 0:
                 flag = 0
         return h, flag
 
