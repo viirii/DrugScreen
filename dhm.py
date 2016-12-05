@@ -82,7 +82,7 @@ for x in range(num_samples):
 
     train_s = stack(X_train, S_mask, next_instance)
     train_t = select(X_train, T_mask)
-    train_s_label = stack(S_labels, S_mask, np.array([0]))
+    train_s_label = stack(S_labels, S_mask, np.full((1, 1), 0, dtype=np.int))
     train_t_label = select(T_labels, T_mask)
     assert train_s.shape == (s + 1, num_features)
     assert train_t.shape == (t, num_features)
@@ -91,27 +91,27 @@ for x in range(num_samples):
 
     h_neg, hn_flag = subroutine_SVM(train_s, train_t, train_s_label, train_t_label)
 
-    train_s_label = stack(S_labels, S_mask, np.array([1]))
+    train_s_label = stack(S_labels, S_mask, np.full((1, 1), 1, dtype=np.int))
     assert train_s_label.shape == (s + 1, 1)
 
     h_pos, hp_flag = subroutine_SVM(train_s, train_t, train_s_label, train_t_label)
 
     if hn_flag == 1:
-        S_mask[x] = 1
-        S_labels[x] = 1
+        S_mask[x, 0] = 1
+        S_labels[x, 0] = 1
         current_model = h_pos
         continue
 
     if hp_flag == 1:
-        S_mask[x] = 1
-        S_labels[x] = 0
+        S_mask[x, 0] = 1
+        S_labels[x, 0] = 0
         current_model = h_neg
         continue
 
     train_s_t = stack(X_train, S_mask, select(X_train, T_mask))
     train_s_t_label = stack(S_labels, S_mask, select(T_labels, T_mask))
     assert train_s_t.shape == (s + t, num_features)
-    assert train_s_t_label == (s + t, 1)
+    assert train_s_t_label.shape == (s + t, 1)
 
     hn_err = np.sum(np.absolute(np.subtract(h_neg.predict(train_s_t), train_s_t_label)))
     hp_err = np.sum(np.absolute(np.subtract(h_pos.predict(train_s_t), train_s_t_label)))
@@ -128,20 +128,20 @@ for x in range(num_samples):
     ###########################################
 
     if hn_err - hp_err > cap_delta:
-        S_mask[x] = 1
-        S_labels[x] = 1
+        S_mask[x, 0] = 1
+        S_labels[x, 0] = 1
         current_model = h_pos
         continue
 
     elif hp_err - hn_err > cap_delta:
-        S_mask[x] = 1
-        S_labels[x] = 0
+        S_mask[x, 0] = 1
+        S_labels[x, 0] = 0
         current_model = h_neg
         continue
 
     # other wise add current line to T
-    T_mask[x] = 1
-    T_labels[x] = y_train[x]
+    T_mask[x, 0] = 1
+    T_labels[x, 0] = y_train[x, 0]
 
     s = np.sum(S_mask)
     t = np.sum(T_mask)
@@ -151,9 +151,9 @@ for x in range(num_samples):
     train_t = select(X_train, T_mask)
     train_s_label = select(S_labels, S_mask)
     train_t_label = select(T_labels, T_mask)
-    assert train_s.shape == (s, num_features)
+    assert (s == 0 and train_s.size == 0) or train_s.shape == (s, num_features)
     assert train_t.shape == (t, num_features)
-    assert train_s_label.shape == (s + 1, 1)
+    assert (s == 0 and train_s_label.size == 0) or train_s_label.shape == (s + 1, 1)
     assert train_t_label.shape == (t, 1)
 
     h, _ = subroutine_SVM(train_s, train_t, train_s_label, train_t_label)
@@ -162,15 +162,15 @@ for x in range(num_samples):
 
     xr = select_random_unlabeled_point(R_mask)
     R_mask[xr] = 1
-    assert np.sum(R_mask) == t
+    r = np.sum(R_mask)
+    assert r == t
 
     train_r = select(X_train, R_mask)
     train_r_label = select(y_train, R_mask)
-    assert train_r.shape == (np.sum(R_mask), num_features)
-    assert train_r_label.shape == (np.sum(R_mask), num_features)
+    assert train_r.shape == (r, num_features)
+    assert train_r_label.shape == (r, 1)
 
     hR, _ = subroutine_SVM(np.zeros((0, num_features)), train_r, np.zeros((0, 1)), train_r_label)
     # hR, _ = subroutine_SVM(np.array([]), select(X_train, R_mask), np.array([]), select(y_train, R_mask))
     RandomError = np.sum(np.absolute(np.subtract(hR.predict(X_test), y_test))) / y_test.size
     print('Random error after {} rounds is {}'.format(x, RandomError))
-    break

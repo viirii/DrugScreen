@@ -38,7 +38,7 @@ def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
         return h, flag
     elif train_t.size == 0:
         s, num_features = train_s.shape
-        assert train_s.shape == (s, 1)
+        assert train_s_labels.shape == (s, 1)
         assert train_t_labels.size == 0
 
         if train_s_labels[train_s_labels == 1].size == 0:
