@@ -6,8 +6,8 @@ import numpy as np
 from sklearn.metrics import f1_score
 
 from reader import read_train_test, read_blind, write_prediction
-from subroutin_SVM import subroutine_SVM, DefaultModel
-from util import select, stack
+from subroutine_SVM_difficult import subroutine_SVM, DefaultModel
+from util_difficult import select, stack
 
 
 # select a random unlabeled point
@@ -17,7 +17,8 @@ def select_random_unlabeled_point(mask):
     return xr
 
 
-def dhm(difficulty='EASY', num_init_label=500):
+def dhm(difficulty='DIFFICULT', num_init_label=500):
+    assert difficulty == 'DIFFICULT'
     num_init_label_copy = num_init_label
     current_model = None
     # This function runs the DHM and random learner in parallel assuming a streaming data model
@@ -138,17 +139,29 @@ def dhm(difficulty='EASY', num_init_label=500):
 
         h_pos, hp_flag = subroutine_SVM(train_s, train_t, train_s_label, train_t_label)
 
-        if hn_flag == 1:
+        train_s_label = stack(S_labels, S_mask, np.full((1, 1), 2, dtype=np.int))
+        assert train_s_label.shape == (s + 1, 1)
+
+        h_strong, hs_flag = subroutine_SVM(train_s, train_t, train_s_label, train_t_label)
+
+        if hn_flag == 1 and hs_flag == 1:
             print("Only positive works")
             S_mask[x, 0] = 1
             S_labels[x, 0] = 1
             current_model = h_pos
             continue
 
-        if hp_flag == 1:
+        if hp_flag == 1 and hs_flag == 1:
             print("Only negative works")
             S_mask[x, 0] = 1
             S_labels[x, 0] = 0
+            current_model = h_neg
+            continue
+
+        if hn_flag == 1 and hp_flag == 1:
+            print("Only strong works")
+            S_mask[x, 0] = 1
+            S_labels[x, 0] = 2
             current_model = h_neg
             continue
 
@@ -159,8 +172,10 @@ def dhm(difficulty='EASY', num_init_label=500):
 
         hn_err = np.sum(np.absolute(np.subtract(h_neg.predict(train_s_t), train_s_t_label)))
         hp_err = np.sum(np.absolute(np.subtract(h_pos.predict(train_s_t), train_s_t_label)))
+        hs_err = np.sum(np.absolute(np.subtract(h_strong.predict(train_s_t), train_s_t_label)))
         hn_err /= x + 1
         hp_err /= x + 1
+        hs_err /= x + 1
 
         ###########################################
         # compute Delta adapted from Homework
@@ -171,18 +186,25 @@ def dhm(difficulty='EASY', num_init_label=500):
         cap_delta = (np.power(beta, 2) + beta * (np.sqrt(hp_err) + np.sqrt(hn_err))) * .025
         ###########################################
 
-        if hn_err - hp_err > cap_delta:
-            print("Positive has lower error")
+        if hn_err - hp_err > cap_delta and hs_err - hp_err > cap_delta:
+            print("Positive has lowest error")
             S_mask[x, 0] = 1
             S_labels[x, 0] = 1
             current_model = h_pos
             continue
 
-        elif hp_err - hn_err > cap_delta:
-            print("Negative has lower error")
+        elif hp_err - hn_err > cap_delta and hs_err - hn_err > cap_delta:
+            print("Negative has lowest error")
             S_mask[x, 0] = 1
             S_labels[x, 0] = 0
             current_model = h_neg
+            continue
+
+        elif hp_err - hs_err > cap_delta and hn_err - hs_err > cap_delta:
+            print("Strong has lowest error")
+            S_mask[x, 0] = 1
+            S_labels[x, 0] = 2
+            current_model = h_strong
             continue
 
         # other wise add current line to T

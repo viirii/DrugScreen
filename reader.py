@@ -19,7 +19,7 @@ def read_blind(filename):
     :return: (feature_matrix, id_vector)
     """
     my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.int)
-    return my_data[:, 1:], my_data[:, [1]]
+    return my_data[:, 1:], my_data[:, 0]
 
 
 def write_prediction(filename, id_vector, prediction_vector):
@@ -33,3 +33,4 @@ def write_prediction(filename, id_vector, prediction_vector):
     with open('predictions/{}'.format(filename), mode='w') as f:
         for line_id, prediction in zip(id_vector, prediction_vector):
             f.write('{line_id}, {prediction}\n'.format(**locals()))
+

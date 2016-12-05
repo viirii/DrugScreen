@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.svm import SVC
-from util import select, stack
+from util_difficult import select, stack
 
 
 def subroutine_SVM(train_s, train_t, train_s_labels, train_t_labels):
@@ -108,3 +108,16 @@ class PositiveModel:
 
     def __repr__(self):
         return "MODEL: ALL POS"
+
+class StrongModel:
+    @classmethod
+    def predict(cls, data):
+        """
+        default model returns -1 for all data
+        :param data: np.array of m x n
+        :return: np.appray of m x 1 with -1
+        """
+        return np.full((data.shape[0], 1), 2, dtype=np.int)
+
+    def __repr__(self):
+        return "MODEL: ALL STRONG"
