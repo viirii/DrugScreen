@@ -154,9 +154,6 @@ def active_most_proba_svm(difficulty='EASY', num_init_label=500):
         print('Blank F1 after {} queries is {}'.format(t, blank_f1_score))
         blank_f1s.append(random_f1_score)
 
-        if t > 525:
-            break
-
     # Final writings
     predictions = current_model.predict(X_test)
     if len(predictions.shape) == 1:
@@ -199,4 +196,5 @@ def active_most_proba_svm(difficulty='EASY', num_init_label=500):
 if __name__ == '__main__':
     if len(sys.argv) == 1:
         active_most_proba_svm(difficulty='EASY', num_init_label=500)
-    active_most_proba_svm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))
+    else:
+        active_most_proba_svm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))

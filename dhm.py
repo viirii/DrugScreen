@@ -295,4 +295,5 @@ def dhm(difficulty='EASY', num_init_label=500):
 if __name__ == '__main__':
     if len(sys.argv) == 1:
         dhm(difficulty='EASY', num_init_label=500)
-    dhm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))
+    else:
+        dhm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))
