@@ -20,6 +20,7 @@ def select_random_unlabeled_point(mask):
 def dhm(difficulty='EASY', num_init_label=500):
     num_init_label_copy = num_init_label
     current_model = None
+    t = 0
     # This function runs the DHM and random learner in parallel assuming a streaming data model
     # Input:  difficulty - the difficulty as a string, 'EAST' or "MODERATE'
 
@@ -211,7 +212,7 @@ def dhm(difficulty='EASY', num_init_label=500):
         print('SVM error after {} queries is {}'.format(t, SVMError))
         svm_errors.append(SVMError)
         queries[x] = t
-        svm_f1_score = f1_score(y_test, predictions, average='micro')
+        svm_f1_score = f1_score(y_test, predictions)
         print('SVM F1 after {} queries is {}'.format(t, svm_f1_score))
         svm_f1s.append(svm_f1_score)
 
@@ -234,7 +235,7 @@ def dhm(difficulty='EASY', num_init_label=500):
         random_error = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
         print('Random error after {} queries is {}'.format(r, random_error))
         random_errors.append(random_error)
-        random_f1_score = f1_score(y_test, predictions, average='micro')
+        random_f1_score = f1_score(y_test, predictions)
         print('Random F1 after {} queries is {}'.format(t, random_f1_score))
         random_f1s.append(random_f1_score)
 
@@ -242,7 +243,7 @@ def dhm(difficulty='EASY', num_init_label=500):
         blank_error = np.sum(np.absolute(np.subtract(B_predictions, y_test))) / y_test.size
         print('Blank learner error queries is {}'.format(blank_error))
         blank_errors.append(blank_error)
-        blank_f1_score = f1_score(B_predictions, predictions, average='micro')
+        blank_f1_score = f1_score(B_predictions, predictions)
         print('Blank F1 after {} queries is {}'.format(t, blank_f1_score))
         blank_f1s.append(random_f1_score)
 
@@ -253,7 +254,10 @@ def dhm(difficulty='EASY', num_init_label=500):
     if len(predictions.shape) == 1:
         predictions = np.reshape(predictions, (predictions.size, 1))
     final_error = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
-    print('final error is {}'.format(final_error))
+    print('final SVM error is {}'.format(final_error))
+    final_f1_score = f1_score(y_test, predictions)
+    print('final SVM F1 is {}'.format(final_f1_score))
+    print('final number of queries is'.format(t))
 
     feature_matrix, id_vector = read_blind('{}_BLINDED.csv'.format(difficulty.upper()))
     blinded_predictions = current_model.predict(feature_matrix)
