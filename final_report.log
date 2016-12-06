@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 DEC 2016 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 DEC 2016 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,6 +435,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
@@ -666,9 +669,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 90.
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 84.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/ts1futs.fd
@@ -678,54 +679,82 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `futs' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 89.
  [1
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 156.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 156.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 156.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 156.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 156.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 156.
+<figures/fig.jpg, id=9, 1144.275pt x 572.1375pt>
+File: figures/fig.jpg Graphic file (type jpg)
+ <use figures/fig.jpg>
+Package pdftex.def Info: figures/fig.jpg used on input line 114.
+(pdftex.def)             Requested size: 400.50224pt x 200.25111pt.
+File: figures/fig.jpg Graphic file (type jpg)
 
-Overfull \hbox (7.88326pt too wide) in paragraph at lines 156--157
+<use figures/fig.jpg>
+Package pdftex.def Info: figures/fig.jpg used on input line 122.
+(pdftex.def)             Requested size: 400.50224pt x 200.25111pt.
+ [2 <./figures/fig.jpg>]
+File: figures/fig.jpg Graphic file (type jpg)
+ <use figures/fig.jpg>
+Package pdftex.def Info: figures/fig.jpg used on input line 134.
+(pdftex.def)             Requested size: 400.50224pt x 200.25111pt.
+File: figures/fig.jpg Graphic file (type jpg)
+
+<use figures/fig.jpg>
+Package pdftex.def Info: figures/fig.jpg used on input line 141.
+(pdftex.def)             Requested size: 400.50224pt x 200.25111pt.
+ [3]
+File: figures/fig.jpg Graphic file (type jpg)
+ <use figures/fig.jpg>
+Package pdftex.def Info: figures/fig.jpg used on input line 151.
+(pdftex.def)             Requested size: 400.50224pt x 200.25111pt.
+File: figures/fig.jpg Graphic file (type jpg)
+ <use figures/fig.jpg>
+Package pdftex.def Info: figures/fig.jpg used on input line 158.
+(pdftex.def)             Requested size: 400.50224pt x 200.25111pt.
+ [4]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 180.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 180.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 180.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 180.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 180.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 180.
+
+Overfull \hbox (7.88326pt too wide) in paragraph at lines 180--181
 []\T1/futs/m/n/10.95 (-20) S. Das-gupta, \T1/futs/m/it/10.95 (-20) Two faces of
  ac-tive learn-ing\T1/futs/m/n/10.95 (-20) , \T1/cmtt/m/n/10.95 http://cseweb.u
 csd.edu/$\FMS/futm/m/n/10.95 ^^X$\T1/cmtt/m/n/10.95 dasgupta/papers/\T1/futs/m/
 n/10.95 (-20) ,
  []
 
-[2] (./final_report.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[5] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 7352 strings out of 493089
- 114435 string characters out of 6134842
- 257891 words of memory out of 5000000
- 10571 multiletter control sequences out of 15000+600000
- 102750 words of font info for 153 fonts, out of 8000000 for 9000
+ 7404 strings out of 493089
+ 115211 string characters out of 6134842
+ 258117 words of memory out of 5000000
+ 10604 multiletter control sequences out of 15000+600000
+ 103560 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,47p,349b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on final_report.pdf (2 pages, 74115 bytes).
+ 47i,12n,47p,431b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/b
+ase/8r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-supe
+r-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier
+-ms.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on final_report.pdf (5 pages, 157607 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 44545 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 44550 words of extra memory for PDF output out of 51595 (max. 10000000)
 
