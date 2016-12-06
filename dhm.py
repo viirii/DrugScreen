@@ -54,7 +54,7 @@ def dhm(difficulty='EASY', num_init_label=500):
     for _ in range(num_init_label):
         x = select_random_unlabeled_point(T_mask)
         T_mask[x, 0] = 1
-    T_labels[T_mask == 1] = y_train[T_mask == 1]
+        T_labels[x, 0] = y_train[x, 0]
 
     # R_mask is a bit vector indicating which samples have been queried by a random learner
     R_mask = np.full((num_samples, 1), 0, dtype=np.int)
