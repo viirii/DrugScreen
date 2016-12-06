@@ -243,7 +243,7 @@ def dhm(difficulty='EASY', num_init_label=500):
         blank_error = np.sum(np.absolute(np.subtract(B_predictions, y_test))) / y_test.size
         print('Blank learner error queries is {}'.format(blank_error))
         blank_errors.append(blank_error)
-        blank_f1_score = f1_score(B_predictions, predictions)
+        blank_f1_score = f1_score(y_test, B_predictions)
         print('Blank F1 after {} queries is {}'.format(t, blank_f1_score))
         blank_f1s.append(random_f1_score)
 
