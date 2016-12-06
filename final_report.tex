@@ -7,7 +7,7 @@
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage[pdftex]{graphicx} 
 \usepackage{url}
-
+\usepackage[section]{placeins}
 
 %%% Custom sectioning
 \usepackage{sectsty}
@@ -76,70 +76,92 @@
 In this project, we explore three datasets of different noise level, for identification compounds, or drugs that bind to specific target protein associated with disease. We use DHM as our active learning strategy to determine when to query the Oracle, and SVM to train our model on the oracle-obtained as well as inferred labels. 
 
 
-\section{Methods}
-
-\subsection{Active Learning Strategy}
-
-
 
 \section{Methods}
+
+Input :
+\begin{itemize}
+\item Training data consists of 4000 training instances, each with 1000 features, and true label 
+\item Test data consists of 1000 testing instances, each with 1000 features, and true label
+\item Blind prediction data consists of 1000 instances, each with 1000 features
+\end{itemize}
+
+\TODO{discuss ~\cite{ref:warmuth}}
+
+Based on this, we chose DHM as our base learner strategy, and SVM as our classifier, elaborated below.
 
 \subsection{Base Learner Strategy}
 
+DHM was chosen as our base learner strategy~\cite{ref:dhm}. DHM is a good general strategy in agnostic setting, and provides an extended version of selective sampling scheme of CAL algorithm ~\cite{ref:cal},~\cite{ref:dhm}. We compare the performance of our algorithm against random learner to test the effectiveness of the algorithm in selecting meaningful datapoints for query into the Oracle.
 
-\TODO{DHM}
-\begin{itemize}
-\item why chosen
-\item any modifications/source?
-\end{itemize}
-
+\TODO{talk about modifications made to the algorithm}
 \subsection{Classifier Strategy}
 
-\TODO{SVM}
-\begin{itemize}
-\item why chosen
-\item any modifications/source?
-\end{itemize}
+\TODO{elaborate}
+
+
+SVM was chosen as our classifier for multiple reasons. SVM finds a hyperplane that maximizes the distance between the nearest data (support vectors) and the hyperplane. Given the high dimension ofs our input data (1000 features), it was important that a classifier that scales easily to high dimension, with no local optima. 
+Gaussian kernel (default) was used for training. 
+
 
 \section{Results}
 
 \subsection{Easy}
 
-\TODO{Test error curve, f1 score curve, test error/calls to oracle curve}
 
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale = 0.35]{figures/fig.jpg}
+      \caption{Error rate of easy test set plotted against number of queries made to oracle}
+      \label{easyerror}
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale = 0.35]{figures/fig.jpg}
+      \caption{F1 Score of easy test set plotted against number of queries made to oracle}
+      \label{easyf}
+\end{figure}
+
+
+
+\FloatBarrier
 \subsection{Moderate}
-\TODO{Test error curve, f1 score curve, test error/calls to oracle curve}
 
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale = 0.35]{figures/fig.jpg}
+      \caption{Error rate of moderate test set plotted against number of queries made to oracle}
+      \label{moderror}
+\end{figure}
 
-\subsection{Difficult}
-\TODO{Test error curve, f1 score curve, test error/calls to oracle curve}
-
-
-\TODO{error curve (Traint,test)}
-
-\TODO{f1 score curve (train, test)}
-
-\TODO{error / num calls to oracle (train, test) }
-
-\subsection{Moderate}
-
-
-\TODO{error curve (Traint,test)}
-
-\TODO{f1 score curve (train, test)}
-
-\TODO{error / num calls to oracle (train, test) }
-
-
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale = 0.35]{figures/fig.jpg}
+      \caption{F1 score of moderate test set plotted against number of queries made to oracle}
+      \label{modf}
+\end{figure}
+\FloatBarrier
 \subsection{Difficult}
 
 
-\TODO{error curve (Traint,test)}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale = 0.35]{figures/fig.jpg}
+      \caption{Error rate of difficult test set plotted against number of queries made to oracle}
+      \label{harderror}
+\end{figure}
 
-\TODO{f1 score curve (train, test)}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale = 0.35]{figures/fig.jpg}
+      \caption{F1 score of difficult test set plotted against number of queries made to oracle}
+      \label{hardf}
+\end{figure}
 
-\TODO{error / num calls to oracle (train, test) }
 
+\FloatBarrier
 
 \section{Conclusion}
 
@@ -148,12 +170,17 @@ In this project, we explore three datasets of different noise level, for identif
 
 \begin{thebibliography}{1}
 
+\bibitem{ref:cal}
+Cohn, Atlas, Ladner, \emph{Improving  Generalization  with  Active  Learning},  Machine Learning May 1994, Volume 15, Issue 2, p 201-221
 
 \bibitem{ref:dhm}
 S. Dasgupta, D. Hsu, C. Monteleoni, \emph{A general agnostic active learning algorithm}, NIPS, 2008 
 
 \bibitem{ref:twoface}
-S. Dasgupta, \emph{Two faces of active learning}, \texttt{http://cseweb.ucsd.edu/$\sim$dasgupta/papers/}, 2010
+S. Dasgupta, \emph{Two faces of active learning},  \texttt{http://cseweb.ucsd.edu/$\sim$dasgupta/papers/}, 2010
+
+\bibitem{ref:warmuth}
+Warmuth, Liao, Ratsch, Mathieson, Putta and Lemmen, \emph{Active Learning with Support Vector Machines in the Drug Discovery Process}, J. Chem. Inf. Comput. Sci. 2003, 43, 667-673
 
 \end{thebibliography}
 
