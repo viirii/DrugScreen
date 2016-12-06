@@ -21,6 +21,7 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
     assert difficulty == 'DIFFICULT'
     num_init_label_copy = num_init_label
     current_model = None
+    t = 0
     # This function runs the DHM and random learner in parallel assuming a streaming data model
     # Input:  difficulty - the difficulty as a string, 'EAST' or "MODERATE'
 
@@ -275,6 +276,10 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
         predictions = np.reshape(predictions, (predictions.size, 1))
     final_error = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
     print('final error is {}'.format(final_error))
+    final_f1_score = f1_score(y_test > 0, predictions > 0)
+    print('final SVM F1 is {}'.format(final_f1_score))
+    print('final number of queries is'.format(t))
+
 
     feature_matrix, id_vector = read_blind('{}_BLINDED.csv'.format(difficulty.upper()))
     blinded_predictions = current_model.predict(feature_matrix)
