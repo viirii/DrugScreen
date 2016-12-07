@@ -130,7 +130,6 @@ def dhm(difficulty='DIFFICULT', num_init_label=500):
                 predictions = np.reshape(predictions, (predictions.size, 1))
             s_error = np.sum(np.absolute(np.subtract(predictions, train_s_label))) / y_test.size
             print('current s error is {}'.format(s_error))
-            assert s_error < 0.5
 
         h_neg, hn_flag = subroutine_SVM(train_s, train_t, train_s_label, train_t_label)
 
