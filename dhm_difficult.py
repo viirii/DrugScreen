@@ -319,4 +319,5 @@ if __name__ == '__main__':
         dhm(difficulty='DIFFICULT', num_init_label=500)
     if len(sys.argv) == 2:
         dhm(difficulty='DIFFICULT', num_init_label=int(sys.argv[1]))
-    dhm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))
+    else:
+        dhm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))

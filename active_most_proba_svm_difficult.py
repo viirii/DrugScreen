@@ -46,8 +46,8 @@ def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
         selected_mask[x, 0] = 1
         selected_label[x, 0] = y_train[x, 0]
 
-    # continue to fill until has at least a 1 and a 0
-    while not (np.any(selected_label == 0) and np.any(selected_label == 1)):
+    # continue to fill until has at least a 1 and a 0 and a 2
+    while not (np.any(selected_label == 0) and np.any(selected_label == 1) and np.any(selected_label == 2)):
         x = select_random_unlabeled_point(selected_mask)
         selected_mask[x, 0] = 1
         selected_label[x, 0] = y_train[x, 0]
@@ -61,9 +61,8 @@ def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
         r_mask[x, 0] = 1
         r_label[x, 0] = y_train[x, 0]
 
-
-    hB = DefaultModel()
-    B_predictions = hB.predict(X_test)
+    blank_model = DefaultModel()
+    b_predictions = blank_model.predict(X_test)
 
     # metrics needs to be recorded
     svm_errors = []
@@ -83,19 +82,22 @@ def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
         current_model = model
 
         predictions_with_proba = model.predict_proba(X_train)
-        assert predictions_with_proba.shape == (num_samples, 2)
+        assert predictions_with_proba.shape == (num_samples, 3)
 
         classes = model.classes_
-        assert classes.shape == (2, )
+        assert classes.shape == (3, )
         pos_class_idx = np.where(classes == 1)[0][0]
-        assert pos_class_idx == 0 or pos_class_idx == 1
+        assert pos_class_idx == 0 or pos_class_idx == 1 or pos_class_idx == 2
+        strong_class_idx = np.where(classes == 2)[0][0]
+        assert strong_class_idx == 0 or strong_class_idx == 1 or strong_class_idx == 2
 
-        max_proba = 0
+        max_proba = 0 # actually uses pos_proba * 1 + strong_proba * 2 for difficult
         max_idx = 0
         for i in range(num_samples):
             if selected_mask[i, 0] == 0:  # only consider unlabeled points
-                if predictions_with_proba[i, pos_class_idx] > max_proba:
-                    max_proba = predictions_with_proba[i, pos_class_idx]
+                proba = predictions_with_proba[i, pos_class_idx] + predictions_with_proba[i, strong_class_idx] * 2
+                if proba > max_proba:
+                    max_proba = proba
                     max_idx = i
 
         selected_mask[max_idx, 0] = 1
@@ -105,10 +107,10 @@ def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
         if len(predictions.shape) == 1:
             predictions = np.reshape(predictions, (predictions.size, 1))
         assert predictions.shape == (num_test, 1)
-        SVMError = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
-        print('SVM error after {} queries is {}'.format(t, SVMError))
-        svm_errors.append(SVMError)
-        svm_f1_score = f1_score(y_test, predictions)
+        svm_error = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
+        print('SVM error after {} queries is {}'.format(t, svm_error))
+        svm_errors.append(svm_error)
+        svm_f1_score = f1_score(y_test > 0, predictions > 0)
         print('SVM F1 after {} queries is {}'.format(t, svm_f1_score))
         svm_f1s.append(svm_f1_score)
 
@@ -128,7 +130,7 @@ def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
         model_r = SVC(class_weight='balanced')
         labels_ = select(r_label, r_mask)
         model_r.fit(select(X_train, r_mask), np.reshape(labels_, labels_.size))
-        assert model_r.classes_.size == 2
+
         predictions = model_r.predict(X_test)
         if len(predictions.shape) == 1:
             predictions = np.reshape(predictions, (predictions.size, 1))
@@ -136,15 +138,15 @@ def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
         random_error = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
         print('Random error after {} queries is {}'.format(r, random_error))
         random_errors.append(random_error)
-        random_f1_score = f1_score(y_test, predictions)
+        random_f1_score = f1_score(y_test > 0, predictions > 0)
         print('Random F1 after {} queries is {}'.format(t, random_f1_score))
         random_f1s.append(random_f1_score)
 
         # Blank Model (prediction all negative from the start)
-        blank_error = np.sum(np.absolute(np.subtract(B_predictions, y_test))) / y_test.size
+        blank_error = np.sum(np.absolute(np.subtract(b_predictions, y_test))) / y_test.size
         print('Blank learner error queries is {}'.format(blank_error))
         blank_errors.append(blank_error)
-        blank_f1_score = f1_score(y_test, B_predictions)
+        blank_f1_score = f1_score(y_test > 0, b_predictions > 0)
         print('Blank F1 after {} queries is {}'.format(t, blank_f1_score))
         blank_f1s.append(random_f1_score)
 
@@ -189,6 +191,8 @@ def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
-        active_most_proba_svm(difficulty='EASY', num_init_label=500)
+        active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500)
+    if len(sys.argv) == 2:
+        active_most_proba_svm(difficulty='DIFFICULT', num_init_label=int(sys.argv[1]))
     else:
         active_most_proba_svm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))

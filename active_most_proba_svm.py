@@ -111,9 +111,10 @@ def active_most_proba_svm(difficulty='EASY', num_init_label=500):
         if len(predictions.shape) == 1:
             predictions = np.reshape(predictions, (predictions.size, 1))
         assert predictions.shape == (num_test, 1)
-        SVMError = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
-        print('SVM error after {} queries is {}'.format(t, SVMError))
-        svm_errors.append(SVMError)
+
+        svm_error = np.sum(np.absolute(np.subtract(predictions, y_test))) / y_test.size
+        print('SVM error after {} queries is {}'.format(t, svm_error))
+        svm_errors.append(svm_error)
         svm_f1_score = f1_score(y_test, predictions)
         print('SVM F1 after {} queries is {}'.format(t, svm_f1_score))
         svm_f1s.append(svm_f1_score)
@@ -123,7 +124,6 @@ def active_most_proba_svm(difficulty='EASY', num_init_label=500):
         r_mask[xr, 0] = 1
         r_label[xr, 0] = y_train[xr, 0]
         r = np.sum(r_mask)
-        t = np.sum(selected_mask)
         assert r == t
 
         train_r = select(X_train, r_mask)
