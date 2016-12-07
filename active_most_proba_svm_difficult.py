@@ -5,7 +5,7 @@ import sys
 
 import numpy as np
 from sklearn.svm import SVC
-from util import select
+from util_difficult import select
 from sklearn.metrics import f1_score
 from subroutin_SVM import DefaultModel
 
@@ -19,15 +19,9 @@ def select_random_unlabeled_point(mask):
     return xr
 
 
-def active_most_proba_svm(difficulty='EASY', num_init_label=500):
+def active_most_proba_svm(difficulty='DIFFICULT', num_init_label=500):
     num_init_label_copy = num_init_label
     current_model = None
-
-    # This function selecte
-    # Input:  difficulty - the difficulty as a string, 'EAST' or "MODERATE'
-
-    # Additionally, you will implement a random learner for performing the
-    # same task and compare the performance of both algorithms
 
     # generate the data.
     #   XTrain is a 1 by num_samples vector of values in the interval [0,1].
