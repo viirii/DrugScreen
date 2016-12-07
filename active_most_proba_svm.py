@@ -124,6 +124,7 @@ def active_most_proba_svm(difficulty='EASY', num_init_label=500):
         r_mask[xr, 0] = 1
         r_label[xr, 0] = y_train[xr, 0]
         r = np.sum(r_mask)
+        t = np.sum(selected_mask)
         assert r == t
 
         train_r = select(X_train, r_mask)
