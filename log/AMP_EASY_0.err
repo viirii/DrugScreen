@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "active_most_proba_random_forest.py", line 201, in <module>
-    active_most_proba_random_forest(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))
-  File "active_most_proba_random_forest.py", line 138, in active_most_proba_random_forest
-    assert model_r.classes_.size == 2
-AssertionError
