@@ -5,13 +5,13 @@ import sys
 
 import numpy as np
 from sklearn.svm import SVC
-from util import select
+from largest_positive_SVM_with_feature_selection.util import select
 from sklearn.metrics import f1_score
-from subroutin_SVM import DefaultModel
+from largest_positive_SVM_with_feature_selection.subroutin_SVM import DefaultModel
 
 from sklearn.feature_selection import f_classif, chi2, SelectKBest
 
-from reader import read_train_test, read_blind, write_prediction
+from other.reader import read_train_test, read_blind, write_prediction
 
 
 # select a random unlabeled point
