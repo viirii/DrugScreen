@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 DEC 2016 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 DEC 2016 17:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,81 +1080,77 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 120.
- [2]
-<figures/error_easy.png, id=14, 578.16pt x 433.62pt>
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<figures/error_easy.png, id=13, 578.16pt x 433.62pt>
 File: figures/error_easy.png Graphic file (type png)
 
 <use figures/error_easy.png>
-Package pdftex.def Info: figures/error_easy.png used on input line 136.
+Package pdftex.def Info: figures/error_easy.png used on input line 132.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- <figures/f1_easy.png, id=16, 578.16pt x 433.62pt>
+ <figures/f1_easy.png, id=15, 578.16pt x 433.62pt>
 File: figures/f1_easy.png Graphic file (type png)
 
 <use figures/f1_easy.png>
-Package pdftex.def Info: figures/f1_easy.png used on input line 144.
+Package pdftex.def Info: figures/f1_easy.png used on input line 140.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
  [3 <./figures/error_easy.png>]
-<figures/error_moderate.png, id=21, 578.16pt x 433.62pt>
+<figures/error_moderate.png, id=20, 578.16pt x 433.62pt>
 File: figures/error_moderate.png Graphic file (type png)
 
 <use figures/error_moderate.png>
-Package pdftex.def Info: figures/error_moderate.png used on input line 156.
+Package pdftex.def Info: figures/error_moderate.png used on input line 152.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-<figures/f1_moderate.png, id=22, 578.16pt x 433.62pt>
+<figures/f1_moderate.png, id=21, 578.16pt x 433.62pt>
 File: figures/f1_moderate.png Graphic file (type png)
 
 <use figures/f1_moderate.png>
-Package pdftex.def Info: figures/f1_moderate.png used on input line 163.
+Package pdftex.def Info: figures/f1_moderate.png used on input line 159.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
  [4 <./figures/f1_easy.png> <./figures/error_moderate.png>] <figures/error_diff
-icult.png, id=28, 578.16pt x 433.62pt>
+icult.png, id=27, 578.16pt x 433.62pt>
 File: figures/error_difficult.png Graphic file (type png)
 
 <use figures/error_difficult.png>
-Package pdftex.def Info: figures/error_difficult.png used on input line 173.
+Package pdftex.def Info: figures/error_difficult.png used on input line 169.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-<figures/f1_difficult.png, id=29, 578.16pt x 433.62pt>
+<figures/f1_difficult.png, id=28, 578.16pt x 433.62pt>
 File: figures/f1_difficult.png Graphic file (type png)
 
 <use figures/f1_difficult.png>
-Package pdftex.def Info: figures/f1_difficult.png used on input line 180.
+Package pdftex.def Info: figures/f1_difficult.png used on input line 176.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
  [5 <./figures/f1_moderate.png> <./figures/error_difficult.png>]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 187--202
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 183--198
 []$[]$ 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 204--219
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 200--215
 []$[]$ 
  []
 
 [6 <./figures/f1_difficult.png>] [7] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 9033 strings out of 493089
- 142090 string characters out of 6134842
+ 9031 strings out of 493089
+ 142019 string characters out of 6134842
  289946 words of memory out of 5000000
- 12123 multiletter control sequences out of 15000+600000
- 108243 words of font info for 206 fonts, out of 8000000 for 9000
+ 12120 multiletter control sequences out of 15000+600000
+ 103731 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,47p,1148b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,47p,1286b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/
 2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-dist
 /fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/adobe/utopia/putr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ad
-obe/utopia/putri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
-m-super/sftt1095.pfb>
-Output written on final_report.pdf (7 pages, 276105 bytes).
+fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/adobe/utopia/putri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/cm-super/sftt1095.pfb>
+Output written on final_report.pdf (7 pages, 267844 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 44575 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 44063 words of extra memory for PDF output out of 51595 (max. 10000000)
 
