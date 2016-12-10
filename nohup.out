@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "active_most_proba_svm.py", line 200, in <module>
+    active_most_proba_svm(difficulty=sys.argv[1], num_init_label=int(sys.argv[2]))
+  File "active_most_proba_svm.py", line 36, in active_most_proba_svm
+    X_train, y_train = read_train_test('{}_TRAIN.csv'.format(difficulty.upper()))
+  File "/home/ubuntu/DrugScreen/reader.py", line 11, in read_train_test
+    my_data = genfromtxt('data/{}'.format(filename), delimiter=',', dtype=np.int)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/numpy/lib/npyio.py", line 1785, in genfromtxt
+    for (i, conv) in enumerate(converters)]))
+KeyboardInterrupt
+./active_most_prob_svm.sh: line 6: rr: command not found
