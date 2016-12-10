@@ -73,7 +73,7 @@
 \begin{document}
 \maketitle
 \section{Introduction}
-In this project, we explore three datasets of different noise level, for identification compounds, or drugs that bind to specific target protein associated with disease. We use DHM as our active learning strategy to determine when to query the Oracle, and SVM to train our model on the oracle-obtained as well as inferred labels. 
+In this project, we explore three datasets of different noise level, for identification compounds, or drugs that bind to specific target protein associated with disease. We modify the strategy used in~\cite{ref:warmuth} for query selection, and use SVM to learn our model. We also perform a gradient experiment to learn the optimal balance for allocating queries between initial and active learning. 
 
 
 
@@ -84,17 +84,29 @@ Input :
 \item Training data consists of 4000 training instances, each with 1000 features, and true label 
 \item Test data consists of 1000 testing instances, each with 1000 features, and true label
 \item Blind prediction data consists of 1000 instances, each with 1000 features
+\item Each data(row) represents potential compound that may bind to the target
+\item Each feature(column) represents structural or chemical 
 \end{itemize}
 
-\TODO{discuss ~\cite{ref:warmuth}}
 
-Based on this, we chose DHM as our base learner strategy, and SVM as our classifier, elaborated below.
+
+
+As with real world drug target screening, we began with assumption that only an extremely small fraction of compounds will bind to the target. Also, only a small fraction of the features would be relevant in predicting the label (are actual sites that the drug can potentially bind to). Our challenge is to first find which features are relevant in accurately predicting whether the compound will bind to the target or not, and then learning on those features.
+
+Because of the imbalanced dataset (only small portion of the molecules actually bind), it would have been dangerous to use active learning strategy without any prior. We decided to split our learning into two different phases : Initial and Active. During initial learning, we randomly select molecules without any assumptions or selection criteria, other than choosing molecules we have not seen before. Once initial learning is over, we begin the active learning phase where points are selected per \textit{largest positive} strategy as discussed in ~\cite{ref:warmuth}, elaborated below. Total number of queries made during both initial and active phase total 2500, the allotted budget. 
+
+We performed gradient experiment, and measured the performance based on the number of queries made between initial learning and active learning, as the total number of queries is capped at 2500. 
+
 
 \subsection{Base Learner Strategy}
 
-DHM was chosen as our base learner strategy~\cite{ref:dhm}. DHM is a good general strategy in agnostic setting, and provides an extended version of selective sampling scheme of CAL algorithm ~\cite{ref:cal},~\cite{ref:dhm}. We compare the performance of our algorithm against random learner to test the effectiveness of the algorithm in selecting meaningful datapoints for query into the Oracle.
+%DHM was chosen as our base learner strategy~\cite{ref:dhm}. DHM is a good general strategy in agnostic setting, and provides an extended version of selective sampling scheme of CAL algorithm ~\cite{ref:cal},~\cite{ref:dhm}. We compare the performance of our algorithm against random learner to test the effectiveness of the algorithm in selecting meaningful datapoints for query into the Oracle.
+
+
+
 
 \TODO{talk about modifications made to the algorithm}
+
 \subsection{Classifier Strategy}
 
 \TODO{elaborate}
@@ -162,6 +174,8 @@ Gaussian kernel (default) was used for training.
 
 
 \FloatBarrier
+
+\TODO{add summary 2D chart, about the initial/active learning and the corresponding F1 scores}
 
 \section{Conclusion}
 
