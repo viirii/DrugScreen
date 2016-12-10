@@ -5532,3 +5532,472 @@ Blank learner error queries is 0.373
 Blank F1 after 2422 queries is 0.0
 SVM error after 2422 queries is 0.376
 SVM F1 after 2422 queries is 0.5454545454545455
+Random error after 2423 queries is 0.605
+Random F1 after 2423 queries is 0.5113788487282463
+Blank learner error queries is 0.373
+Blank F1 after 2423 queries is 0.0
+SVM error after 2423 queries is 0.376
+SVM F1 after 2423 queries is 0.5454545454545455
+Random error after 2424 queries is 0.609
+Random F1 after 2424 queries is 0.5106382978723404
+Blank learner error queries is 0.373
+Blank F1 after 2424 queries is 0.0
+SVM error after 2424 queries is 0.376
+SVM F1 after 2424 queries is 0.5454545454545455
+Random error after 2425 queries is 0.607
+Random F1 after 2425 queries is 0.5119999999999999
+Blank learner error queries is 0.373
+Blank F1 after 2425 queries is 0.0
+SVM error after 2425 queries is 0.376
+SVM F1 after 2425 queries is 0.5454545454545455
+Random error after 2426 queries is 0.611
+Random F1 after 2426 queries is 0.5124835742444152
+Blank learner error queries is 0.373
+Blank F1 after 2426 queries is 0.0
+SVM error after 2426 queries is 0.375
+SVM F1 after 2426 queries is 0.5465587044534412
+Random error after 2427 queries is 0.604
+Random F1 after 2427 queries is 0.5164690382081687
+Blank learner error queries is 0.373
+Blank F1 after 2427 queries is 0.0
+SVM error after 2427 queries is 0.375
+SVM F1 after 2427 queries is 0.5465587044534412
+Random error after 2428 queries is 0.606
+Random F1 after 2428 queries is 0.5157894736842106
+Blank learner error queries is 0.373
+Blank F1 after 2428 queries is 0.0
+SVM error after 2428 queries is 0.376
+SVM F1 after 2428 queries is 0.5454545454545455
+Random error after 2429 queries is 0.608
+Random F1 after 2429 queries is 0.5151116951379764
+Blank learner error queries is 0.373
+Blank F1 after 2429 queries is 0.0
+SVM error after 2429 queries is 0.376
+SVM F1 after 2429 queries is 0.5454545454545455
+Random error after 2430 queries is 0.608
+Random F1 after 2430 queries is 0.5151116951379764
+Blank learner error queries is 0.373
+Blank F1 after 2430 queries is 0.0
+SVM error after 2430 queries is 0.376
+SVM F1 after 2430 queries is 0.5454545454545455
+Random error after 2431 queries is 0.607
+Random F1 after 2431 queries is 0.5157894736842106
+Blank learner error queries is 0.373
+Blank F1 after 2431 queries is 0.0
+SVM error after 2431 queries is 0.375
+SVM F1 after 2431 queries is 0.5465587044534412
+Random error after 2432 queries is 0.607
+Random F1 after 2432 queries is 0.5157894736842106
+Blank learner error queries is 0.373
+Blank F1 after 2432 queries is 0.0
+SVM error after 2432 queries is 0.378
+SVM F1 after 2432 queries is 0.5432595573440643
+Random error after 2433 queries is 0.608
+Random F1 after 2433 queries is 0.5151116951379764
+Blank learner error queries is 0.373
+Blank F1 after 2433 queries is 0.0
+SVM error after 2433 queries is 0.378
+SVM F1 after 2433 queries is 0.5432595573440643
+Random error after 2434 queries is 0.606
+Random F1 after 2434 queries is 0.5164690382081687
+Blank learner error queries is 0.373
+Blank F1 after 2434 queries is 0.0
+SVM error after 2434 queries is 0.379
+SVM F1 after 2434 queries is 0.5421686746987951
+Random error after 2435 queries is 0.609
+Random F1 after 2435 queries is 0.512549537648613
+Blank learner error queries is 0.373
+Blank F1 after 2435 queries is 0.0
+SVM error after 2435 queries is 0.379
+SVM F1 after 2435 queries is 0.5421686746987951
+Random error after 2436 queries is 0.609
+Random F1 after 2436 queries is 0.512549537648613
+Blank learner error queries is 0.373
+Blank F1 after 2436 queries is 0.0
+SVM error after 2436 queries is 0.377
+SVM F1 after 2436 queries is 0.5443548387096775
+Random error after 2437 queries is 0.608
+Random F1 after 2437 queries is 0.5132275132275133
+Blank learner error queries is 0.373
+Blank F1 after 2437 queries is 0.0
+SVM error after 2437 queries is 0.378
+SVM F1 after 2437 queries is 0.5432595573440643
+Random error after 2438 queries is 0.605
+Random F1 after 2438 queries is 0.5145888594164457
+Blank learner error queries is 0.373
+Blank F1 after 2438 queries is 0.0
+SVM error after 2438 queries is 0.377
+SVM F1 after 2438 queries is 0.5443548387096775
+Random error after 2439 queries is 0.603
+Random F1 after 2439 queries is 0.5159574468085106
+Blank learner error queries is 0.373
+Blank F1 after 2439 queries is 0.0
+SVM error after 2439 queries is 0.378
+SVM F1 after 2439 queries is 0.5432595573440643
+Random error after 2440 queries is 0.602
+Random F1 after 2440 queries is 0.5166444740346205
+Blank learner error queries is 0.373
+Blank F1 after 2440 queries is 0.0
+SVM error after 2440 queries is 0.377
+SVM F1 after 2440 queries is 0.5443548387096775
+Random error after 2441 queries is 0.602
+Random F1 after 2441 queries is 0.5166444740346205
+Blank learner error queries is 0.373
+Blank F1 after 2441 queries is 0.0
+SVM error after 2441 queries is 0.377
+SVM F1 after 2441 queries is 0.5443548387096775
+Random error after 2442 queries is 0.604
+Random F1 after 2442 queries is 0.5139813581890813
+Blank learner error queries is 0.373
+Blank F1 after 2442 queries is 0.0
+SVM error after 2442 queries is 0.376
+SVM F1 after 2442 queries is 0.5454545454545455
+Random error after 2443 queries is 0.604
+Random F1 after 2443 queries is 0.5139813581890813
+Blank learner error queries is 0.373
+Blank F1 after 2443 queries is 0.0
+SVM error after 2443 queries is 0.376
+SVM F1 after 2443 queries is 0.5454545454545455
+Random error after 2444 queries is 0.604
+Random F1 after 2444 queries is 0.5139813581890813
+Blank learner error queries is 0.373
+Blank F1 after 2444 queries is 0.0
+SVM error after 2444 queries is 0.377
+SVM F1 after 2444 queries is 0.5443548387096775
+Random error after 2445 queries is 0.603
+Random F1 after 2445 queries is 0.5186170212765958
+Blank learner error queries is 0.373
+Blank F1 after 2445 queries is 0.0
+SVM error after 2445 queries is 0.375
+SVM F1 after 2445 queries is 0.5465587044534412
+Random error after 2446 queries is 0.603
+Random F1 after 2446 queries is 0.5186170212765958
+Blank learner error queries is 0.373
+Blank F1 after 2446 queries is 0.0
+SVM error after 2446 queries is 0.375
+SVM F1 after 2446 queries is 0.5465587044534412
+Random error after 2447 queries is 0.604
+Random F1 after 2447 queries is 0.5179282868525897
+Blank learner error queries is 0.373
+Blank F1 after 2447 queries is 0.0
+SVM error after 2447 queries is 0.375
+SVM F1 after 2447 queries is 0.5465587044534412
+Random error after 2448 queries is 0.601
+Random F1 after 2448 queries is 0.5193075898801598
+Blank learner error queries is 0.373
+Blank F1 after 2448 queries is 0.0
+SVM error after 2448 queries is 0.376
+SVM F1 after 2448 queries is 0.5454545454545455
+Random error after 2449 queries is 0.603
+Random F1 after 2449 queries is 0.5179282868525897
+Blank learner error queries is 0.373
+Blank F1 after 2449 queries is 0.0
+SVM error after 2449 queries is 0.376
+SVM F1 after 2449 queries is 0.5454545454545455
+Random error after 2450 queries is 0.606
+Random F1 after 2450 queries is 0.5158730158730158
+Blank learner error queries is 0.373
+Blank F1 after 2450 queries is 0.0
+SVM error after 2450 queries is 0.374
+SVM F1 after 2450 queries is 0.5476673427991887
+Random error after 2451 queries is 0.606
+Random F1 after 2451 queries is 0.5158730158730158
+Blank learner error queries is 0.373
+Blank F1 after 2451 queries is 0.0
+SVM error after 2451 queries is 0.376
+SVM F1 after 2451 queries is 0.5465587044534412
+Random error after 2452 queries is 0.605
+Random F1 after 2452 queries is 0.5165562913907285
+Blank learner error queries is 0.373
+Blank F1 after 2452 queries is 0.0
+SVM error after 2452 queries is 0.377
+SVM F1 after 2452 queries is 0.5454545454545455
+Random error after 2453 queries is 0.605
+Random F1 after 2453 queries is 0.5152722443559097
+Blank learner error queries is 0.373
+Blank F1 after 2453 queries is 0.0
+SVM error after 2453 queries is 0.376
+SVM F1 after 2453 queries is 0.5465587044534412
+Random error after 2454 queries is 0.608
+Random F1 after 2454 queries is 0.5139072847682119
+Blank learner error queries is 0.373
+Blank F1 after 2454 queries is 0.0
+SVM error after 2454 queries is 0.374
+SVM F1 after 2454 queries is 0.5476673427991887
+Random error after 2455 queries is 0.608
+Random F1 after 2455 queries is 0.5139072847682119
+Blank learner error queries is 0.373
+Blank F1 after 2455 queries is 0.0
+SVM error after 2455 queries is 0.374
+SVM F1 after 2455 queries is 0.5476673427991887
+Random error after 2456 queries is 0.608
+Random F1 after 2456 queries is 0.5139072847682119
+Blank learner error queries is 0.373
+Blank F1 after 2456 queries is 0.0
+SVM error after 2456 queries is 0.374
+SVM F1 after 2456 queries is 0.5476673427991887
+Random error after 2457 queries is 0.608
+Random F1 after 2457 queries is 0.5139072847682119
+Blank learner error queries is 0.373
+Blank F1 after 2457 queries is 0.0
+SVM error after 2457 queries is 0.376
+SVM F1 after 2457 queries is 0.5465587044534412
+Random error after 2458 queries is 0.607
+Random F1 after 2458 queries is 0.5145888594164457
+Blank learner error queries is 0.373
+Blank F1 after 2458 queries is 0.0
+SVM error after 2458 queries is 0.374
+SVM F1 after 2458 queries is 0.5476673427991887
+Random error after 2459 queries is 0.607
+Random F1 after 2459 queries is 0.5145888594164457
+Blank learner error queries is 0.373
+Blank F1 after 2459 queries is 0.0
+SVM error after 2459 queries is 0.376
+SVM F1 after 2459 queries is 0.543610547667343
+Random error after 2460 queries is 0.608
+Random F1 after 2460 queries is 0.5139072847682119
+Blank learner error queries is 0.373
+Blank F1 after 2460 queries is 0.0
+SVM error after 2460 queries is 0.374
+SVM F1 after 2460 queries is 0.5447154471544715
+Random error after 2461 queries is 0.608
+Random F1 after 2461 queries is 0.5139072847682119
+Blank learner error queries is 0.373
+Blank F1 after 2461 queries is 0.0
+SVM error after 2461 queries is 0.374
+SVM F1 after 2461 queries is 0.5447154471544715
+Random error after 2462 queries is 0.607
+Random F1 after 2462 queries is 0.5145888594164457
+Blank learner error queries is 0.373
+Blank F1 after 2462 queries is 0.0
+SVM error after 2462 queries is 0.374
+SVM F1 after 2462 queries is 0.5447154471544715
+Random error after 2463 queries is 0.607
+Random F1 after 2463 queries is 0.5145888594164457
+Blank learner error queries is 0.373
+Blank F1 after 2463 queries is 0.0
+SVM error after 2463 queries is 0.374
+SVM F1 after 2463 queries is 0.5447154471544715
+Random error after 2464 queries is 0.605
+Random F1 after 2464 queries is 0.5152722443559097
+Blank learner error queries is 0.373
+Blank F1 after 2464 queries is 0.0
+SVM error after 2464 queries is 0.374
+SVM F1 after 2464 queries is 0.5447154471544715
+Random error after 2465 queries is 0.606
+Random F1 after 2465 queries is 0.5165562913907285
+Blank learner error queries is 0.373
+Blank F1 after 2465 queries is 0.0
+SVM error after 2465 queries is 0.378
+SVM F1 after 2465 queries is 0.5403225806451613
+Random error after 2466 queries is 0.606
+Random F1 after 2466 queries is 0.5165562913907285
+Blank learner error queries is 0.373
+Blank F1 after 2466 queries is 0.0
+SVM error after 2466 queries is 0.377
+SVM F1 after 2466 queries is 0.5414141414141416
+Random error after 2467 queries is 0.606
+Random F1 after 2467 queries is 0.5152722443559097
+Blank learner error queries is 0.373
+Blank F1 after 2467 queries is 0.0
+SVM error after 2467 queries is 0.378
+SVM F1 after 2467 queries is 0.5403225806451613
+Random error after 2468 queries is 0.605
+Random F1 after 2468 queries is 0.5172413793103449
+Blank learner error queries is 0.373
+Blank F1 after 2468 queries is 0.0
+SVM error after 2468 queries is 0.378
+SVM F1 after 2468 queries is 0.5403225806451613
+Random error after 2469 queries is 0.604
+Random F1 after 2469 queries is 0.5159574468085106
+Blank learner error queries is 0.373
+Blank F1 after 2469 queries is 0.0
+SVM error after 2469 queries is 0.378
+SVM F1 after 2469 queries is 0.5403225806451613
+Random error after 2470 queries is 0.604
+Random F1 after 2470 queries is 0.5172413793103449
+Blank learner error queries is 0.373
+Blank F1 after 2470 queries is 0.0
+SVM error after 2470 queries is 0.378
+SVM F1 after 2470 queries is 0.5403225806451613
+Random error after 2471 queries is 0.602
+Random F1 after 2471 queries is 0.5166444740346205
+Blank learner error queries is 0.373
+Blank F1 after 2471 queries is 0.0
+SVM error after 2471 queries is 0.377
+SVM F1 after 2471 queries is 0.5414141414141416
+Random error after 2472 queries is 0.602
+Random F1 after 2472 queries is 0.5166444740346205
+Blank learner error queries is 0.373
+Blank F1 after 2472 queries is 0.0
+SVM error after 2472 queries is 0.377
+SVM F1 after 2472 queries is 0.5414141414141416
+Random error after 2473 queries is 0.602
+Random F1 after 2473 queries is 0.5166444740346205
+Blank learner error queries is 0.373
+Blank F1 after 2473 queries is 0.0
+SVM error after 2473 queries is 0.377
+SVM F1 after 2473 queries is 0.5414141414141416
+Random error after 2474 queries is 0.6
+Random F1 after 2474 queries is 0.5193075898801598
+Blank learner error queries is 0.373
+Blank F1 after 2474 queries is 0.0
+SVM error after 2474 queries is 0.376
+SVM F1 after 2474 queries is 0.54251012145749
+Random error after 2475 queries is 0.601
+Random F1 after 2475 queries is 0.5186170212765958
+Blank learner error queries is 0.373
+Blank F1 after 2475 queries is 0.0
+SVM error after 2475 queries is 0.376
+SVM F1 after 2475 queries is 0.54251012145749
+Random error after 2476 queries is 0.6
+Random F1 after 2476 queries is 0.5193075898801598
+Blank learner error queries is 0.373
+Blank F1 after 2476 queries is 0.0
+SVM error after 2476 queries is 0.376
+SVM F1 after 2476 queries is 0.54251012145749
+Random error after 2477 queries is 0.601
+Random F1 after 2477 queries is 0.5186170212765958
+Blank learner error queries is 0.373
+Blank F1 after 2477 queries is 0.0
+SVM error after 2477 queries is 0.376
+SVM F1 after 2477 queries is 0.54251012145749
+Random error after 2478 queries is 0.601
+Random F1 after 2478 queries is 0.5186170212765958
+Blank learner error queries is 0.373
+Blank F1 after 2478 queries is 0.0
+SVM error after 2478 queries is 0.376
+SVM F1 after 2478 queries is 0.54251012145749
+Random error after 2479 queries is 0.6
+Random F1 after 2479 queries is 0.5218543046357615
+Blank learner error queries is 0.373
+Blank F1 after 2479 queries is 0.0
+SVM error after 2479 queries is 0.376
+SVM F1 after 2479 queries is 0.54251012145749
+Random error after 2480 queries is 0.6
+Random F1 after 2480 queries is 0.5218543046357615
+Blank learner error queries is 0.373
+Blank F1 after 2480 queries is 0.0
+SVM error after 2480 queries is 0.376
+SVM F1 after 2480 queries is 0.54251012145749
+Random error after 2481 queries is 0.604
+Random F1 after 2481 queries is 0.5185185185185185
+Blank learner error queries is 0.373
+Blank F1 after 2481 queries is 0.0
+SVM error after 2481 queries is 0.376
+SVM F1 after 2481 queries is 0.54251012145749
+Random error after 2482 queries is 0.604
+Random F1 after 2482 queries is 0.5185185185185185
+Blank learner error queries is 0.373
+Blank F1 after 2482 queries is 0.0
+SVM error after 2482 queries is 0.376
+SVM F1 after 2482 queries is 0.54251012145749
+Random error after 2483 queries is 0.604
+Random F1 after 2483 queries is 0.5197889182058048
+Blank learner error queries is 0.373
+Blank F1 after 2483 queries is 0.0
+SVM error after 2483 queries is 0.376
+SVM F1 after 2483 queries is 0.54251012145749
+Random error after 2484 queries is 0.601
+Random F1 after 2484 queries is 0.5198938992042441
+Blank learner error queries is 0.373
+Blank F1 after 2484 queries is 0.0
+SVM error after 2484 queries is 0.376
+SVM F1 after 2484 queries is 0.54251012145749
+Random error after 2485 queries is 0.601
+Random F1 after 2485 queries is 0.5198938992042441
+Blank learner error queries is 0.373
+Blank F1 after 2485 queries is 0.0
+SVM error after 2485 queries is 0.376
+SVM F1 after 2485 queries is 0.54251012145749
+Random error after 2486 queries is 0.601
+Random F1 after 2486 queries is 0.5205843293492697
+Blank learner error queries is 0.373
+Blank F1 after 2486 queries is 0.0
+SVM error after 2486 queries is 0.376
+SVM F1 after 2486 queries is 0.54251012145749
+Random error after 2487 queries is 0.6
+Random F1 after 2487 queries is 0.5212765957446809
+Blank learner error queries is 0.373
+Blank F1 after 2487 queries is 0.0
+SVM error after 2487 queries is 0.376
+SVM F1 after 2487 queries is 0.54251012145749
+Random error after 2488 queries is 0.6
+Random F1 after 2488 queries is 0.5212765957446809
+Blank learner error queries is 0.373
+Blank F1 after 2488 queries is 0.0
+SVM error after 2488 queries is 0.375
+SVM F1 after 2488 queries is 0.543610547667343
+Random error after 2489 queries is 0.598
+Random F1 after 2489 queries is 0.5219707057256991
+Blank learner error queries is 0.373
+Blank F1 after 2489 queries is 0.0
+SVM error after 2489 queries is 0.375
+SVM F1 after 2489 queries is 0.543610547667343
+Random error after 2490 queries is 0.6
+Random F1 after 2490 queries is 0.5212765957446809
+Blank learner error queries is 0.373
+Blank F1 after 2490 queries is 0.0
+SVM error after 2490 queries is 0.375
+SVM F1 after 2490 queries is 0.543610547667343
+Random error after 2491 queries is 0.6
+Random F1 after 2491 queries is 0.5212765957446809
+Blank learner error queries is 0.373
+Blank F1 after 2491 queries is 0.0
+SVM error after 2491 queries is 0.375
+SVM F1 after 2491 queries is 0.543610547667343
+Random error after 2492 queries is 0.599
+Random F1 after 2492 queries is 0.5219707057256991
+Blank learner error queries is 0.373
+Blank F1 after 2492 queries is 0.0
+SVM error after 2492 queries is 0.375
+SVM F1 after 2492 queries is 0.543610547667343
+Random error after 2493 queries is 0.599
+Random F1 after 2493 queries is 0.5219707057256991
+Blank learner error queries is 0.373
+Blank F1 after 2493 queries is 0.0
+SVM error after 2493 queries is 0.375
+SVM F1 after 2493 queries is 0.543610547667343
+Random error after 2494 queries is 0.596
+Random F1 after 2494 queries is 0.5233644859813084
+Blank learner error queries is 0.373
+Blank F1 after 2494 queries is 0.0
+SVM error after 2494 queries is 0.375
+SVM F1 after 2494 queries is 0.543610547667343
+Random error after 2495 queries is 0.598
+Random F1 after 2495 queries is 0.5226666666666667
+Blank learner error queries is 0.373
+Blank F1 after 2495 queries is 0.0
+SVM error after 2495 queries is 0.375
+SVM F1 after 2495 queries is 0.543610547667343
+Random error after 2496 queries is 0.598
+Random F1 after 2496 queries is 0.5226666666666667
+Blank learner error queries is 0.373
+Blank F1 after 2496 queries is 0.0
+SVM error after 2496 queries is 0.375
+SVM F1 after 2496 queries is 0.543610547667343
+Random error after 2497 queries is 0.6
+Random F1 after 2497 queries is 0.5219707057256991
+Blank learner error queries is 0.373
+Blank F1 after 2497 queries is 0.0
+SVM error after 2497 queries is 0.375
+SVM F1 after 2497 queries is 0.543610547667343
+Random error after 2498 queries is 0.6
+Random F1 after 2498 queries is 0.5219707057256991
+Blank learner error queries is 0.373
+Blank F1 after 2498 queries is 0.0
+SVM error after 2498 queries is 0.375
+SVM F1 after 2498 queries is 0.543610547667343
+Random error after 2499 queries is 0.604
+Random F1 after 2499 queries is 0.5193075898801598
+Blank learner error queries is 0.373
+Blank F1 after 2499 queries is 0.0
+SVM error after 2499 queries is 0.375
+SVM F1 after 2499 queries is 0.543610547667343
+Random error after 2500 queries is 0.602
+Random F1 after 2500 queries is 0.5200000000000001
+Blank learner error queries is 0.373
+Blank F1 after 2500 queries is 0.0
+final SVM error is 0.375
+final SVM F1 is 0.543610547667343
+final number of queries is
