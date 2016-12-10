@@ -1,0 +1,7577 @@
+round 1
+Positive has lower error
+round 2
+current s error is 0.0
+Negative has lower error
+round 4
+current s error is 0.0
+Negative has lower error
+round 5
+current s error is 0.0
+Negative has lower error
+round 6
+current s error is 0.0
+Negative has lower error
+round 7
+current s error is 0.0
+Only negative works
+round 8
+current s error is 0.001
+Only positive works
+round 10
+current s error is 0.001
+Only positive works
+round 13
+current s error is 0.0
+Negative has lower error
+round 15
+current s error is 0.0
+SVM error after 1501 queries is 0.199
+SVM F1 after 1501 queries is 0.21343873517786557
+Random error after 1501 queries is 0.18
+Random F1 after 1501 queries is 0.27419354838709675
+Blank learner error queries is 0.105
+Blank F1 after 1501 queries is 0.0
+round 17
+current s error is 0.0
+Negative has lower error
+round 18
+current s error is 0.0
+Negative has lower error
+round 21
+current s error is 0.0
+Negative has lower error
+round 22
+current s error is 0.0
+Negative has lower error
+round 25
+current s error is 0.0
+Negative has lower error
+round 26
+current s error is 0.0
+Negative has lower error
+round 29
+current s error is 0.0
+Negative has lower error
+round 33
+current s error is 0.0
+Negative has lower error
+round 34
+current s error is 0.0
+Positive has lower error
+round 36
+current s error is 0.0
+Negative has lower error
+round 37
+current s error is 0.0
+Negative has lower error
+round 38
+current s error is 0.0
+SVM error after 1502 queries is 0.201
+SVM F1 after 1502 queries is 0.22393822393822393
+Random error after 1502 queries is 0.18
+Random F1 after 1502 queries is 0.2682926829268293
+Blank learner error queries is 0.105
+Blank F1 after 1502 queries is 0.0
+round 39
+current s error is 0.0
+Negative has lower error
+round 43
+current s error is 0.0
+Negative has lower error
+round 45
+current s error is 0.0
+Negative has lower error
+round 46
+current s error is 0.0
+Negative has lower error
+round 48
+current s error is 0.0
+Negative has lower error
+round 49
+current s error is 0.0
+SVM error after 1503 queries is 0.202
+SVM F1 after 1503 queries is 0.22307692307692306
+Random error after 1503 queries is 0.181
+Random F1 after 1503 queries is 0.26720647773279355
+Blank learner error queries is 0.105
+Blank F1 after 1503 queries is 0.0
+round 51
+current s error is 0.0
+Negative has lower error
+round 52
+current s error is 0.0
+Negative has lower error
+round 54
+current s error is 0.001
+Negative has lower error
+round 55
+current s error is 0.0
+Negative has lower error
+round 56
+current s error is 0.0
+Negative has lower error
+round 57
+current s error is 0.0
+Negative has lower error
+round 59
+current s error is 0.0
+Negative has lower error
+round 61
+current s error is 0.001
+Only positive works
+round 63
+current s error is 0.0
+SVM error after 1504 queries is 0.196
+SVM F1 after 1504 queries is 0.24031007751937986
+Random error after 1504 queries is 0.179
+Random F1 after 1504 queries is 0.27530364372469635
+Blank learner error queries is 0.105
+Blank F1 after 1504 queries is 0.0
+round 64
+current s error is 0.0
+Negative has lower error
+round 67
+current s error is 0.0
+Negative has lower error
+round 68
+current s error is 0.001
+Negative has lower error
+round 69
+current s error is 0.0
+Negative has lower error
+round 70
+current s error is 0.0
+Negative has lower error
+round 72
+current s error is 0.0
+SVM error after 1505 queries is 0.197
+SVM F1 after 1505 queries is 0.23346303501945526
+Random error after 1505 queries is 0.179
+Random F1 after 1505 queries is 0.27530364372469635
+Blank learner error queries is 0.105
+Blank F1 after 1505 queries is 0.0
+round 73
+current s error is 0.001
+Only positive works
+round 75
+current s error is 0.0
+Positive has lower error
+round 76
+current s error is 0.0
+Negative has lower error
+round 78
+current s error is 0.0
+Negative has lower error
+round 79
+current s error is 0.0
+Only negative works
+round 80
+current s error is 0.0
+Negative has lower error
+round 81
+current s error is 0.0
+Only negative works
+round 83
+current s error is 0.0
+Only negative works
+round 84
+current s error is 0.0
+Positive has lower error
+round 85
+current s error is 0.0
+Negative has lower error
+round 86
+current s error is 0.001
+Only positive works
+round 87
+current s error is 0.0
+Negative has lower error
+round 90
+current s error is 0.0
+Negative has lower error
+round 91
+current s error is 0.0
+Positive has lower error
+round 92
+current s error is 0.0
+Negative has lower error
+round 93
+current s error is 0.0
+Negative has lower error
+round 96
+current s error is 0.0
+Negative has lower error
+round 102
+current s error is 0.0
+Negative has lower error
+round 103
+current s error is 0.001
+Only positive works
+round 105
+current s error is 0.0
+Positive has lower error
+round 106
+current s error is 0.0
+Negative has lower error
+round 107
+current s error is 0.0
+Negative has lower error
+round 110
+current s error is 0.001
+SVM error after 1506 queries is 0.203
+SVM F1 after 1506 queries is 0.22222222222222224
+Random error after 1506 queries is 0.184
+Random F1 after 1506 queries is 0.25806451612903225
+Blank learner error queries is 0.105
+Blank F1 after 1506 queries is 0.0
+round 112
+current s error is 0.0
+Only negative works
+round 113
+current s error is 0.001
+SVM error after 1507 queries is 0.202
+SVM F1 after 1507 queries is 0.22307692307692306
+Random error after 1507 queries is 0.182
+Random F1 after 1507 queries is 0.2661290322580645
+Blank learner error queries is 0.105
+Blank F1 after 1507 queries is 0.0
+round 114
+current s error is 0.0
+Only negative works
+round 115
+current s error is 0.0
+Negative has lower error
+round 116
+current s error is 0.001
+Positive has lower error
+round 118
+current s error is 0.0
+Only negative works
+round 119
+current s error is 0.0
+Negative has lower error
+round 121
+current s error is 0.001
+Only positive works
+round 122
+current s error is 0.0
+Only negative works
+round 123
+current s error is 0.0
+Positive has lower error
+round 124
+current s error is 0.0
+Only negative works
+round 126
+current s error is 0.0
+Only negative works
+round 127
+current s error is 0.0
+Negative has lower error
+round 128
+current s error is 0.0
+Positive has lower error
+round 129
+current s error is 0.0
+Only negative works
+round 130
+current s error is 0.0
+Only negative works
+round 131
+current s error is 0.0
+Negative has lower error
+round 132
+current s error is 0.0
+Negative has lower error
+round 134
+current s error is 0.0
+Only negative works
+round 135
+current s error is 0.0
+SVM error after 1508 queries is 0.207
+SVM F1 after 1508 queries is 0.2304832713754647
+Random error after 1508 queries is 0.182
+Random F1 after 1508 queries is 0.2601626016260163
+Blank learner error queries is 0.105
+Blank F1 after 1508 queries is 0.0
+round 136
+current s error is 0.001
+Only positive works
+round 137
+current s error is 0.0
+Negative has lower error
+round 138
+current s error is 0.001
+Only positive works
+round 139
+current s error is 0.0
+Positive has lower error
+round 141
+current s error is 0.0
+Negative has lower error
+round 143
+current s error is 0.001
+Only negative works
+round 144
+current s error is 0.0
+Negative has lower error
+round 145
+current s error is 0.0
+Negative has lower error
+round 149
+current s error is 0.0
+Only negative works
+round 151
+current s error is 0.0
+Negative has lower error
+round 152
+current s error is 0.0
+Only negative works
+round 153
+current s error is 0.0
+Only negative works
+round 154
+current s error is 0.0
+SVM error after 1509 queries is 0.205
+SVM F1 after 1509 queries is 0.24908424908424912
+Random error after 1509 queries is 0.182
+Random F1 after 1509 queries is 0.2601626016260163
+Blank learner error queries is 0.105
+Blank F1 after 1509 queries is 0.0
+round 155
+current s error is 0.0
+Only negative works
+round 158
+current s error is 0.0
+Negative has lower error
+round 159
+current s error is 0.0
+SVM error after 1510 queries is 0.206
+SVM F1 after 1510 queries is 0.2426470588235294
+Random error after 1510 queries is 0.183
+Random F1 after 1510 queries is 0.2591093117408907
+Blank learner error queries is 0.105
+Blank F1 after 1510 queries is 0.0
+round 162
+current s error is 0.0
+Positive has lower error
+round 163
+current s error is 0.001
+Only positive works
+round 164
+current s error is 0.001
+Only positive works
+round 166
+current s error is 0.001
+Negative has lower error
+round 169
+current s error is 0.001
+Only positive works
+round 171
+current s error is 0.0
+Negative has lower error
+round 172
+current s error is 0.001
+Only positive works
+round 175
+current s error is 0.001
+Only positive works
+round 176
+current s error is 0.001
+Only positive works
+round 177
+current s error is 0.001
+Only positive works
+round 178
+current s error is 0.0
+Positive has lower error
+round 180
+current s error is 0.001
+Only positive works
+round 181
+current s error is 0.0
+Negative has lower error
+round 184
+current s error is 0.0
+Positive has lower error
+round 186
+current s error is 0.0
+Negative has lower error
+round 187
+current s error is 0.0
+Negative has lower error
+round 190
+current s error is 0.0
+Positive has lower error
+round 193
+current s error is 0.0
+Negative has lower error
+round 194
+current s error is 0.0
+Only negative works
+round 195
+current s error is 0.0
+Negative has lower error
+round 196
+current s error is 0.0
+Negative has lower error
+round 197
+current s error is 0.0
+Only negative works
+round 198
+current s error is 0.0
+Negative has lower error
+round 201
+current s error is 0.001
+Only positive works
+round 203
+current s error is 0.0
+Negative has lower error
+round 206
+current s error is 0.0
+Negative has lower error
+round 207
+current s error is 0.0
+Negative has lower error
+round 209
+current s error is 0.0
+Negative has lower error
+round 212
+current s error is 0.0
+Negative has lower error
+round 217
+current s error is 0.0
+Positive has lower error
+round 218
+current s error is 0.0
+Positive has lower error
+round 219
+current s error is 0.0
+Negative has lower error
+round 220
+current s error is 0.0
+Negative has lower error
+round 221
+current s error is 0.001
+Only positive works
+round 222
+current s error is 0.0
+Negative has lower error
+round 223
+current s error is 0.0
+SVM error after 1511 queries is 0.21
+SVM F1 after 1511 queries is 0.22794117647058826
+Random error after 1511 queries is 0.183
+Random F1 after 1511 queries is 0.2591093117408907
+Blank learner error queries is 0.105
+Blank F1 after 1511 queries is 0.0
+round 224
+current s error is 0.0
+SVM error after 1512 queries is 0.21
+SVM F1 after 1512 queries is 0.22794117647058826
+Random error after 1512 queries is 0.184
+Random F1 after 1512 queries is 0.25806451612903225
+Blank learner error queries is 0.105
+Blank F1 after 1512 queries is 0.0
+round 225
+current s error is 0.0
+Negative has lower error
+round 226
+current s error is 0.0
+Negative has lower error
+round 227
+current s error is 0.0
+Negative has lower error
+round 228
+current s error is 0.0
+Negative has lower error
+round 229
+current s error is 0.0
+Positive has lower error
+round 230
+current s error is 0.0
+Negative has lower error
+round 231
+current s error is 0.0
+Negative has lower error
+round 232
+current s error is 0.0
+Negative has lower error
+round 235
+current s error is 0.0
+Negative has lower error
+round 236
+current s error is 0.0
+Only negative works
+round 237
+current s error is 0.0
+Negative has lower error
+round 238
+current s error is 0.001
+Negative has lower error
+round 239
+current s error is 0.0
+SVM error after 1513 queries is 0.214
+SVM F1 after 1513 queries is 0.21323529411764705
+Random error after 1513 queries is 0.186
+Random F1 after 1513 queries is 0.256
+Blank learner error queries is 0.105
+Blank F1 after 1513 queries is 0.0
+round 240
+current s error is 0.0
+Only negative works
+round 241
+current s error is 0.001
+SVM error after 1514 queries is 0.215
+SVM F1 after 1514 queries is 0.21245421245421245
+Random error after 1514 queries is 0.183
+Random F1 after 1514 queries is 0.24691358024691357
+Blank learner error queries is 0.105
+Blank F1 after 1514 queries is 0.0
+round 242
+current s error is 0.0
+Negative has lower error
+round 243
+current s error is 0.0
+Positive has lower error
+round 245
+current s error is 0.0
+Only negative works
+round 246
+current s error is 0.0
+Only negative works
+round 247
+current s error is 0.0
+Negative has lower error
+round 250
+current s error is 0.0
+Positive has lower error
+round 251
+current s error is 0.001
+Only positive works
+round 252
+current s error is 0.0
+Only negative works
+round 253
+current s error is 0.0
+Only negative works
+round 254
+current s error is 0.0
+Negative has lower error
+round 255
+current s error is 0.0
+Negative has lower error
+round 256
+current s error is 0.0
+Negative has lower error
+round 257
+current s error is 0.0
+Only negative works
+round 258
+current s error is 0.0
+Only negative works
+round 259
+current s error is 0.0
+Only negative works
+round 260
+current s error is 0.0
+Negative has lower error
+round 262
+current s error is 0.0
+Negative has lower error
+round 263
+current s error is 0.0
+Negative has lower error
+round 265
+current s error is 0.0
+Only negative works
+round 267
+current s error is 0.0
+SVM error after 1515 queries is 0.225
+SVM F1 after 1515 queries is 0.19354838709677422
+Random error after 1515 queries is 0.181
+Random F1 after 1515 queries is 0.2551440329218107
+Blank learner error queries is 0.105
+Blank F1 after 1515 queries is 0.0
+round 268
+current s error is 0.0
+Only negative works
+round 270
+current s error is 0.0
+Negative has lower error
+round 271
+current s error is 0.0
+Only negative works
+round 272
+current s error is 0.0
+Negative has lower error
+round 273
+current s error is 0.0
+Only negative works
+round 274
+current s error is 0.0
+Only negative works
+round 277
+current s error is 0.0
+Negative has lower error
+round 280
+current s error is 0.0
+Negative has lower error
+round 285
+current s error is 0.0
+Only negative works
+round 286
+current s error is 0.001
+Only positive works
+round 287
+current s error is 0.001
+Only positive works
+round 288
+current s error is 0.003
+Only positive works
+round 290
+current s error is 0.003
+Only positive works
+round 292
+current s error is 0.002
+Only positive works
+round 293
+current s error is 0.002
+Only positive works
+round 296
+current s error is 0.002
+Only positive works
+round 297
+current s error is 0.001
+Only positive works
+round 298
+current s error is 0.001
+Only positive works
+round 299
+current s error is 0.001
+Only positive works
+round 300
+current s error is 0.002
+Only positive works
+round 301
+current s error is 0.001
+Only positive works
+round 302
+current s error is 0.001
+Only positive works
+round 304
+current s error is 0.001
+Only positive works
+round 305
+current s error is 0.004
+Only positive works
+round 307
+current s error is 0.002
+Only positive works
+round 308
+current s error is 0.003
+Only positive works
+round 309
+current s error is 0.003
+Only positive works
+round 312
+current s error is 0.003
+Only positive works
+round 313
+current s error is 0.003
+Only positive works
+round 315
+current s error is 0.004
+Only positive works
+round 317
+current s error is 0.004
+Only positive works
+round 318
+current s error is 0.004
+Only positive works
+round 320
+current s error is 0.004
+Only positive works
+round 321
+current s error is 0.005
+Only positive works
+round 322
+current s error is 0.005
+Only positive works
+round 323
+current s error is 0.005
+Only positive works
+round 324
+current s error is 0.005
+Only positive works
+round 325
+current s error is 0.005
+Only positive works
+round 329
+current s error is 0.005
+Only positive works
+round 330
+current s error is 0.005
+Only positive works
+round 331
+current s error is 0.004
+Only positive works
+round 332
+current s error is 0.004
+Only positive works
+round 333
+current s error is 0.004
+Only positive works
+round 334
+current s error is 0.004
+Only positive works
+round 339
+current s error is 0.006
+Only positive works
+round 340
+current s error is 0.006
+Only positive works
+round 341
+current s error is 0.004
+Only positive works
+round 344
+current s error is 0.005
+Only positive works
+round 345
+current s error is 0.006
+Only positive works
+round 347
+current s error is 0.006
+Only positive works
+round 350
+current s error is 0.006
+Only positive works
+round 351
+current s error is 0.007
+Only positive works
+round 352
+current s error is 0.007
+Only positive works
+round 353
+current s error is 0.007
+Only positive works
+round 354
+current s error is 0.007
+Only positive works
+round 357
+current s error is 0.007
+Only positive works
+round 360
+current s error is 0.009
+Only positive works
+round 361
+current s error is 0.011
+Only positive works
+round 363
+current s error is 0.009
+Only positive works
+round 364
+current s error is 0.011
+Only positive works
+round 365
+current s error is 0.011
+Only positive works
+round 368
+current s error is 0.012
+Only positive works
+round 369
+current s error is 0.011
+Only positive works
+round 370
+current s error is 0.011
+Only positive works
+round 372
+current s error is 0.011
+Only positive works
+round 373
+current s error is 0.011
+Only positive works
+round 374
+current s error is 0.009
+Only positive works
+round 375
+current s error is 0.011
+Only positive works
+round 376
+current s error is 0.011
+Only positive works
+round 380
+current s error is 0.009
+Only positive works
+round 381
+current s error is 0.009
+Only positive works
+round 383
+current s error is 0.009
+Only positive works
+round 384
+current s error is 0.009
+Only positive works
+round 385
+current s error is 0.008
+Only positive works
+round 386
+current s error is 0.014
+Only positive works
+round 387
+current s error is 0.013
+Only positive works
+round 388
+current s error is 0.012
+Only positive works
+round 391
+current s error is 0.013
+Only positive works
+round 392
+current s error is 0.013
+Only positive works
+round 393
+current s error is 0.013
+Only positive works
+round 395
+current s error is 0.014
+Only positive works
+round 396
+current s error is 0.017
+Only positive works
+round 397
+current s error is 0.016
+Only positive works
+round 399
+current s error is 0.014
+Only positive works
+round 402
+current s error is 0.014
+Only positive works
+round 403
+current s error is 0.015
+Only positive works
+round 404
+current s error is 0.016
+Only positive works
+round 405
+current s error is 0.015
+Only positive works
+round 406
+current s error is 0.017
+Only positive works
+round 408
+current s error is 0.014
+Only positive works
+round 410
+current s error is 0.013
+Only positive works
+round 411
+current s error is 0.012
+Only positive works
+round 413
+current s error is 0.013
+Only positive works
+round 414
+current s error is 0.012
+Only positive works
+round 416
+current s error is 0.014
+Only positive works
+round 417
+current s error is 0.017
+Only positive works
+round 418
+current s error is 0.019
+Only positive works
+round 419
+current s error is 0.018
+Only positive works
+round 420
+current s error is 0.015
+Only positive works
+round 421
+current s error is 0.015
+Only positive works
+round 422
+current s error is 0.014
+Only positive works
+round 423
+current s error is 0.017
+Only positive works
+round 424
+current s error is 0.016
+Only positive works
+round 425
+current s error is 0.018
+Only positive works
+round 427
+current s error is 0.019
+Only positive works
+round 428
+current s error is 0.02
+Only positive works
+round 430
+current s error is 0.019
+Only positive works
+round 433
+current s error is 0.02
+Only positive works
+round 434
+current s error is 0.022
+Only positive works
+round 435
+current s error is 0.021
+Only positive works
+round 436
+current s error is 0.021
+Only positive works
+round 438
+current s error is 0.02
+Only positive works
+round 439
+current s error is 0.022
+Only positive works
+round 440
+current s error is 0.02
+Only positive works
+round 441
+current s error is 0.023
+Only positive works
+round 442
+current s error is 0.022
+Only positive works
+round 443
+current s error is 0.021
+Only positive works
+round 444
+current s error is 0.024
+Only positive works
+round 445
+current s error is 0.024
+Only positive works
+round 446
+current s error is 0.025
+Only positive works
+round 447
+current s error is 0.024
+Only positive works
+round 448
+current s error is 0.025
+Only positive works
+round 449
+current s error is 0.024
+Only positive works
+round 450
+current s error is 0.025
+Only positive works
+round 452
+current s error is 0.027
+Only positive works
+round 455
+current s error is 0.029
+Only positive works
+round 458
+current s error is 0.028
+Only positive works
+round 459
+current s error is 0.025
+Only positive works
+round 462
+current s error is 0.024
+Only positive works
+round 463
+current s error is 0.023
+Only positive works
+round 464
+current s error is 0.025
+Only positive works
+round 465
+current s error is 0.027
+Only positive works
+round 466
+current s error is 0.027
+Only positive works
+round 467
+current s error is 0.028
+Only positive works
+round 469
+current s error is 0.026
+Only positive works
+round 472
+current s error is 0.029
+Only positive works
+round 474
+current s error is 0.029
+Only positive works
+round 476
+current s error is 0.029
+Only positive works
+round 477
+current s error is 0.028
+Only positive works
+round 481
+current s error is 0.029
+Only positive works
+round 482
+current s error is 0.029
+Only positive works
+round 483
+current s error is 0.031
+Only positive works
+round 484
+current s error is 0.031
+Only positive works
+round 485
+current s error is 0.029
+Only positive works
+round 486
+current s error is 0.03
+Only positive works
+round 487
+current s error is 0.03
+Only positive works
+round 488
+current s error is 0.031
+Only positive works
+round 489
+current s error is 0.032
+Only positive works
+round 491
+current s error is 0.032
+Only positive works
+round 492
+current s error is 0.033
+Only positive works
+round 493
+current s error is 0.03
+Only positive works
+round 494
+current s error is 0.029
+Only positive works
+round 495
+current s error is 0.031
+Only positive works
+round 498
+current s error is 0.031
+Only positive works
+round 501
+current s error is 0.032
+Only positive works
+round 503
+current s error is 0.031
+Only positive works
+round 505
+current s error is 0.031
+Only positive works
+round 507
+current s error is 0.03
+Only positive works
+round 508
+current s error is 0.031
+Only positive works
+round 510
+current s error is 0.032
+Only positive works
+round 511
+current s error is 0.031
+Only positive works
+round 514
+current s error is 0.029
+Only positive works
+round 515
+current s error is 0.031
+Only positive works
+round 517
+current s error is 0.034
+Only positive works
+round 520
+current s error is 0.034
+Only positive works
+round 521
+current s error is 0.033
+Only positive works
+round 522
+current s error is 0.032
+Only positive works
+round 523
+current s error is 0.034
+Only positive works
+round 525
+current s error is 0.031
+Only positive works
+round 527
+current s error is 0.033
+Only positive works
+round 528
+current s error is 0.032
+Only positive works
+round 529
+current s error is 0.033
+Only positive works
+round 532
+current s error is 0.034
+Only positive works
+round 533
+current s error is 0.034
+Only positive works
+round 534
+current s error is 0.036
+Only positive works
+round 537
+current s error is 0.038
+Only positive works
+round 538
+current s error is 0.037
+Only positive works
+round 539
+current s error is 0.036
+Only positive works
+round 540
+current s error is 0.037
+Only positive works
+round 541
+current s error is 0.037
+Only positive works
+round 543
+current s error is 0.036
+Only positive works
+round 545
+current s error is 0.035
+Only positive works
+round 547
+current s error is 0.035
+Only positive works
+round 549
+current s error is 0.036
+Only positive works
+round 553
+current s error is 0.037
+Only positive works
+round 554
+current s error is 0.034
+Only positive works
+round 555
+current s error is 0.037
+Only positive works
+round 556
+current s error is 0.038
+Only positive works
+round 558
+current s error is 0.038
+Only positive works
+round 559
+current s error is 0.039
+Only positive works
+round 562
+current s error is 0.04
+Only positive works
+round 567
+current s error is 0.041
+Only positive works
+round 568
+current s error is 0.042
+Only positive works
+round 570
+current s error is 0.039
+Only positive works
+round 572
+current s error is 0.038
+Only positive works
+round 574
+current s error is 0.039
+Only positive works
+round 576
+current s error is 0.04
+Only positive works
+round 578
+current s error is 0.041
+Only positive works
+round 579
+current s error is 0.044
+Only positive works
+round 580
+current s error is 0.042
+Only positive works
+round 581
+current s error is 0.043
+Only positive works
+round 582
+current s error is 0.041
+Only positive works
+round 583
+current s error is 0.043
+Only positive works
+round 586
+current s error is 0.042
+Only positive works
+round 588
+current s error is 0.04
+Only positive works
+round 594
+current s error is 0.044
+Only positive works
+round 595
+current s error is 0.044
+Only positive works
+round 596
+current s error is 0.041
+Only positive works
+round 597
+current s error is 0.039
+Only positive works
+round 598
+current s error is 0.042
+Only positive works
+round 600
+current s error is 0.042
+Only positive works
+round 601
+current s error is 0.041
+Only positive works
+round 604
+current s error is 0.041
+Only positive works
+round 605
+current s error is 0.043
+Only positive works
+round 608
+current s error is 0.044
+Only positive works
+round 609
+current s error is 0.043
+Only positive works
+round 610
+current s error is 0.046
+Only positive works
+round 612
+current s error is 0.045
+Only positive works
+round 614
+current s error is 0.043
+Only positive works
+round 616
+current s error is 0.045
+Only positive works
+round 618
+current s error is 0.044
+Only positive works
+round 619
+current s error is 0.046
+Only positive works
+round 620
+current s error is 0.045
+Only positive works
+round 622
+current s error is 0.045
+Only positive works
+round 623
+current s error is 0.046
+Only positive works
+round 626
+current s error is 0.044
+Only positive works
+round 627
+current s error is 0.042
+Only positive works
+round 629
+current s error is 0.044
+Only positive works
+round 630
+current s error is 0.048
+Only positive works
+round 632
+current s error is 0.047
+Only positive works
+round 633
+current s error is 0.047
+Only positive works
+round 635
+current s error is 0.048
+Only positive works
+round 636
+current s error is 0.048
+Only positive works
+round 637
+current s error is 0.048
+Only positive works
+round 638
+current s error is 0.048
+Only positive works
+round 639
+current s error is 0.047
+Only positive works
+round 640
+current s error is 0.049
+Only positive works
+round 642
+current s error is 0.046
+Only positive works
+round 643
+current s error is 0.049
+Only positive works
+round 644
+current s error is 0.046
+Only positive works
+round 645
+current s error is 0.049
+Only positive works
+round 646
+current s error is 0.047
+Only positive works
+round 647
+current s error is 0.048
+Only positive works
+round 648
+current s error is 0.048
+Only positive works
+round 649
+current s error is 0.046
+Only positive works
+round 651
+current s error is 0.052
+Only positive works
+round 653
+current s error is 0.051
+Only positive works
+round 656
+current s error is 0.047
+Only positive works
+round 657
+current s error is 0.047
+Only positive works
+round 658
+current s error is 0.049
+Only positive works
+round 659
+current s error is 0.048
+Only positive works
+round 660
+current s error is 0.049
+Only positive works
+round 662
+current s error is 0.05
+Only positive works
+round 663
+current s error is 0.05
+Only positive works
+round 666
+current s error is 0.052
+Only positive works
+round 667
+current s error is 0.049
+Only positive works
+round 668
+current s error is 0.049
+Only positive works
+round 669
+current s error is 0.048
+Only positive works
+round 672
+current s error is 0.05
+Only positive works
+round 675
+current s error is 0.048
+Only positive works
+round 676
+current s error is 0.05
+Only positive works
+round 679
+current s error is 0.049
+Only positive works
+round 680
+current s error is 0.052
+Only positive works
+round 682
+current s error is 0.048
+Only positive works
+round 684
+current s error is 0.052
+Only positive works
+round 685
+current s error is 0.05
+Only positive works
+round 686
+current s error is 0.053
+Only positive works
+round 687
+current s error is 0.05
+Only positive works
+round 688
+current s error is 0.053
+Only positive works
+round 692
+current s error is 0.052
+Only positive works
+round 693
+current s error is 0.052
+Only positive works
+round 694
+current s error is 0.048
+Only positive works
+round 695
+current s error is 0.053
+Only positive works
+round 697
+current s error is 0.053
+Only positive works
+round 698
+current s error is 0.054
+Only positive works
+round 700
+current s error is 0.048
+Only positive works
+round 701
+current s error is 0.052
+Only positive works
+round 703
+current s error is 0.057
+Only positive works
+round 704
+current s error is 0.054
+Only positive works
+round 707
+current s error is 0.053
+Only positive works
+round 708
+current s error is 0.053
+Only positive works
+round 710
+current s error is 0.05
+Only positive works
+round 711
+current s error is 0.056
+Only positive works
+round 712
+current s error is 0.057
+Only positive works
+round 715
+current s error is 0.059
+Only positive works
+round 717
+current s error is 0.058
+Only positive works
+round 718
+current s error is 0.055
+Only positive works
+round 720
+current s error is 0.057
+Only positive works
+round 721
+current s error is 0.057
+Only positive works
+round 724
+current s error is 0.058
+Only positive works
+round 725
+current s error is 0.057
+Only positive works
+round 726
+current s error is 0.059
+Only positive works
+round 727
+current s error is 0.058
+Only positive works
+round 728
+current s error is 0.06
+Only positive works
+round 729
+current s error is 0.061
+Only positive works
+round 730
+current s error is 0.062
+Only positive works
+round 732
+current s error is 0.061
+Only positive works
+round 733
+current s error is 0.06
+Only positive works
+round 734
+current s error is 0.062
+Only positive works
+round 735
+current s error is 0.061
+Only positive works
+round 736
+current s error is 0.063
+Only positive works
+round 738
+current s error is 0.061
+Only positive works
+round 739
+current s error is 0.061
+Only positive works
+round 741
+current s error is 0.064
+Only positive works
+round 743
+current s error is 0.061
+Only positive works
+round 747
+current s error is 0.063
+Only positive works
+round 748
+current s error is 0.065
+Only positive works
+round 750
+current s error is 0.063
+Only positive works
+round 751
+current s error is 0.067
+Only positive works
+round 753
+current s error is 0.068
+Only positive works
+round 754
+current s error is 0.069
+Only positive works
+round 756
+current s error is 0.067
+Only positive works
+round 757
+current s error is 0.067
+Only positive works
+round 758
+current s error is 0.068
+Only positive works
+round 760
+current s error is 0.067
+Only positive works
+round 767
+current s error is 0.067
+Only positive works
+round 768
+current s error is 0.066
+Only positive works
+round 772
+current s error is 0.068
+Only positive works
+round 774
+current s error is 0.066
+Only positive works
+round 775
+current s error is 0.07
+Only positive works
+round 776
+current s error is 0.07
+Only positive works
+round 777
+current s error is 0.074
+Only positive works
+round 778
+current s error is 0.073
+Only positive works
+round 780
+current s error is 0.076
+Only positive works
+round 781
+current s error is 0.074
+Only positive works
+round 782
+current s error is 0.072
+Only positive works
+round 783
+current s error is 0.075
+Only positive works
+round 784
+current s error is 0.074
+Only positive works
+round 785
+current s error is 0.073
+Only positive works
+round 786
+current s error is 0.075
+Only positive works
+round 787
+current s error is 0.075
+Only positive works
+round 788
+current s error is 0.076
+Only positive works
+round 789
+current s error is 0.078
+Only positive works
+round 790
+current s error is 0.076
+Only positive works
+round 791
+current s error is 0.075
+Only positive works
+round 792
+current s error is 0.076
+Only positive works
+round 796
+current s error is 0.077
+Only positive works
+round 797
+current s error is 0.079
+Only positive works
+round 798
+current s error is 0.081
+Only positive works
+round 800
+current s error is 0.081
+Only positive works
+round 801
+current s error is 0.083
+Only positive works
+round 802
+current s error is 0.08
+Only positive works
+round 803
+current s error is 0.082
+Only positive works
+round 805
+current s error is 0.085
+Only positive works
+round 806
+current s error is 0.084
+Only positive works
+round 810
+current s error is 0.084
+Only positive works
+round 811
+current s error is 0.084
+Only positive works
+round 812
+current s error is 0.081
+Only positive works
+round 813
+current s error is 0.081
+Only positive works
+round 814
+current s error is 0.079
+Only positive works
+round 817
+current s error is 0.08
+Only positive works
+round 818
+current s error is 0.08
+Only positive works
+round 823
+current s error is 0.083
+Only positive works
+round 826
+current s error is 0.083
+Only positive works
+round 827
+current s error is 0.082
+Only positive works
+round 828
+current s error is 0.083
+Only positive works
+round 830
+current s error is 0.081
+Only positive works
+round 831
+current s error is 0.079
+Only positive works
+round 832
+current s error is 0.077
+Only positive works
+round 834
+current s error is 0.078
+Only positive works
+round 835
+current s error is 0.077
+Only positive works
+round 836
+current s error is 0.081
+Only positive works
+round 837
+current s error is 0.08
+Only positive works
+round 838
+current s error is 0.081
+Only positive works
+round 839
+current s error is 0.081
+Only positive works
+round 841
+current s error is 0.085
+Only positive works
+round 842
+current s error is 0.084
+Only positive works
+round 845
+current s error is 0.082
+Only positive works
+round 848
+current s error is 0.081
+Only positive works
+round 849
+current s error is 0.084
+Only positive works
+round 850
+current s error is 0.081
+Only positive works
+round 851
+current s error is 0.085
+Only positive works
+round 852
+current s error is 0.086
+Only positive works
+round 856
+current s error is 0.088
+Only positive works
+round 857
+current s error is 0.085
+Only positive works
+round 858
+current s error is 0.086
+Only positive works
+round 859
+current s error is 0.089
+Only positive works
+round 862
+current s error is 0.091
+Only positive works
+round 863
+current s error is 0.088
+Only positive works
+round 867
+current s error is 0.089
+Only positive works
+round 868
+current s error is 0.087
+Only positive works
+round 869
+current s error is 0.094
+Only positive works
+round 871
+current s error is 0.09
+Only positive works
+round 872
+current s error is 0.092
+Only positive works
+round 873
+current s error is 0.093
+Only positive works
+round 874
+current s error is 0.092
+Only positive works
+round 876
+current s error is 0.092
+Only positive works
+round 877
+current s error is 0.092
+Only positive works
+round 878
+current s error is 0.093
+Only positive works
+round 879
+current s error is 0.092
+Only positive works
+round 880
+current s error is 0.09
+Only positive works
+round 881
+current s error is 0.09
+Only positive works
+round 882
+current s error is 0.09
+Only positive works
+round 884
+current s error is 0.087
+Only positive works
+round 886
+current s error is 0.088
+Only positive works
+round 888
+current s error is 0.089
+Only positive works
+round 890
+current s error is 0.088
+Only positive works
+round 891
+current s error is 0.087
+Only positive works
+round 892
+current s error is 0.087
+Only positive works
+round 893
+current s error is 0.088
+Only positive works
+round 894
+current s error is 0.084
+Only positive works
+round 895
+current s error is 0.086
+Only positive works
+round 898
+current s error is 0.086
+Only positive works
+round 899
+current s error is 0.091
+Only positive works
+round 900
+current s error is 0.092
+Only positive works
+round 903
+current s error is 0.09
+Only positive works
+round 904
+current s error is 0.09
+Only positive works
+round 907
+current s error is 0.09
+Only positive works
+round 908
+current s error is 0.096
+Only positive works
+round 909
+current s error is 0.095
+Only positive works
+round 910
+current s error is 0.094
+Only positive works
+round 911
+current s error is 0.094
+Only positive works
+round 913
+current s error is 0.093
+Only positive works
+round 917
+current s error is 0.092
+Only positive works
+round 918
+current s error is 0.091
+Only positive works
+round 919
+current s error is 0.09
+Only positive works
+round 920
+current s error is 0.093
+Only positive works
+round 921
+current s error is 0.094
+Only positive works
+round 922
+current s error is 0.095
+Only positive works
+round 923
+current s error is 0.096
+Only positive works
+round 924
+current s error is 0.095
+Only positive works
+round 925
+current s error is 0.097
+Only positive works
+round 927
+current s error is 0.097
+Only positive works
+round 928
+current s error is 0.098
+Only positive works
+round 931
+current s error is 0.096
+Only positive works
+round 932
+current s error is 0.097
+Only positive works
+round 933
+current s error is 0.098
+Only positive works
+round 936
+current s error is 0.099
+Only positive works
+round 937
+current s error is 0.1
+Only positive works
+round 938
+current s error is 0.099
+Only positive works
+round 939
+current s error is 0.098
+Only positive works
+round 943
+current s error is 0.099
+Only positive works
+round 946
+current s error is 0.099
+Only positive works
+round 947
+current s error is 0.098
+Only positive works
+round 948
+current s error is 0.098
+Only positive works
+round 952
+current s error is 0.099
+Only positive works
+round 954
+current s error is 0.097
+Only positive works
+round 957
+current s error is 0.098
+Only positive works
+round 963
+current s error is 0.097
+Only positive works
+round 965
+current s error is 0.095
+Only positive works
+round 967
+current s error is 0.095
+Only positive works
+round 968
+current s error is 0.098
+Only positive works
+round 969
+current s error is 0.098
+Only positive works
+round 970
+current s error is 0.098
+Only positive works
+round 971
+current s error is 0.094
+Only positive works
+round 972
+current s error is 0.095
+Only positive works
+round 974
+current s error is 0.092
+Only positive works
+round 976
+current s error is 0.094
+Only positive works
+round 977
+current s error is 0.092
+Only positive works
+round 981
+current s error is 0.091
+Only positive works
+round 985
+current s error is 0.093
+Only positive works
+round 987
+current s error is 0.091
+Only positive works
+round 988
+current s error is 0.092
+Only positive works
+round 989
+current s error is 0.094
+Only positive works
+round 990
+current s error is 0.097
+Only positive works
+round 992
+current s error is 0.099
+Only positive works
+round 993
+current s error is 0.094
+Only positive works
+round 995
+current s error is 0.095
+Only positive works
+round 997
+current s error is 0.093
+Only positive works
+round 998
+current s error is 0.094
+Only positive works
+round 999
+current s error is 0.097
+Only positive works
+round 1002
+current s error is 0.097
+Only positive works
+round 1004
+current s error is 0.098
+Only positive works
+round 1007
+current s error is 0.097
+Only positive works
+round 1008
+current s error is 0.093
+Only positive works
+round 1011
+current s error is 0.096
+Only positive works
+round 1012
+current s error is 0.095
+Only positive works
+round 1013
+current s error is 0.094
+Only positive works
+round 1015
+current s error is 0.096
+Only positive works
+round 1016
+current s error is 0.097
+Only positive works
+round 1018
+current s error is 0.092
+Only positive works
+round 1021
+current s error is 0.094
+Only positive works
+round 1022
+current s error is 0.096
+Only positive works
+round 1023
+current s error is 0.093
+Only positive works
+round 1024
+current s error is 0.096
+Only positive works
+round 1026
+current s error is 0.097
+Only positive works
+round 1028
+current s error is 0.097
+Only positive works
+round 1029
+current s error is 0.098
+Only positive works
+round 1030
+current s error is 0.098
+Only positive works
+round 1031
+current s error is 0.095
+Only positive works
+round 1034
+current s error is 0.097
+Only positive works
+round 1035
+current s error is 0.096
+Only positive works
+round 1036
+current s error is 0.096
+Only positive works
+round 1037
+current s error is 0.098
+Only positive works
+round 1039
+current s error is 0.097
+Only positive works
+round 1040
+current s error is 0.101
+Only positive works
+round 1042
+current s error is 0.102
+Only positive works
+round 1043
+current s error is 0.101
+Only positive works
+round 1045
+current s error is 0.1
+Only positive works
+round 1047
+current s error is 0.101
+Only positive works
+round 1048
+current s error is 0.099
+Only positive works
+round 1049
+current s error is 0.101
+Only positive works
+round 1053
+current s error is 0.101
+Only positive works
+round 1056
+current s error is 0.103
+Only positive works
+round 1057
+current s error is 0.101
+Only positive works
+round 1060
+current s error is 0.102
+Only positive works
+round 1061
+current s error is 0.102
+Only positive works
+round 1062
+current s error is 0.099
+Only positive works
+round 1065
+current s error is 0.101
+Only positive works
+round 1069
+current s error is 0.098
+Only positive works
+round 1070
+current s error is 0.097
+Only positive works
+round 1077
+current s error is 0.099
+Only positive works
+round 1078
+current s error is 0.101
+Only positive works
+round 1080
+current s error is 0.1
+Only positive works
+round 1082
+current s error is 0.098
+Only positive works
+round 1084
+current s error is 0.102
+Only positive works
+round 1085
+current s error is 0.102
+Only positive works
+round 1086
+current s error is 0.099
+Only positive works
+round 1087
+current s error is 0.098
+Only positive works
+round 1088
+current s error is 0.099
+Only positive works
+round 1090
+current s error is 0.097
+Only positive works
+round 1094
+current s error is 0.096
+Only positive works
+round 1095
+current s error is 0.098
+Only positive works
+round 1096
+current s error is 0.098
+Only positive works
+round 1097
+current s error is 0.097
+Only positive works
+round 1098
+current s error is 0.095
+Only positive works
+round 1101
+current s error is 0.097
+Only positive works
+round 1102
+current s error is 0.099
+Only positive works
+round 1103
+current s error is 0.098
+Only positive works
+round 1104
+current s error is 0.1
+Only positive works
+round 1105
+current s error is 0.1
+Only positive works
+round 1106
+current s error is 0.099
+Only positive works
+round 1107
+current s error is 0.1
+Only positive works
+round 1108
+current s error is 0.1
+Only positive works
+round 1109
+current s error is 0.097
+Only positive works
+round 1110
+current s error is 0.098
+Only positive works
+round 1111
+current s error is 0.1
+Only positive works
+round 1113
+current s error is 0.104
+Only positive works
+round 1114
+current s error is 0.103
+Only positive works
+round 1116
+current s error is 0.103
+Only positive works
+round 1117
+current s error is 0.101
+Only positive works
+round 1118
+current s error is 0.103
+Only positive works
+round 1119
+current s error is 0.103
+Only positive works
+round 1120
+current s error is 0.103
+Only positive works
+round 1121
+current s error is 0.106
+Only positive works
+round 1123
+current s error is 0.105
+Only positive works
+round 1127
+current s error is 0.104
+Only positive works
+round 1128
+current s error is 0.106
+Only positive works
+round 1130
+current s error is 0.104
+Only positive works
+round 1131
+current s error is 0.107
+Only positive works
+round 1132
+current s error is 0.108
+Only positive works
+round 1133
+current s error is 0.11
+Only positive works
+round 1135
+current s error is 0.107
+Only positive works
+round 1137
+current s error is 0.109
+Only positive works
+round 1138
+current s error is 0.11
+Only positive works
+round 1139
+current s error is 0.112
+Only positive works
+round 1144
+current s error is 0.114
+Only positive works
+round 1146
+current s error is 0.112
+Only positive works
+round 1147
+current s error is 0.111
+Only positive works
+round 1150
+current s error is 0.112
+Only positive works
+round 1151
+current s error is 0.114
+Only positive works
+round 1152
+current s error is 0.112
+Only positive works
+round 1153
+current s error is 0.115
+Only positive works
+round 1154
+current s error is 0.112
+Only positive works
+round 1157
+current s error is 0.113
+Only positive works
+round 1158
+current s error is 0.113
+Only positive works
+round 1161
+current s error is 0.114
+Only positive works
+round 1163
+current s error is 0.115
+Only positive works
+round 1164
+current s error is 0.115
+Only positive works
+round 1166
+current s error is 0.115
+Only positive works
+round 1167
+current s error is 0.112
+Only positive works
+round 1168
+current s error is 0.115
+Only positive works
+round 1169
+current s error is 0.113
+Only positive works
+round 1170
+current s error is 0.114
+Only positive works
+round 1171
+current s error is 0.114
+Only positive works
+round 1173
+current s error is 0.114
+Only positive works
+round 1174
+current s error is 0.114
+Only positive works
+round 1175
+current s error is 0.117
+Only positive works
+round 1177
+current s error is 0.118
+Only positive works
+round 1178
+current s error is 0.119
+Only positive works
+round 1181
+current s error is 0.116
+Only positive works
+round 1183
+current s error is 0.122
+Only positive works
+round 1185
+current s error is 0.121
+Only positive works
+round 1186
+current s error is 0.121
+Only positive works
+round 1188
+current s error is 0.117
+Only positive works
+round 1191
+current s error is 0.12
+Only positive works
+round 1192
+current s error is 0.12
+Only positive works
+round 1195
+current s error is 0.116
+Only positive works
+round 1196
+current s error is 0.116
+Only positive works
+round 1198
+current s error is 0.116
+Only positive works
+round 1201
+current s error is 0.114
+Only positive works
+round 1202
+current s error is 0.115
+Only positive works
+round 1203
+current s error is 0.117
+Only positive works
+round 1204
+current s error is 0.115
+Only positive works
+round 1205
+current s error is 0.118
+Only positive works
+round 1206
+current s error is 0.119
+Only positive works
+round 1207
+current s error is 0.119
+Only positive works
+round 1208
+current s error is 0.121
+Only positive works
+round 1210
+current s error is 0.121
+Only positive works
+round 1212
+current s error is 0.121
+Only positive works
+round 1213
+current s error is 0.123
+Only positive works
+round 1214
+current s error is 0.121
+Only positive works
+round 1215
+current s error is 0.121
+Only positive works
+round 1216
+current s error is 0.12
+Only positive works
+round 1217
+current s error is 0.121
+Only positive works
+round 1219
+current s error is 0.123
+Only positive works
+round 1220
+current s error is 0.122
+Only positive works
+round 1223
+current s error is 0.125
+Only positive works
+round 1225
+current s error is 0.124
+Only positive works
+round 1226
+current s error is 0.123
+Only positive works
+round 1227
+current s error is 0.124
+Only positive works
+round 1228
+current s error is 0.121
+Only positive works
+round 1229
+current s error is 0.121
+Only positive works
+round 1232
+current s error is 0.122
+Only positive works
+round 1233
+current s error is 0.121
+Only positive works
+round 1234
+current s error is 0.122
+Only positive works
+round 1236
+current s error is 0.121
+Only positive works
+round 1237
+current s error is 0.126
+Only positive works
+round 1238
+current s error is 0.125
+Only positive works
+round 1242
+current s error is 0.124
+Only positive works
+round 1243
+current s error is 0.128
+Only positive works
+round 1244
+current s error is 0.125
+Only positive works
+round 1245
+current s error is 0.123
+Only positive works
+round 1246
+current s error is 0.126
+Only positive works
+round 1247
+current s error is 0.126
+Only positive works
+round 1248
+current s error is 0.129
+Only positive works
+round 1249
+current s error is 0.133
+Only positive works
+round 1250
+current s error is 0.13
+Only positive works
+round 1252
+current s error is 0.128
+Only positive works
+round 1253
+current s error is 0.129
+Only positive works
+round 1255
+current s error is 0.131
+Only positive works
+round 1256
+current s error is 0.131
+Only positive works
+round 1257
+current s error is 0.131
+Only positive works
+round 1258
+current s error is 0.129
+Only positive works
+round 1259
+current s error is 0.132
+Only positive works
+round 1262
+current s error is 0.131
+Only positive works
+round 1263
+current s error is 0.134
+Only positive works
+round 1267
+current s error is 0.133
+Only positive works
+round 1269
+current s error is 0.134
+Only positive works
+round 1270
+current s error is 0.136
+Only positive works
+round 1271
+current s error is 0.135
+Only positive works
+round 1273
+current s error is 0.141
+Only positive works
+round 1274
+current s error is 0.14
+Only positive works
+round 1276
+current s error is 0.139
+Only positive works
+round 1277
+current s error is 0.14
+Only positive works
+round 1278
+current s error is 0.142
+Only positive works
+round 1279
+current s error is 0.14
+Only positive works
+round 1280
+current s error is 0.14
+Only positive works
+round 1281
+current s error is 0.143
+Only positive works
+round 1283
+current s error is 0.139
+Only positive works
+round 1284
+current s error is 0.138
+Only positive works
+round 1286
+current s error is 0.145
+Only positive works
+round 1287
+current s error is 0.141
+Only positive works
+round 1289
+current s error is 0.141
+Only positive works
+round 1293
+current s error is 0.144
+Only positive works
+round 1294
+current s error is 0.142
+Only positive works
+round 1295
+current s error is 0.142
+Only positive works
+round 1296
+current s error is 0.144
+Only positive works
+round 1298
+current s error is 0.145
+Only positive works
+round 1299
+current s error is 0.143
+Only positive works
+round 1300
+current s error is 0.148
+Only positive works
+round 1302
+current s error is 0.145
+Only positive works
+round 1303
+current s error is 0.147
+Only positive works
+round 1304
+current s error is 0.147
+Only positive works
+round 1305
+current s error is 0.147
+Only positive works
+round 1308
+current s error is 0.148
+Only positive works
+round 1309
+current s error is 0.147
+Only positive works
+round 1310
+current s error is 0.148
+Only positive works
+round 1313
+current s error is 0.147
+Only positive works
+round 1314
+current s error is 0.148
+Only positive works
+round 1315
+current s error is 0.151
+Only positive works
+round 1318
+current s error is 0.154
+Only positive works
+round 1321
+current s error is 0.155
+Only positive works
+round 1322
+current s error is 0.153
+Only positive works
+round 1323
+current s error is 0.152
+Only positive works
+round 1324
+current s error is 0.153
+Only positive works
+round 1326
+current s error is 0.153
+Only positive works
+round 1328
+current s error is 0.158
+Only positive works
+round 1329
+current s error is 0.154
+Only positive works
+round 1330
+current s error is 0.155
+Only positive works
+round 1331
+current s error is 0.155
+Only positive works
+round 1335
+current s error is 0.15
+Only positive works
+round 1337
+current s error is 0.153
+Only positive works
+round 1338
+current s error is 0.15
+Only positive works
+round 1342
+current s error is 0.156
+Only positive works
+round 1343
+current s error is 0.156
+Only positive works
+round 1344
+current s error is 0.153
+Only positive works
+round 1345
+current s error is 0.158
+Only positive works
+round 1346
+current s error is 0.16
+Only positive works
+round 1348
+current s error is 0.161
+Only positive works
+round 1350
+current s error is 0.161
+Only positive works
+round 1351
+current s error is 0.158
+Only positive works
+round 1352
+current s error is 0.16
+Only positive works
+round 1353
+current s error is 0.16
+Only positive works
+round 1354
+current s error is 0.163
+Only positive works
+round 1356
+current s error is 0.162
+Only positive works
+round 1357
+current s error is 0.162
+Only positive works
+round 1358
+current s error is 0.16
+Only positive works
+round 1359
+current s error is 0.159
+Only positive works
+round 1360
+current s error is 0.161
+Only positive works
+round 1361
+current s error is 0.163
+Only positive works
+round 1362
+current s error is 0.162
+Only positive works
+round 1363
+current s error is 0.162
+Only positive works
+round 1365
+current s error is 0.162
+Only positive works
+round 1366
+current s error is 0.164
+Only positive works
+round 1367
+current s error is 0.164
+Only positive works
+round 1368
+current s error is 0.167
+Only positive works
+round 1370
+current s error is 0.167
+Only positive works
+round 1372
+current s error is 0.164
+Only positive works
+round 1373
+current s error is 0.162
+Only positive works
+round 1376
+current s error is 0.164
+Only positive works
+round 1379
+current s error is 0.164
+Only positive works
+round 1380
+current s error is 0.167
+Only positive works
+round 1381
+current s error is 0.167
+Only positive works
+round 1383
+current s error is 0.169
+Only positive works
+round 1384
+current s error is 0.166
+Only positive works
+round 1385
+current s error is 0.168
+Only positive works
+round 1388
+current s error is 0.168
+Only positive works
+round 1390
+current s error is 0.171
+Only positive works
+round 1392
+current s error is 0.173
+Only positive works
+round 1394
+current s error is 0.172
+Only positive works
+round 1397
+current s error is 0.176
+Only positive works
+round 1398
+current s error is 0.176
+Only positive works
+round 1399
+current s error is 0.178
+Only positive works
+round 1401
+current s error is 0.176
+Only positive works
+round 1402
+current s error is 0.183
+Only positive works
+round 1403
+current s error is 0.184
+Only positive works
+round 1405
+current s error is 0.185
+Only positive works
+round 1407
+current s error is 0.185
+Only positive works
+round 1408
+current s error is 0.185
+Only positive works
+round 1409
+current s error is 0.18
+Only positive works
+round 1411
+current s error is 0.181
+Only positive works
+round 1413
+current s error is 0.183
+Only positive works
+round 1414
+current s error is 0.179
+Only positive works
+round 1415
+current s error is 0.182
+Only positive works
+round 1416
+current s error is 0.179
+Only positive works
+round 1418
+current s error is 0.178
+Only positive works
+round 1419
+current s error is 0.18
+Only positive works
+round 1420
+current s error is 0.181
+Only positive works
+round 1423
+current s error is 0.179
+Only positive works
+round 1424
+current s error is 0.185
+Only positive works
+round 1425
+current s error is 0.182
+Only positive works
+round 1426
+current s error is 0.181
+Only positive works
+round 1429
+current s error is 0.179
+Only positive works
+round 1430
+current s error is 0.179
+Only positive works
+round 1431
+current s error is 0.179
+Only positive works
+round 1433
+current s error is 0.177
+Only positive works
+round 1434
+current s error is 0.176
+Only positive works
+round 1435
+current s error is 0.176
+Only positive works
+round 1436
+current s error is 0.177
+Only positive works
+round 1437
+current s error is 0.176
+Only positive works
+round 1439
+current s error is 0.174
+Only positive works
+round 1440
+current s error is 0.179
+Only positive works
+round 1441
+current s error is 0.181
+Only positive works
+round 1443
+current s error is 0.18
+Only positive works
+round 1444
+current s error is 0.18
+Only positive works
+round 1446
+current s error is 0.18
+Only positive works
+round 1448
+current s error is 0.181
+Only positive works
+round 1450
+current s error is 0.186
+Only positive works
+round 1452
+current s error is 0.181
+Only positive works
+round 1455
+current s error is 0.182
+Only positive works
+round 1456
+current s error is 0.182
+Only positive works
+round 1458
+current s error is 0.181
+Only positive works
+round 1460
+current s error is 0.183
+Only positive works
+round 1461
+current s error is 0.179
+Only positive works
+round 1462
+current s error is 0.179
+Only positive works
+round 1463
+current s error is 0.178
+Only positive works
+round 1465
+current s error is 0.176
+Only positive works
+round 1466
+current s error is 0.177
+Only positive works
+round 1468
+current s error is 0.18
+Only positive works
+round 1469
+current s error is 0.18
+Only positive works
+round 1472
+current s error is 0.177
+Only positive works
+round 1473
+current s error is 0.179
+Only positive works
+round 1474
+current s error is 0.176
+Only positive works
+round 1480
+current s error is 0.181
+Only positive works
+round 1481
+current s error is 0.18
+Only positive works
+round 1482
+current s error is 0.18
+Only positive works
+round 1486
+current s error is 0.18
+Only positive works
+round 1487
+current s error is 0.182
+Only positive works
+round 1488
+current s error is 0.18
+Only positive works
+round 1490
+current s error is 0.179
+Only positive works
+round 1493
+current s error is 0.182
+Only positive works
+round 1494
+current s error is 0.178
+Only positive works
+round 1495
+current s error is 0.18
+Only positive works
+round 1496
+current s error is 0.181
+Only positive works
+round 1497
+current s error is 0.182
+Only positive works
+round 1498
+current s error is 0.182
+Only positive works
+round 1499
+current s error is 0.184
+Only positive works
+round 1500
+current s error is 0.182
+Only positive works
+round 1501
+current s error is 0.18
+Only positive works
+round 1503
+current s error is 0.179
+Only positive works
+round 1505
+current s error is 0.181
+Only positive works
+round 1506
+current s error is 0.182
+Only positive works
+round 1508
+current s error is 0.182
+Only positive works
+round 1509
+current s error is 0.179
+Only positive works
+round 1512
+current s error is 0.188
+Only positive works
+round 1513
+current s error is 0.188
+Only positive works
+round 1514
+current s error is 0.189
+Only positive works
+round 1515
+current s error is 0.19
+Only positive works
+round 1517
+current s error is 0.19
+Only positive works
+round 1518
+current s error is 0.188
+Only positive works
+round 1519
+current s error is 0.19
+Only positive works
+round 1520
+current s error is 0.192
+Only positive works
+round 1521
+current s error is 0.191
+Only positive works
+round 1523
+current s error is 0.192
+Only positive works
+round 1524
+current s error is 0.189
+Only positive works
+round 1525
+current s error is 0.187
+Only positive works
+round 1527
+current s error is 0.187
+Only positive works
+round 1528
+current s error is 0.191
+Only positive works
+round 1529
+current s error is 0.191
+Only positive works
+round 1530
+current s error is 0.189
+Only positive works
+round 1531
+current s error is 0.191
+Only positive works
+round 1536
+current s error is 0.194
+Only positive works
+round 1537
+current s error is 0.196
+Only positive works
+round 1538
+current s error is 0.194
+Only positive works
+round 1539
+current s error is 0.195
+Only positive works
+round 1541
+current s error is 0.191
+Only positive works
+round 1542
+current s error is 0.191
+Only positive works
+round 1550
+current s error is 0.194
+Only positive works
+round 1551
+current s error is 0.197
+Only positive works
+round 1552
+current s error is 0.194
+Only positive works
+round 1553
+current s error is 0.19
+Only positive works
+round 1554
+current s error is 0.192
+Only positive works
+round 1558
+current s error is 0.195
+Only positive works
+round 1559
+current s error is 0.195
+Only positive works
+round 1561
+current s error is 0.194
+Only positive works
+round 1562
+current s error is 0.196
+Only positive works
+round 1565
+current s error is 0.197
+Only positive works
+round 1567
+current s error is 0.197
+Only positive works
+round 1570
+current s error is 0.192
+Only positive works
+round 1571
+current s error is 0.19
+Only positive works
+round 1572
+current s error is 0.191
+Only positive works
+round 1573
+current s error is 0.191
+Only positive works
+round 1575
+current s error is 0.196
+Only positive works
+round 1576
+current s error is 0.198
+Only positive works
+round 1577
+current s error is 0.201
+Only positive works
+round 1578
+current s error is 0.2
+Only positive works
+round 1580
+current s error is 0.201
+Only positive works
+round 1581
+current s error is 0.203
+Only positive works
+round 1582
+current s error is 0.206
+Only positive works
+round 1583
+current s error is 0.205
+Only positive works
+round 1584
+current s error is 0.204
+Only positive works
+round 1585
+current s error is 0.202
+Only positive works
+round 1586
+current s error is 0.207
+Only positive works
+round 1587
+current s error is 0.204
+Only positive works
+round 1589
+current s error is 0.204
+Only positive works
+round 1591
+current s error is 0.201
+Only positive works
+round 1592
+current s error is 0.201
+Only positive works
+round 1593
+current s error is 0.203
+Only positive works
+round 1594
+current s error is 0.202
+Only positive works
+round 1595
+current s error is 0.204
+Only positive works
+round 1598
+current s error is 0.204
+Only positive works
+round 1599
+current s error is 0.199
+Only positive works
+round 1602
+current s error is 0.199
+Only positive works
+round 1603
+current s error is 0.198
+Only positive works
+round 1605
+current s error is 0.199
+Only positive works
+round 1606
+current s error is 0.203
+Only positive works
+round 1608
+current s error is 0.203
+Only positive works
+round 1609
+current s error is 0.202
+Only positive works
+round 1616
+current s error is 0.204
+Only positive works
+round 1619
+current s error is 0.203
+Only positive works
+round 1622
+current s error is 0.203
+Only positive works
+round 1623
+current s error is 0.205
+Only positive works
+round 1624
+current s error is 0.206
+Only positive works
+round 1625
+current s error is 0.204
+Only positive works
+round 1626
+current s error is 0.203
+Only positive works
+round 1627
+current s error is 0.209
+Only positive works
+round 1628
+current s error is 0.208
+Only positive works
+round 1632
+current s error is 0.21
+Only positive works
+round 1635
+current s error is 0.215
+Only positive works
+round 1636
+current s error is 0.212
+Only positive works
+round 1638
+current s error is 0.212
+Only positive works
+round 1640
+current s error is 0.216
+Only positive works
+round 1641
+current s error is 0.213
+Only positive works
+round 1642
+current s error is 0.219
+Only positive works
+round 1644
+current s error is 0.214
+Only positive works
+round 1645
+current s error is 0.214
+Only positive works
+round 1646
+current s error is 0.21
+Only positive works
+round 1647
+current s error is 0.212
+Only positive works
+round 1648
+current s error is 0.214
+Only positive works
+round 1650
+current s error is 0.213
+Only positive works
+round 1651
+current s error is 0.213
+Only positive works
+round 1652
+current s error is 0.215
+Only positive works
+round 1653
+current s error is 0.216
+Only positive works
+round 1654
+current s error is 0.212
+Only positive works
+round 1655
+current s error is 0.216
+Only positive works
+round 1656
+current s error is 0.215
+Only positive works
+round 1657
+current s error is 0.217
+Only positive works
+round 1658
+current s error is 0.214
+Only positive works
+round 1659
+current s error is 0.214
+Only positive works
+round 1662
+current s error is 0.212
+Only positive works
+round 1663
+current s error is 0.214
+Only positive works
+round 1664
+current s error is 0.217
+Only positive works
+round 1666
+current s error is 0.22
+Only positive works
+round 1667
+current s error is 0.221
+Only positive works
+round 1668
+current s error is 0.216
+Only positive works
+round 1669
+current s error is 0.22
+Only positive works
+round 1670
+current s error is 0.219
+Only positive works
+round 1671
+current s error is 0.217
+Only positive works
+round 1672
+current s error is 0.219
+Only positive works
+round 1673
+current s error is 0.222
+Only positive works
+round 1674
+current s error is 0.219
+Only positive works
+round 1677
+current s error is 0.221
+Only positive works
+round 1679
+current s error is 0.222
+Only positive works
+round 1680
+current s error is 0.223
+Only positive works
+round 1684
+current s error is 0.224
+Only positive works
+round 1685
+current s error is 0.225
+Only positive works
+round 1686
+current s error is 0.225
+Only positive works
+round 1688
+current s error is 0.225
+Only positive works
+round 1690
+current s error is 0.226
+Only positive works
+round 1691
+current s error is 0.225
+Only positive works
+round 1692
+current s error is 0.224
+Only positive works
+round 1693
+current s error is 0.222
+Only positive works
+round 1696
+current s error is 0.224
+Only positive works
+round 1698
+current s error is 0.219
+Only positive works
+round 1700
+current s error is 0.221
+Only positive works
+round 1706
+current s error is 0.22
+Only positive works
+round 1709
+current s error is 0.218
+Only positive works
+round 1710
+current s error is 0.221
+Only positive works
+round 1712
+current s error is 0.223
+Only positive works
+round 1715
+current s error is 0.225
+Only positive works
+round 1716
+current s error is 0.225
+Only positive works
+round 1717
+current s error is 0.224
+Only positive works
+round 1718
+current s error is 0.225
+Only positive works
+round 1719
+current s error is 0.227
+Only positive works
+round 1721
+current s error is 0.226
+Only positive works
+round 1722
+current s error is 0.23
+Only positive works
+round 1723
+current s error is 0.231
+Only positive works
+round 1724
+current s error is 0.232
+Only positive works
+round 1725
+current s error is 0.232
+Only positive works
+round 1726
+current s error is 0.234
+Only positive works
+round 1728
+current s error is 0.232
+Only positive works
+round 1730
+current s error is 0.233
+Only positive works
+round 1731
+current s error is 0.23
+Only positive works
+round 1732
+current s error is 0.234
+Only positive works
+round 1733
+current s error is 0.233
+Only positive works
+round 1734
+current s error is 0.233
+Only positive works
+round 1735
+current s error is 0.228
+Only positive works
+round 1736
+current s error is 0.234
+Only positive works
+round 1738
+current s error is 0.236
+Only positive works
+round 1739
+current s error is 0.238
+Only positive works
+round 1740
+current s error is 0.237
+Only positive works
+round 1741
+current s error is 0.238
+Only positive works
+round 1743
+current s error is 0.236
+Only positive works
+round 1744
+current s error is 0.234
+Only positive works
+round 1753
+current s error is 0.233
+Only positive works
+round 1754
+current s error is 0.235
+Only positive works
+round 1755
+current s error is 0.233
+Only positive works
+round 1758
+current s error is 0.233
+Only positive works
+round 1759
+current s error is 0.232
+Only positive works
+round 1760
+current s error is 0.236
+Only positive works
+round 1762
+current s error is 0.235
+Only positive works
+round 1763
+current s error is 0.23
+Only positive works
+round 1764
+current s error is 0.234
+Only positive works
+round 1765
+current s error is 0.234
+Only positive works
+round 1766
+current s error is 0.235
+Only positive works
+round 1770
+current s error is 0.236
+Only positive works
+round 1771
+current s error is 0.24
+Only positive works
+round 1775
+current s error is 0.242
+Only positive works
+round 1776
+current s error is 0.242
+Only positive works
+round 1779
+current s error is 0.245
+Only positive works
+round 1780
+current s error is 0.244
+Only positive works
+round 1781
+current s error is 0.243
+Only positive works
+round 1784
+current s error is 0.248
+Only positive works
+round 1785
+current s error is 0.244
+Only positive works
+round 1786
+current s error is 0.242
+Only positive works
+round 1788
+current s error is 0.241
+Only positive works
+round 1789
+current s error is 0.242
+Only positive works
+round 1790
+current s error is 0.242
+Only positive works
+round 1791
+current s error is 0.241
+Only positive works
+round 1792
+current s error is 0.247
+Only positive works
+round 1793
+current s error is 0.245
+Only positive works
+round 1794
+current s error is 0.248
+Only positive works
+round 1795
+current s error is 0.246
+Only positive works
+round 1796
+current s error is 0.247
+Only positive works
+round 1797
+current s error is 0.248
+Only positive works
+round 1798
+current s error is 0.249
+Only positive works
+round 1800
+current s error is 0.247
+Only positive works
+round 1801
+current s error is 0.247
+Only positive works
+round 1802
+current s error is 0.249
+Only positive works
+round 1806
+current s error is 0.248
+Only positive works
+round 1807
+current s error is 0.252
+Only positive works
+round 1808
+current s error is 0.249
+Only positive works
+round 1809
+current s error is 0.247
+Only positive works
+round 1810
+current s error is 0.251
+Only positive works
+round 1811
+current s error is 0.247
+Only positive works
+round 1813
+current s error is 0.249
+Only positive works
+round 1814
+current s error is 0.249
+Only positive works
+round 1815
+current s error is 0.253
+Only positive works
+round 1817
+current s error is 0.253
+Only positive works
+round 1818
+current s error is 0.256
+Only positive works
+round 1819
+current s error is 0.254
+Only positive works
+round 1820
+current s error is 0.253
+Only positive works
+round 1821
+current s error is 0.253
+Only positive works
+round 1822
+current s error is 0.249
+Only positive works
+round 1823
+current s error is 0.254
+Only positive works
+round 1824
+current s error is 0.253
+Only positive works
+round 1825
+current s error is 0.255
+Only positive works
+round 1827
+current s error is 0.26
+Only positive works
+round 1828
+current s error is 0.261
+Only positive works
+round 1829
+current s error is 0.257
+Only positive works
+round 1830
+current s error is 0.255
+Only positive works
+round 1832
+current s error is 0.254
+Only positive works
+round 1834
+current s error is 0.253
+Only positive works
+round 1836
+current s error is 0.254
+Only positive works
+round 1840
+current s error is 0.257
+Only positive works
+round 1841
+current s error is 0.253
+Only positive works
+round 1846
+current s error is 0.252
+Only positive works
+round 1847
+current s error is 0.252
+Only positive works
+round 1848
+current s error is 0.253
+Only positive works
+round 1851
+current s error is 0.251
+Only positive works
+round 1853
+current s error is 0.254
+Only positive works
+round 1855
+current s error is 0.255
+Only positive works
+round 1857
+current s error is 0.255
+Only positive works
+round 1858
+current s error is 0.256
+Only positive works
+round 1860
+current s error is 0.258
+Only positive works
+round 1862
+current s error is 0.258
+Only positive works
+round 1865
+current s error is 0.259
+Only positive works
+round 1866
+current s error is 0.264
+Only positive works
+round 1868
+current s error is 0.262
+Only positive works
+round 1869
+current s error is 0.262
+Only positive works
+round 1873
+current s error is 0.259
+Only positive works
+round 1874
+current s error is 0.26
+Only positive works
+round 1875
+current s error is 0.26
+Only positive works
+round 1877
+current s error is 0.263
+Only positive works
+round 1879
+current s error is 0.259
+Only positive works
+round 1880
+current s error is 0.264
+Only positive works
+round 1882
+current s error is 0.264
+Only positive works
+round 1884
+current s error is 0.265
+Only positive works
+round 1886
+current s error is 0.266
+Only positive works
+round 1887
+current s error is 0.268
+Only positive works
+round 1889
+current s error is 0.27
+Only positive works
+round 1890
+current s error is 0.268
+Only positive works
+round 1891
+current s error is 0.27
+Only positive works
+round 1892
+current s error is 0.271
+Only positive works
+round 1894
+current s error is 0.264
+Only positive works
+round 1897
+current s error is 0.269
+Only positive works
+round 1898
+current s error is 0.266
+Only positive works
+round 1899
+current s error is 0.265
+Only positive works
+round 1901
+current s error is 0.261
+Only positive works
+round 1903
+current s error is 0.257
+Only positive works
+round 1904
+current s error is 0.264
+Only positive works
+round 1907
+current s error is 0.267
+Only positive works
+round 1909
+current s error is 0.27
+Only positive works
+round 1910
+current s error is 0.27
+Only positive works
+round 1911
+current s error is 0.27
+Only positive works
+round 1913
+current s error is 0.272
+Only positive works
+round 1914
+current s error is 0.268
+Only positive works
+round 1915
+current s error is 0.266
+Only positive works
+round 1916
+current s error is 0.266
+Only positive works
+round 1917
+current s error is 0.265
+Only positive works
+round 1918
+current s error is 0.265
+Only positive works
+round 1919
+current s error is 0.262
+Only positive works
+round 1924
+current s error is 0.264
+Only positive works
+round 1925
+current s error is 0.265
+Only positive works
+round 1926
+current s error is 0.266
+Only positive works
+round 1927
+current s error is 0.263
+Only positive works
+round 1930
+current s error is 0.266
+Only positive works
+round 1931
+current s error is 0.267
+Only positive works
+round 1933
+current s error is 0.266
+Only positive works
+round 1934
+current s error is 0.265
+Only positive works
+round 1935
+current s error is 0.266
+Only positive works
+round 1936
+current s error is 0.271
+Only positive works
+round 1937
+current s error is 0.273
+Only positive works
+round 1938
+current s error is 0.273
+Only positive works
+round 1940
+current s error is 0.275
+Only positive works
+round 1942
+current s error is 0.272
+Only positive works
+round 1943
+current s error is 0.273
+Only positive works
+round 1947
+current s error is 0.272
+Only positive works
+round 1948
+current s error is 0.268
+Only positive works
+round 1949
+current s error is 0.272
+Only positive works
+round 1950
+current s error is 0.272
+Only positive works
+round 1953
+current s error is 0.267
+Only positive works
+round 1956
+current s error is 0.269
+Only positive works
+round 1957
+current s error is 0.273
+Only positive works
+round 1959
+current s error is 0.27
+Only positive works
+round 1961
+current s error is 0.271
+Only positive works
+round 1963
+current s error is 0.272
+Only positive works
+round 1964
+current s error is 0.275
+Only positive works
+round 1966
+current s error is 0.273
+Only positive works
+round 1967
+current s error is 0.273
+Only positive works
+round 1968
+current s error is 0.271
+Only positive works
+round 1969
+current s error is 0.27
+Only positive works
+round 1970
+current s error is 0.27
+Only positive works
+round 1973
+current s error is 0.275
+Only positive works
+round 1974
+current s error is 0.277
+Only positive works
+round 1977
+current s error is 0.275
+Only positive works
+round 1978
+current s error is 0.274
+Only positive works
+round 1981
+current s error is 0.273
+Only positive works
+round 1982
+current s error is 0.273
+Only positive works
+round 1983
+current s error is 0.27
+Only positive works
+round 1984
+current s error is 0.27
+Only positive works
+round 1989
+current s error is 0.271
+Only positive works
+round 1991
+current s error is 0.273
+Only positive works
+round 1992
+current s error is 0.272
+Only positive works
+round 1993
+current s error is 0.27
+Only positive works
+round 1995
+current s error is 0.27
+Only positive works
+round 2000
+current s error is 0.271
+Only positive works
+round 2001
+current s error is 0.276
+Only positive works
+round 2003
+current s error is 0.281
+Only positive works
+round 2004
+current s error is 0.279
+Only positive works
+round 2005
+current s error is 0.274
+Only positive works
+round 2007
+current s error is 0.274
+Only positive works
+round 2012
+current s error is 0.278
+Only positive works
+round 2013
+current s error is 0.278
+Only positive works
+round 2014
+current s error is 0.282
+Only positive works
+round 2015
+current s error is 0.286
+Only positive works
+round 2018
+current s error is 0.28
+Only positive works
+round 2019
+current s error is 0.28
+Only positive works
+round 2022
+current s error is 0.277
+Only positive works
+round 2025
+current s error is 0.286
+Only positive works
+round 2026
+current s error is 0.284
+Only positive works
+round 2027
+current s error is 0.284
+Only positive works
+round 2028
+current s error is 0.285
+Only positive works
+round 2033
+current s error is 0.283
+Only positive works
+round 2034
+current s error is 0.283
+Only positive works
+round 2035
+current s error is 0.282
+Only positive works
+round 2037
+current s error is 0.286
+Only positive works
+round 2038
+current s error is 0.288
+Only positive works
+round 2039
+current s error is 0.287
+Only positive works
+round 2040
+current s error is 0.287
+Only positive works
+round 2041
+current s error is 0.289
+Only positive works
+round 2043
+current s error is 0.289
+Only positive works
+round 2044
+current s error is 0.287
+Only positive works
+round 2047
+current s error is 0.29
+Only positive works
+round 2049
+current s error is 0.287
+Only positive works
+round 2052
+current s error is 0.287
+Only positive works
+round 2053
+current s error is 0.289
+Only positive works
+round 2057
+current s error is 0.289
+Only positive works
+round 2060
+current s error is 0.293
+Only positive works
+round 2061
+current s error is 0.288
+Only positive works
+round 2063
+current s error is 0.293
+Only positive works
+round 2064
+current s error is 0.293
+Only positive works
+round 2065
+current s error is 0.295
+Only positive works
+round 2067
+current s error is 0.291
+Only positive works
+round 2071
+current s error is 0.288
+Only positive works
+round 2072
+current s error is 0.289
+Only positive works
+round 2074
+current s error is 0.292
+Only positive works
+round 2076
+current s error is 0.287
+Only positive works
+round 2077
+current s error is 0.293
+Only positive works
+round 2079
+current s error is 0.294
+Only positive works
+round 2080
+current s error is 0.293
+Only positive works
+round 2081
+current s error is 0.292
+Only positive works
+round 2083
+current s error is 0.291
+Only positive works
+round 2086
+current s error is 0.291
+Only positive works
+round 2088
+current s error is 0.296
+Only positive works
+round 2089
+current s error is 0.294
+Only positive works
+round 2091
+current s error is 0.295
+Only positive works
+round 2092
+current s error is 0.293
+Only positive works
+round 2094
+current s error is 0.295
+Only positive works
+round 2096
+current s error is 0.294
+Only positive works
+round 2098
+current s error is 0.298
+Only positive works
+round 2101
+current s error is 0.296
+Only positive works
+round 2102
+current s error is 0.296
+Only positive works
+round 2105
+current s error is 0.296
+Only positive works
+round 2106
+current s error is 0.296
+Only positive works
+round 2107
+current s error is 0.297
+Only positive works
+round 2109
+current s error is 0.298
+Only positive works
+round 2112
+current s error is 0.3
+Only positive works
+round 2113
+current s error is 0.297
+Only positive works
+round 2114
+current s error is 0.297
+Only positive works
+round 2115
+current s error is 0.299
+Only positive works
+round 2116
+current s error is 0.299
+Only positive works
+round 2117
+current s error is 0.298
+Only positive works
+round 2119
+current s error is 0.297
+Only positive works
+round 2120
+current s error is 0.3
+Only positive works
+round 2125
+current s error is 0.299
+Only positive works
+round 2126
+current s error is 0.3
+Only positive works
+round 2127
+current s error is 0.301
+Only positive works
+round 2128
+current s error is 0.299
+Only positive works
+round 2133
+current s error is 0.302
+Only positive works
+round 2134
+current s error is 0.302
+Only positive works
+round 2136
+current s error is 0.302
+Only positive works
+round 2137
+current s error is 0.301
+Only positive works
+round 2139
+current s error is 0.303
+Only positive works
+round 2140
+current s error is 0.302
+Only positive works
+round 2141
+current s error is 0.3
+Only positive works
+round 2143
+current s error is 0.306
+Only positive works
+round 2144
+current s error is 0.304
+Only positive works
+round 2146
+current s error is 0.306
+Only positive works
+round 2147
+current s error is 0.304
+Only positive works
+round 2148
+current s error is 0.308
+Only positive works
+round 2152
+current s error is 0.305
+Only positive works
+round 2153
+current s error is 0.303
+Only positive works
+round 2154
+current s error is 0.309
+Only positive works
+round 2156
+current s error is 0.309
+Only positive works
+round 2157
+current s error is 0.304
+Only positive works
+round 2159
+current s error is 0.303
+Only positive works
+round 2160
+current s error is 0.305
+Only positive works
+round 2161
+current s error is 0.305
+Only positive works
+round 2162
+current s error is 0.311
+Only positive works
+round 2163
+current s error is 0.312
+Only positive works
+round 2164
+current s error is 0.306
+Only positive works
+round 2165
+current s error is 0.303
+Only positive works
+round 2166
+current s error is 0.308
+Only positive works
+round 2167
+current s error is 0.303
+Only positive works
+round 2168
+current s error is 0.306
+Only positive works
+round 2169
+current s error is 0.304
+Only positive works
+round 2171
+current s error is 0.306
+Only positive works
+round 2172
+current s error is 0.308
+Only positive works
+round 2175
+current s error is 0.305
+Only positive works
+round 2176
+current s error is 0.309
+Only positive works
+round 2180
+current s error is 0.306
+Only positive works
+round 2181
+current s error is 0.305
+Only positive works
+round 2182
+current s error is 0.311
+Only positive works
+round 2184
+current s error is 0.312
+Only positive works
+round 2189
+current s error is 0.312
+Only positive works
+round 2191
+current s error is 0.312
+Only positive works
+round 2192
+current s error is 0.31
+Only positive works
+round 2196
+current s error is 0.311
+Only positive works
+round 2199
+current s error is 0.308
+Only positive works
+round 2200
+current s error is 0.304
+Only positive works
+round 2201
+current s error is 0.308
+Only positive works
+round 2203
+current s error is 0.31
+Only positive works
+round 2205
+current s error is 0.307
+Only positive works
+round 2206
+current s error is 0.31
+Only positive works
+round 2207
+current s error is 0.311
+Only positive works
+round 2210
+current s error is 0.309
+Only positive works
+round 2211
+current s error is 0.308
+Only positive works
+round 2213
+current s error is 0.308
+Only positive works
+round 2214
+current s error is 0.314
+Only positive works
+round 2216
+current s error is 0.311
+Only positive works
+round 2217
+current s error is 0.31
+Only positive works
+round 2218
+current s error is 0.308
+Only positive works
+round 2219
+current s error is 0.309
+Only positive works
+round 2222
+current s error is 0.31
+Only positive works
+round 2223
+current s error is 0.312
+Only positive works
+round 2224
+current s error is 0.312
+Only positive works
+round 2225
+current s error is 0.313
+Only positive works
+round 2226
+current s error is 0.316
+Only positive works
+round 2227
+current s error is 0.319
+Only positive works
+round 2228
+current s error is 0.32
+Only positive works
+round 2229
+current s error is 0.32
+Only positive works
+round 2230
+current s error is 0.317
+Only positive works
+round 2231
+current s error is 0.322
+Only positive works
+round 2232
+current s error is 0.326
+Only positive works
+round 2233
+current s error is 0.327
+Only positive works
+round 2234
+current s error is 0.325
+Only positive works
+round 2235
+current s error is 0.325
+Only positive works
+round 2236
+current s error is 0.327
+Only positive works
+round 2237
+current s error is 0.322
+Only positive works
+round 2238
+current s error is 0.322
+Only positive works
+round 2239
+current s error is 0.325
+Only positive works
+round 2243
+current s error is 0.33
+Only positive works
+round 2244
+current s error is 0.329
+Only positive works
+round 2245
+current s error is 0.335
+Only positive works
+round 2248
+current s error is 0.33
+Only positive works
+round 2249
+current s error is 0.328
+Only positive works
+round 2250
+current s error is 0.327
+Only positive works
+round 2251
+current s error is 0.332
+Only positive works
+round 2252
+current s error is 0.332
+Only positive works
+round 2253
+current s error is 0.328
+Only positive works
+round 2254
+current s error is 0.33
+Only positive works
+round 2255
+current s error is 0.332
+Only positive works
+round 2256
+current s error is 0.335
+Only positive works
+round 2260
+current s error is 0.332
+Only positive works
+round 2262
+current s error is 0.334
+Only positive works
+round 2263
+current s error is 0.333
+Only positive works
+round 2264
+current s error is 0.334
+Only positive works
+round 2266
+current s error is 0.332
+Only positive works
+round 2267
+current s error is 0.334
+Only positive works
+round 2268
+current s error is 0.345
+Only positive works
+round 2271
+current s error is 0.335
+Only positive works
+round 2272
+current s error is 0.338
+Only positive works
+round 2274
+current s error is 0.337
+Only positive works
+round 2276
+current s error is 0.34
+Only positive works
+round 2278
+current s error is 0.336
+Only positive works
+round 2280
+current s error is 0.342
+Only positive works
+round 2281
+current s error is 0.341
+Only positive works
+round 2283
+current s error is 0.336
+Only positive works
+round 2284
+current s error is 0.334
+Only positive works
+round 2287
+current s error is 0.335
+Only positive works
+round 2289
+current s error is 0.333
+Only positive works
+round 2290
+current s error is 0.334
+Only positive works
+round 2291
+current s error is 0.333
+Only positive works
+round 2293
+current s error is 0.338
+Only positive works
+round 2295
+current s error is 0.339
+Only positive works
+round 2296
+current s error is 0.337
+Only positive works
+round 2297
+current s error is 0.337
+Only positive works
+round 2298
+current s error is 0.336
+Only positive works
+round 2299
+current s error is 0.333
+Only positive works
+round 2301
+current s error is 0.336
+Only positive works
+round 2302
+current s error is 0.335
+Only positive works
+round 2303
+current s error is 0.337
+Only positive works
+round 2305
+current s error is 0.341
+Only positive works
+round 2306
+current s error is 0.338
+Only positive works
+round 2307
+current s error is 0.34
+Only positive works
+round 2308
+current s error is 0.341
+Only positive works
+round 2309
+current s error is 0.342
+Only positive works
+round 2312
+current s error is 0.341
+Only positive works
+round 2314
+current s error is 0.341
+Only positive works
+round 2316
+current s error is 0.343
+Only positive works
+round 2318
+current s error is 0.34
+Only positive works
+round 2319
+current s error is 0.342
+Only positive works
+round 2320
+current s error is 0.345
+Only positive works
+round 2323
+current s error is 0.348
+Only positive works
+round 2324
+current s error is 0.344
+Only positive works
+round 2325
+current s error is 0.345
+Only positive works
+round 2326
+current s error is 0.346
+Only positive works
+round 2327
+current s error is 0.343
+Only positive works
+round 2328
+current s error is 0.342
+Only positive works
+round 2330
+current s error is 0.339
+Only positive works
+round 2333
+current s error is 0.344
+Only positive works
+round 2334
+current s error is 0.343
+Only positive works
+round 2335
+current s error is 0.341
+Only positive works
+round 2336
+current s error is 0.341
+Only positive works
+round 2337
+current s error is 0.341
+Only positive works
+round 2338
+current s error is 0.337
+Only positive works
+round 2339
+current s error is 0.345
+Only positive works
+round 2340
+current s error is 0.345
+Only positive works
+round 2341
+current s error is 0.343
+Only positive works
+round 2344
+current s error is 0.345
+Only positive works
+round 2345
+current s error is 0.346
+Only positive works
+round 2347
+current s error is 0.344
+Only positive works
+round 2348
+current s error is 0.342
+Only positive works
+round 2350
+current s error is 0.35
+Only positive works
+round 2351
+current s error is 0.348
+Only positive works
+round 2352
+current s error is 0.349
+Only positive works
+round 2353
+current s error is 0.347
+Only positive works
+round 2355
+current s error is 0.345
+Only positive works
+round 2360
+current s error is 0.347
+Only positive works
+round 2362
+current s error is 0.351
+Only positive works
+round 2366
+current s error is 0.35
+Only positive works
+round 2367
+current s error is 0.353
+Only positive works
+round 2368
+current s error is 0.353
+Only positive works
+round 2371
+current s error is 0.353
+Only positive works
+round 2372
+current s error is 0.354
+Only positive works
+round 2373
+current s error is 0.349
+Only positive works
+round 2375
+current s error is 0.35
+Only positive works
+round 2377
+current s error is 0.351
+Only positive works
+round 2379
+current s error is 0.357
+Only positive works
+round 2380
+current s error is 0.358
+Only positive works
+round 2381
+current s error is 0.357
+Only positive works
+round 2383
+current s error is 0.358
+Only positive works
+round 2386
+current s error is 0.354
+Only positive works
+round 2389
+current s error is 0.36
+Only positive works
+round 2392
+current s error is 0.36
+Only positive works
+round 2393
+current s error is 0.363
+Only positive works
+round 2394
+current s error is 0.365
+Only positive works
+round 2396
+current s error is 0.366
+Only positive works
+round 2401
+current s error is 0.367
+Only positive works
+round 2402
+current s error is 0.368
+Only positive works
+round 2403
+current s error is 0.365
+Only positive works
+round 2405
+current s error is 0.362
+Only positive works
+round 2407
+current s error is 0.365
+Only positive works
+round 2408
+current s error is 0.367
+Only positive works
+round 2409
+current s error is 0.374
+Only positive works
+round 2410
+current s error is 0.375
+Only positive works
+round 2411
+current s error is 0.374
+Only positive works
+round 2412
+current s error is 0.376
+Only positive works
+round 2415
+current s error is 0.373
+Only positive works
+round 2417
+current s error is 0.373
+Only positive works
+round 2418
+current s error is 0.373
+Only positive works
+round 2419
+current s error is 0.377
+Only positive works
+round 2421
+current s error is 0.378
+Only positive works
+round 2422
+current s error is 0.381
+Only positive works
+round 2423
+current s error is 0.376
+Only positive works
+round 2425
+current s error is 0.377
+Only positive works
+round 2426
+current s error is 0.373
+Only positive works
+round 2427
+current s error is 0.368
+Only positive works
+round 2429
+current s error is 0.37
+Only positive works
+round 2435
+current s error is 0.372
+Only positive works
+round 2436
+current s error is 0.369
+Only positive works
+round 2438
+current s error is 0.365
+Only positive works
+round 2439
+current s error is 0.367
+Only positive works
+round 2440
+current s error is 0.368
+Only positive works
+round 2442
+current s error is 0.371
+Only positive works
+round 2445
+current s error is 0.371
+Only positive works
+round 2446
+current s error is 0.368
+Only positive works
+round 2447
+current s error is 0.368
+Only positive works
+round 2448
+current s error is 0.369
+Only positive works
+round 2449
+current s error is 0.363
+Only positive works
+round 2451
+current s error is 0.365
+Only positive works
+round 2454
+current s error is 0.368
+Only positive works
+round 2455
+current s error is 0.369
+Only positive works
+round 2456
+current s error is 0.369
+Only positive works
+round 2457
+current s error is 0.372
+Only positive works
+round 2458
+current s error is 0.372
+Only positive works
+round 2459
+current s error is 0.375
+Only positive works
+round 2460
+current s error is 0.377
+Only positive works
+round 2461
+current s error is 0.377
+Only positive works
+round 2462
+current s error is 0.373
+Only positive works
+round 2463
+current s error is 0.377
+Only positive works
+round 2465
+current s error is 0.374
+Only positive works
+round 2466
+current s error is 0.373
+Only positive works
+round 2467
+current s error is 0.375
+Only positive works
+round 2468
+current s error is 0.373
+Only positive works
+round 2469
+current s error is 0.38
+Only positive works
+round 2471
+current s error is 0.381
+Only positive works
+round 2472
+current s error is 0.386
+Only positive works
+round 2473
+current s error is 0.388
+Only positive works
+round 2475
+current s error is 0.387
+Only positive works
+round 2478
+current s error is 0.382
+Only positive works
+round 2480
+current s error is 0.378
+Only positive works
+round 2481
+current s error is 0.375
+Only positive works
+round 2483
+current s error is 0.378
+Only positive works
+round 2484
+current s error is 0.378
+Only positive works
+round 2485
+current s error is 0.38
+Only positive works
+round 2486
+current s error is 0.378
+Only positive works
+round 2488
+current s error is 0.379
+Only positive works
+round 2489
+current s error is 0.384
+Only positive works
+round 2490
+current s error is 0.384
+Only positive works
+round 2492
+current s error is 0.384
+Only positive works
+round 2493
+current s error is 0.384
+Only positive works
+round 2494
+current s error is 0.384
+Only positive works
+round 2495
+current s error is 0.385
+Only positive works
+round 2496
+current s error is 0.386
+Only positive works
+round 2497
+current s error is 0.386
+Only positive works
+round 2498
+current s error is 0.386
+Only positive works
+round 2499
+current s error is 0.385
+Only positive works
+round 2501
+current s error is 0.388
+Only positive works
+round 2502
+current s error is 0.383
+Only positive works
+round 2504
+current s error is 0.385
+Only positive works
+round 2506
+current s error is 0.384
+Only positive works
+round 2507
+current s error is 0.387
+Only positive works
+round 2509
+current s error is 0.383
+Only positive works
+round 2514
+current s error is 0.383
+Only positive works
+round 2515
+current s error is 0.384
+Only positive works
+round 2516
+current s error is 0.383
+Only positive works
+round 2518
+current s error is 0.388
+Only positive works
+round 2519
+current s error is 0.385
+Only positive works
+round 2520
+current s error is 0.387
+Only positive works
+round 2521
+current s error is 0.385
+Only positive works
+round 2522
+current s error is 0.382
+Only positive works
+round 2526
+current s error is 0.383
+Only positive works
+round 2527
+current s error is 0.387
+Only positive works
+round 2530
+current s error is 0.389
+Only positive works
+round 2532
+current s error is 0.392
+Only positive works
+round 2534
+current s error is 0.394
+Only positive works
+round 2536
+current s error is 0.39
+Only positive works
+round 2538
+current s error is 0.39
+Only positive works
+round 2540
+current s error is 0.39
+Only positive works
+round 2541
+current s error is 0.392
+Only positive works
+round 2542
+current s error is 0.391
+Only positive works
+round 2543
+current s error is 0.389
+Only positive works
+round 2545
+current s error is 0.387
+Only positive works
+round 2546
+current s error is 0.391
+Only positive works
+round 2548
+current s error is 0.39
+Only positive works
+round 2549
+current s error is 0.396
+Only positive works
+round 2550
+current s error is 0.394
+Only positive works
+round 2554
+current s error is 0.393
+Only positive works
+round 2555
+current s error is 0.394
+Only positive works
+round 2556
+current s error is 0.396
+Only positive works
+round 2557
+current s error is 0.395
+Only positive works
+round 2559
+current s error is 0.395
+Only positive works
+round 2560
+current s error is 0.394
+Only positive works
+round 2567
+current s error is 0.395
+Only positive works
+round 2568
+current s error is 0.393
+Only positive works
+round 2569
+current s error is 0.391
+Only positive works
+round 2571
+current s error is 0.391
+Only positive works
+round 2572
+current s error is 0.394
+Only positive works
+round 2573
+current s error is 0.387
+Only positive works
+round 2574
+current s error is 0.393
+Only positive works
+round 2575
+current s error is 0.385
+Only positive works
+round 2576
+current s error is 0.387
+Only positive works
+round 2578
+current s error is 0.388
+Only positive works
+round 2579
+current s error is 0.393
+Only positive works
+round 2581
+current s error is 0.393
+Only positive works
+round 2584
+current s error is 0.389
+Only positive works
+round 2585
+current s error is 0.391
+Only positive works
+round 2586
+current s error is 0.393
+Only positive works
+round 2588
+current s error is 0.392
+Only positive works
+round 2589
+current s error is 0.391
+Only positive works
+round 2591
+current s error is 0.395
+Only positive works
+round 2592
+current s error is 0.398
+Only positive works
+round 2594
+current s error is 0.393
+Only positive works
+round 2596
+current s error is 0.391
+Only positive works
+round 2597
+current s error is 0.393
+Only positive works
+round 2598
+current s error is 0.394
+Only positive works
+round 2599
+current s error is 0.394
+Only positive works
+round 2600
+current s error is 0.399
+Only positive works
+round 2601
+current s error is 0.394
+Only positive works
+round 2602
+current s error is 0.394
+Only positive works
+round 2603
+current s error is 0.394
+Only positive works
+round 2604
+current s error is 0.396
+Only positive works
+round 2606
+current s error is 0.394
+Only positive works
+round 2608
+current s error is 0.397
+Only positive works
+round 2609
+current s error is 0.396
+Only positive works
+round 2610
+current s error is 0.395
+Only positive works
+round 2613
+current s error is 0.4
+Only positive works
+round 2614
+current s error is 0.398
+Only positive works
+round 2615
+current s error is 0.399
+Only positive works
+round 2617
+current s error is 0.4
+Only positive works
+round 2618
+current s error is 0.398
+Only positive works
+round 2619
+current s error is 0.398
+Only positive works
+round 2621
+current s error is 0.402
+Only positive works
+round 2622
+current s error is 0.4
+Only positive works
+round 2623
+current s error is 0.397
+Only positive works
+round 2624
+current s error is 0.397
+Only positive works
+round 2625
+current s error is 0.397
+Only positive works
+round 2626
+current s error is 0.401
+Only positive works
+round 2630
+current s error is 0.398
+Only positive works
+round 2632
+current s error is 0.4
+Only positive works
+round 2633
+current s error is 0.394
+Only positive works
+round 2634
+current s error is 0.397
+Only positive works
+round 2635
+current s error is 0.4
+Only positive works
+round 2638
+current s error is 0.403
+Only positive works
+round 2639
+current s error is 0.401
+Only positive works
+round 2640
+current s error is 0.403
+Only positive works
+round 2643
+current s error is 0.4
+Only positive works
+round 2646
+current s error is 0.399
+Only positive works
+round 2648
+current s error is 0.404
+Only positive works
+round 2649
+current s error is 0.408
+Only positive works
+round 2650
+current s error is 0.408
+Only positive works
+round 2652
+current s error is 0.399
+Only positive works
+round 2654
+current s error is 0.402
+Only positive works
+round 2656
+current s error is 0.402
+Only positive works
+round 2657
+current s error is 0.403
+Only positive works
+round 2659
+current s error is 0.403
+Only positive works
+round 2660
+current s error is 0.406
+Only positive works
+round 2662
+current s error is 0.407
+Only positive works
+round 2663
+current s error is 0.409
+Only positive works
+round 2665
+current s error is 0.413
+Only positive works
+round 2668
+current s error is 0.407
+Only positive works
+round 2670
+current s error is 0.409
+Only positive works
+round 2672
+current s error is 0.413
+Only positive works
+round 2673
+current s error is 0.411
+Only positive works
+round 2676
+current s error is 0.412
+Only positive works
+round 2677
+current s error is 0.414
+Only positive works
+round 2678
+current s error is 0.414
+Only positive works
+round 2679
+current s error is 0.414
+Only positive works
+round 2680
+current s error is 0.411
+Only positive works
+round 2683
+current s error is 0.412
+Only positive works
+round 2684
+current s error is 0.414
+Only positive works
+round 2686
+current s error is 0.413
+Only positive works
+round 2690
+current s error is 0.417
+Only positive works
+round 2691
+current s error is 0.417
+Only positive works
+round 2695
+current s error is 0.422
+Only positive works
+round 2696
+current s error is 0.419
+Only positive works
+round 2698
+current s error is 0.419
+Only positive works
+round 2701
+current s error is 0.421
+Only positive works
+round 2702
+current s error is 0.417
+Only positive works
+round 2703
+current s error is 0.421
+Only positive works
+round 2704
+current s error is 0.422
+Only positive works
+round 2705
+current s error is 0.423
+Only positive works
+round 2708
+current s error is 0.419
+Only positive works
+round 2717
+current s error is 0.423
+Only positive works
+round 2719
+current s error is 0.424
+Only positive works
+round 2721
+current s error is 0.426
+Only positive works
+round 2722
+current s error is 0.429
+Only positive works
+round 2723
+current s error is 0.427
+Only positive works
+round 2724
+current s error is 0.421
+Only positive works
+round 2726
+current s error is 0.421
+Only positive works
+round 2727
+current s error is 0.422
+Only positive works
+round 2731
+current s error is 0.428
+Only positive works
+round 2733
+current s error is 0.427
+Only positive works
+round 2734
+current s error is 0.432
+Only positive works
+round 2735
+current s error is 0.431
+Only positive works
+round 2736
+current s error is 0.43
+Only positive works
+round 2738
+current s error is 0.433
+Only positive works
+round 2739
+current s error is 0.433
+Only positive works
+round 2740
+current s error is 0.438
+Only positive works
+round 2744
+current s error is 0.433
+Only positive works
+round 2745
+current s error is 0.438
+Only positive works
+round 2747
+current s error is 0.437
+Only positive works
+round 2749
+current s error is 0.437
+Only positive works
+round 2751
+current s error is 0.438
+Only positive works
+round 2752
+current s error is 0.436
+Only positive works
+round 2753
+current s error is 0.436
+Only positive works
+round 2756
+current s error is 0.434
+Only positive works
+round 2759
+current s error is 0.435
+Only positive works
+round 2765
+current s error is 0.436
+Only positive works
+round 2766
+current s error is 0.431
+Only positive works
+round 2769
+current s error is 0.43
+Only positive works
+round 2770
+current s error is 0.431
+Only positive works
+round 2771
+current s error is 0.433
+Only positive works
+round 2772
+current s error is 0.432
+Only positive works
+round 2775
+current s error is 0.436
+Only positive works
+round 2776
+current s error is 0.436
+Only positive works
+round 2780
+current s error is 0.433
+Only positive works
+round 2781
+current s error is 0.433
+Only positive works
+round 2782
+current s error is 0.433
+Only positive works
+round 2783
+current s error is 0.437
+Only positive works
+round 2784
+current s error is 0.442
+Only positive works
+round 2787
+current s error is 0.442
+Only positive works
+round 2788
+current s error is 0.446
+Only positive works
+round 2790
+current s error is 0.44
+Only positive works
+round 2792
+current s error is 0.437
+Only positive works
+round 2795
+current s error is 0.437
+Only positive works
+round 2796
+current s error is 0.435
+Only positive works
+round 2799
+current s error is 0.437
+Only positive works
+round 2800
+current s error is 0.437
+Only positive works
+round 2802
+current s error is 0.436
+Only positive works
+round 2804
+current s error is 0.436
+Only positive works
+round 2810
+current s error is 0.439
+Only positive works
+round 2811
+current s error is 0.443
+Only positive works
+round 2812
+current s error is 0.44
+Only positive works
+round 2814
+current s error is 0.442
+Only positive works
+round 2815
+current s error is 0.443
+Only positive works
+round 2817
+current s error is 0.441
+Only positive works
+round 2818
+current s error is 0.443
+Only positive works
+round 2819
+current s error is 0.44
+Only positive works
+round 2820
+current s error is 0.438
+Only positive works
+round 2821
+current s error is 0.443
+Only positive works
+round 2822
+current s error is 0.444
+Only positive works
+round 2823
+current s error is 0.439
+Only positive works
+round 2824
+current s error is 0.439
+Only positive works
+round 2825
+current s error is 0.44
+Only positive works
+round 2826
+current s error is 0.441
+Only positive works
+round 2829
+current s error is 0.44
+Only positive works
+round 2830
+current s error is 0.439
+Only positive works
+round 2831
+current s error is 0.437
+Only positive works
+round 2832
+current s error is 0.439
+Only positive works
+round 2834
+current s error is 0.438
+Only positive works
+round 2836
+current s error is 0.44
+Only positive works
+round 2837
+current s error is 0.441
+Only positive works
+round 2839
+current s error is 0.439
+Only positive works
+round 2841
+current s error is 0.44
+Only positive works
+round 2844
+current s error is 0.444
+Only positive works
+round 2848
+current s error is 0.449
+Only positive works
+round 2849
+current s error is 0.449
+Only positive works
+round 2850
+current s error is 0.452
+Only positive works
+round 2853
+current s error is 0.446
+Only positive works
+round 2855
+current s error is 0.448
+Only positive works
+round 2858
+current s error is 0.446
+Only positive works
+round 2860
+current s error is 0.445
+Only positive works
+round 2862
+current s error is 0.447
+Only positive works
+round 2863
+current s error is 0.448
+Only positive works
+round 2865
+current s error is 0.45
+Only positive works
+round 2866
+current s error is 0.447
+Only positive works
+round 2867
+current s error is 0.45
+Only positive works
+round 2869
+current s error is 0.451
+Only positive works
+round 2870
+current s error is 0.449
+Only positive works
+round 2872
+current s error is 0.447
+Only positive works
+round 2874
+current s error is 0.451
+Only positive works
+round 2875
+current s error is 0.458
+Only positive works
+round 2876
+current s error is 0.453
+Only positive works
+round 2877
+current s error is 0.453
+Only positive works
+round 2882
+current s error is 0.453
+Only positive works
+round 2883
+current s error is 0.451
+Only positive works
+round 2885
+current s error is 0.452
+Only positive works
+round 2889
+current s error is 0.451
+Only positive works
+round 2893
+current s error is 0.45
+Only positive works
+round 2894
+current s error is 0.452
+Only positive works
+round 2895
+current s error is 0.449
+Only positive works
+round 2897
+current s error is 0.45
+Only positive works
+round 2898
+current s error is 0.448
+Only positive works
+round 2903
+current s error is 0.447
+Only positive works
+round 2906
+current s error is 0.448
+Only positive works
+round 2907
+current s error is 0.448
+Only positive works
+round 2908
+current s error is 0.446
+Only positive works
+round 2909
+current s error is 0.449
+Only positive works
+round 2910
+current s error is 0.455
+Only positive works
+round 2911
+current s error is 0.458
+Only positive works
+round 2913
+current s error is 0.459
+Only positive works
+round 2916
+current s error is 0.458
+Only positive works
+round 2920
+current s error is 0.459
+Only positive works
+round 2921
+current s error is 0.457
+Only positive works
+round 2923
+current s error is 0.462
+Only positive works
+round 2924
+current s error is 0.461
+Only positive works
+round 2926
+current s error is 0.464
+Only positive works
+round 2931
+current s error is 0.461
+Only positive works
+round 2932
+current s error is 0.462
+Only positive works
+round 2933
+current s error is 0.462
+Only positive works
+round 2934
+current s error is 0.465
+Only positive works
+round 2935
+current s error is 0.467
+Only positive works
+round 2936
+current s error is 0.463
+Only positive works
+round 2938
+current s error is 0.461
+Only positive works
+round 2942
+current s error is 0.463
+Only positive works
+round 2945
+current s error is 0.461
+Only positive works
+round 2946
+current s error is 0.466
+Only positive works
+round 2947
+current s error is 0.465
+Only positive works
+round 2948
+current s error is 0.459
+Only positive works
+round 2949
+current s error is 0.456
+Only positive works
+round 2951
+current s error is 0.46
+Only positive works
+round 2952
+current s error is 0.459
+Only positive works
+round 2954
+current s error is 0.457
+Only positive works
+round 2955
+current s error is 0.457
+Only positive works
+round 2956
+current s error is 0.451
+Only positive works
+round 2957
+current s error is 0.454
+Only positive works
+round 2958
+current s error is 0.46
+Only positive works
+round 2959
+current s error is 0.461
+Only positive works
+round 2960
+current s error is 0.462
+Only positive works
+round 2961
+current s error is 0.466
+Only positive works
+round 2962
+current s error is 0.466
+Only positive works
+round 2964
+current s error is 0.464
+Only positive works
+round 2965
+current s error is 0.462
+Only positive works
+round 2966
+current s error is 0.463
+Only positive works
+round 2968
+current s error is 0.464
+Only positive works
+round 2973
+current s error is 0.467
+Only positive works
+round 2974
+current s error is 0.47
+Only positive works
+round 2975
+current s error is 0.469
+Only positive works
+round 2976
+current s error is 0.468
+Only positive works
+round 2980
+current s error is 0.468
+Only positive works
+round 2982
+current s error is 0.468
+Only positive works
+round 2984
+current s error is 0.469
+Only positive works
+round 2985
+current s error is 0.471
+Only positive works
+round 2986
+current s error is 0.471
+Only positive works
+round 2987
+current s error is 0.47
+Only positive works
+round 2990
+current s error is 0.472
+Only positive works
+round 2993
+current s error is 0.473
+Only positive works
+round 2995
+current s error is 0.474
+Only positive works
+round 2998
+current s error is 0.477
+Only positive works
+round 3000
+current s error is 0.479
+Only positive works
+round 3001
+current s error is 0.479
+Only positive works
+round 3002
+current s error is 0.475
+Only positive works
+round 3003
+current s error is 0.479
+Only positive works
+round 3004
+current s error is 0.483
+Only positive works
+round 3008
+current s error is 0.48
+Only positive works
+round 3009
+current s error is 0.478
+Only positive works
+round 3010
+current s error is 0.478
+Only positive works
+round 3011
+current s error is 0.482
+Only positive works
+round 3012
+current s error is 0.48
+Only positive works
+round 3013
+current s error is 0.48
+Only positive works
+round 3014
+current s error is 0.484
+Only positive works
+round 3018
+current s error is 0.483
+Only positive works
+round 3020
+current s error is 0.482
+Only positive works
+round 3021
+current s error is 0.481
+Only positive works
+round 3022
+current s error is 0.482
+Only positive works
+round 3024
+current s error is 0.481
+Only positive works
+round 3025
+current s error is 0.481
+Only positive works
+round 3026
+current s error is 0.483
+Only positive works
+round 3027
+current s error is 0.483
+Only positive works
+round 3028
+current s error is 0.483
+Only positive works
+round 3029
+current s error is 0.478
+Only positive works
+round 3030
+current s error is 0.478
+Only positive works
+round 3031
+current s error is 0.478
+Only positive works
+round 3032
+current s error is 0.482
+Only positive works
+round 3033
+current s error is 0.48
+Only positive works
+round 3034
+current s error is 0.483
+Only positive works
+round 3040
+current s error is 0.482
+Only positive works
+round 3041
+current s error is 0.482
+Only positive works
+round 3043
+current s error is 0.478
+Only positive works
+round 3044
+current s error is 0.48
+Only positive works
+round 3045
+current s error is 0.483
+Only positive works
+round 3047
+current s error is 0.482
+Only positive works
+round 3048
+current s error is 0.487
+Only positive works
+round 3049
+current s error is 0.49
+Only positive works
+round 3051
+current s error is 0.493
+Only positive works
+round 3052
+current s error is 0.494
+Only positive works
+round 3055
+current s error is 0.493
+Only positive works
+round 3057
+current s error is 0.493
+Only positive works
+round 3058
+current s error is 0.492
+Only positive works
+round 3060
+current s error is 0.491
+Only positive works
+round 3061
+current s error is 0.495
+Only positive works
+round 3063
+current s error is 0.498
+Only positive works
+round 3064
+current s error is 0.5
+Only positive works
+round 3067
+current s error is 0.497
+Only positive works
+round 3068
+current s error is 0.5
+Only positive works
+round 3070
+current s error is 0.503
+Only positive works
+round 3071
+current s error is 0.501
+Only positive works
+round 3073
+current s error is 0.501
+Only positive works
+round 3076
+current s error is 0.502
+Only positive works
+round 3078
+current s error is 0.502
+Only positive works
+round 3081
+current s error is 0.505
+Only positive works
+round 3082
+current s error is 0.5
+Only positive works
+round 3083
+current s error is 0.503
+Only positive works
+round 3085
+current s error is 0.505
+Only positive works
+round 3086
+current s error is 0.503
+Only positive works
+round 3088
+current s error is 0.506
+Only positive works
+round 3089
+current s error is 0.504
+Only positive works
+round 3090
+current s error is 0.504
+Only positive works
+round 3092
+current s error is 0.502
+Only positive works
+round 3095
+current s error is 0.504
+Only positive works
+round 3096
+current s error is 0.504
+Only positive works
+round 3097
+current s error is 0.5
+Only positive works
+round 3098
+current s error is 0.501
+Only positive works
+round 3100
+current s error is 0.5
+Only positive works
+round 3103
+current s error is 0.503
+Only positive works
+round 3105
+current s error is 0.508
+Only positive works
+round 3107
+current s error is 0.507
+Only positive works
+round 3111
+current s error is 0.507
+Only positive works
+round 3112
+current s error is 0.506
+Only positive works
+round 3113
+current s error is 0.509
+Only positive works
+round 3114
+current s error is 0.51
+Only positive works
+round 3116
+current s error is 0.509
+Only positive works
+round 3118
+current s error is 0.506
+Only positive works
+round 3120
+current s error is 0.512
+Only positive works
+round 3121
+current s error is 0.506
+Only positive works
+round 3122
+current s error is 0.509
+Only positive works
+round 3123
+current s error is 0.511
+Only positive works
+round 3124
+current s error is 0.508
+Only positive works
+round 3127
+current s error is 0.507
+Only positive works
+round 3130
+current s error is 0.508
+Only positive works
+round 3131
+current s error is 0.505
+Only positive works
+round 3132
+current s error is 0.507
+Only positive works
+round 3133
+current s error is 0.509
+Only positive works
+round 3134
+current s error is 0.508
+Only positive works
+round 3136
+current s error is 0.514
+Only positive works
+round 3138
+current s error is 0.511
+Only positive works
+round 3140
+current s error is 0.51
+Only positive works
+round 3141
+current s error is 0.511
+Only positive works
+round 3142
+current s error is 0.508
+Only positive works
+round 3143
+current s error is 0.511
+Only positive works
+round 3144
+current s error is 0.517
+Only positive works
+round 3145
+current s error is 0.512
+Only positive works
+round 3146
+current s error is 0.511
+Only positive works
+round 3148
+current s error is 0.511
+Only positive works
+round 3149
+current s error is 0.507
+Only positive works
+round 3151
+current s error is 0.51
+Only positive works
+round 3152
+current s error is 0.513
+Only positive works
+round 3154
+current s error is 0.509
+Only positive works
+round 3155
+current s error is 0.508
+Only positive works
+round 3156
+current s error is 0.508
+Only positive works
+round 3157
+current s error is 0.502
+Only positive works
+round 3158
+current s error is 0.504
+Only positive works
+round 3160
+current s error is 0.509
+Only positive works
+round 3161
+current s error is 0.51
+Only positive works
+round 3162
+current s error is 0.509
+Only positive works
+round 3163
+current s error is 0.505
+Only positive works
+round 3164
+current s error is 0.506
+Only positive works
+round 3166
+current s error is 0.502
+Only positive works
+round 3168
+current s error is 0.504
+Only positive works
+round 3171
+current s error is 0.497
+Only positive works
+round 3173
+current s error is 0.5
+Only positive works
+round 3174
+current s error is 0.501
+Only positive works
+round 3179
+current s error is 0.502
+Only positive works
+round 3181
+current s error is 0.502
+Only positive works
+round 3183
+current s error is 0.505
+Only positive works
+round 3184
+current s error is 0.504
+Only positive works
+round 3186
+current s error is 0.502
+Only positive works
+round 3189
+current s error is 0.498
+Only positive works
+round 3190
+current s error is 0.498
+Only positive works
+round 3191
+current s error is 0.506
+Only positive works
+round 3192
+current s error is 0.505
+Only positive works
+round 3193
+current s error is 0.503
+Only positive works
+round 3195
+current s error is 0.504
+Only positive works
+round 3196
+current s error is 0.505
+Only positive works
+round 3199
+current s error is 0.506
+Only positive works
+round 3200
+current s error is 0.512
+Only positive works
+round 3201
+current s error is 0.506
+Only positive works
+round 3202
+current s error is 0.507
+Only positive works
+round 3204
+current s error is 0.504
+Only positive works
+round 3205
+current s error is 0.506
+Only positive works
+round 3206
+current s error is 0.509
+Only positive works
+round 3208
+current s error is 0.513
+Only positive works
+round 3209
+current s error is 0.514
+Only positive works
+round 3210
+current s error is 0.509
+Only positive works
+round 3215
+current s error is 0.51
+Only positive works
+round 3217
+current s error is 0.511
+Only positive works
+round 3218
+current s error is 0.51
+Only positive works
+round 3222
+current s error is 0.509
+Only positive works
+round 3223
+current s error is 0.508
+Only positive works
+round 3224
+current s error is 0.51
+Only positive works
+round 3225
+current s error is 0.509
+Only positive works
+round 3230
+current s error is 0.505
+Only positive works
+round 3233
+current s error is 0.508
+Only positive works
+round 3234
+current s error is 0.506
+Only positive works
+round 3236
+current s error is 0.505
+Only positive works
+round 3240
+current s error is 0.501
+Only positive works
+round 3242
+current s error is 0.506
+Only positive works
+round 3243
+current s error is 0.508
+Only positive works
+round 3244
+current s error is 0.507
+Only positive works
+round 3245
+current s error is 0.505
+Only positive works
+round 3247
+current s error is 0.512
+Only positive works
+round 3248
+current s error is 0.513
+Only positive works
+round 3253
+current s error is 0.511
+Only positive works
+round 3255
+current s error is 0.513
+Only positive works
+round 3257
+current s error is 0.513
+Only positive works
+round 3259
+current s error is 0.515
+Only positive works
+round 3261
+current s error is 0.512
+Only positive works
+round 3262
+current s error is 0.511
+Only positive works
+round 3265
+current s error is 0.514
+Only positive works
+round 3268
+current s error is 0.519
+Only positive works
+round 3270
+current s error is 0.521
+Only positive works
+round 3271
+current s error is 0.519
+Only positive works
+round 3272
+current s error is 0.518
+Only positive works
+round 3273
+current s error is 0.519
+Only positive works
+round 3274
+current s error is 0.521
+Only positive works
+round 3275
+current s error is 0.517
+Only positive works
+round 3276
+current s error is 0.517
+Only positive works
+round 3278
+current s error is 0.521
+Only positive works
+round 3280
+current s error is 0.517
+Only positive works
+round 3281
+current s error is 0.517
+Only positive works
+round 3283
+current s error is 0.52
+Only positive works
+round 3284
+current s error is 0.521
+Only positive works
+round 3285
+current s error is 0.524
+Only positive works
+round 3286
+current s error is 0.523
+Only positive works
+round 3287
+current s error is 0.523
+Only positive works
+round 3288
+current s error is 0.523
+Only positive works
+round 3289
+current s error is 0.527
+Only positive works
+round 3290
+current s error is 0.528
+Only positive works
+round 3291
+current s error is 0.524
+Only positive works
+round 3294
+current s error is 0.524
+Only positive works
+round 3295
+current s error is 0.529
+Only positive works
+round 3296
+current s error is 0.531
+Only positive works
+round 3297
+current s error is 0.531
+Only positive works
+round 3298
+current s error is 0.537
+Only positive works
+round 3299
+current s error is 0.538
+Only positive works
+round 3300
+current s error is 0.535
+Only positive works
+round 3301
+current s error is 0.539
+Only positive works
+round 3305
+current s error is 0.533
+Only positive works
+round 3307
+current s error is 0.537
+Only positive works
+round 3308
+current s error is 0.537
+Only positive works
+round 3311
+current s error is 0.537
+Only positive works
+round 3313
+current s error is 0.54
+Only positive works
+round 3316
+current s error is 0.54
+Only positive works
+round 3317
+current s error is 0.544
+Only positive works
+round 3319
+current s error is 0.545
+Only positive works
+round 3320
+current s error is 0.541
+Only positive works
+round 3321
+current s error is 0.541
+Only positive works
+round 3325
+current s error is 0.546
+Only positive works
+round 3328
+current s error is 0.542
+Only positive works
+round 3331
+current s error is 0.543
+Only positive works
+round 3332
+current s error is 0.543
+Only positive works
+round 3333
+current s error is 0.545
+Only positive works
+round 3334
+current s error is 0.537
+Only positive works
+round 3335
+current s error is 0.539
+Only positive works
+round 3336
+current s error is 0.542
+Only positive works
+round 3337
+current s error is 0.539
+Only positive works
+round 3339
+current s error is 0.541
+Only positive works
+round 3340
+current s error is 0.545
+Only positive works
+round 3343
+current s error is 0.545
+Only positive works
+round 3345
+current s error is 0.542
+Only positive works
+round 3347
+current s error is 0.544
+Only positive works
+round 3349
+current s error is 0.548
+Only positive works
+round 3350
+current s error is 0.545
+Only positive works
+round 3351
+current s error is 0.545
+Only positive works
+round 3353
+current s error is 0.544
+Only positive works
+round 3354
+current s error is 0.543
+Only positive works
+round 3356
+current s error is 0.541
+Only positive works
+round 3357
+current s error is 0.542
+Only positive works
+round 3358
+current s error is 0.548
+Only positive works
+round 3360
+current s error is 0.548
+Only positive works
+round 3363
+current s error is 0.545
+Only positive works
+round 3368
+current s error is 0.547
+Only positive works
+round 3370
+current s error is 0.544
+Only positive works
+round 3373
+current s error is 0.545
+Only positive works
+round 3374
+current s error is 0.545
+Only positive works
+round 3375
+current s error is 0.542
+Only positive works
+round 3376
+current s error is 0.549
+Only positive works
+round 3378
+current s error is 0.543
+Only positive works
+round 3380
+current s error is 0.544
+Only positive works
+round 3381
+current s error is 0.547
+Only positive works
+round 3382
+current s error is 0.544
+Only positive works
+round 3384
+current s error is 0.543
+Only positive works
+round 3385
+current s error is 0.542
+Only positive works
+round 3386
+current s error is 0.544
+Only positive works
+round 3387
+current s error is 0.547
+Only positive works
+round 3388
+current s error is 0.546
+Only positive works
+round 3389
+current s error is 0.543
+Only positive works
+round 3390
+current s error is 0.546
+Only positive works
+round 3392
+current s error is 0.547
+Only positive works
+round 3393
+current s error is 0.545
+Only positive works
+round 3394
+current s error is 0.545
+Only positive works
+round 3395
+current s error is 0.547
+Only positive works
+round 3396
+current s error is 0.545
+Only positive works
+round 3399
+current s error is 0.551
+Only positive works
+round 3400
+current s error is 0.555
+Only positive works
+round 3401
+current s error is 0.555
+Only positive works
+round 3403
+current s error is 0.557
+Only positive works
+round 3404
+current s error is 0.558
+Only positive works
+round 3405
+current s error is 0.56
+Only positive works
+round 3408
+current s error is 0.559
+Only positive works
+round 3409
+current s error is 0.563
+Only positive works
+round 3410
+current s error is 0.56
+Only positive works
+round 3411
+current s error is 0.559
+Only positive works
+round 3412
+current s error is 0.556
+Only positive works
+round 3413
+current s error is 0.559
+Only positive works
+round 3414
+current s error is 0.554
+Only positive works
+round 3415
+current s error is 0.562
+Only positive works
+round 3416
+current s error is 0.562
+Only positive works
+round 3417
+current s error is 0.561
+Only positive works
+round 3418
+current s error is 0.559
+Only positive works
+round 3419
+current s error is 0.561
+Only positive works
+round 3420
+current s error is 0.56
+Only positive works
+round 3422
+current s error is 0.562
+Only positive works
+round 3423
+current s error is 0.568
+Only positive works
+round 3424
+current s error is 0.569
+Only positive works
+round 3425
+current s error is 0.565
+Only positive works
+round 3427
+current s error is 0.566
+Only positive works
+round 3428
+current s error is 0.566
+Only positive works
+round 3429
+current s error is 0.567
+Only positive works
+round 3430
+current s error is 0.568
+Only positive works
+round 3431
+current s error is 0.566
+Only positive works
+round 3432
+current s error is 0.565
+Only positive works
+round 3433
+current s error is 0.566
+Only positive works
+round 3435
+current s error is 0.567
+Only positive works
+round 3436
+current s error is 0.568
+Only positive works
+round 3437
+current s error is 0.568
+Only positive works
+round 3438
+current s error is 0.57
+Only positive works
+round 3440
+current s error is 0.567
+Only positive works
+round 3442
+current s error is 0.567
+Only positive works
+round 3443
+current s error is 0.564
+Only positive works
+round 3446
+current s error is 0.566
+Only positive works
+round 3447
+current s error is 0.573
+Only positive works
+round 3448
+current s error is 0.572
+Only positive works
+round 3449
+current s error is 0.571
+Only positive works
+round 3455
+current s error is 0.571
+Only positive works
+round 3456
+current s error is 0.573
+Only positive works
+round 3458
+current s error is 0.575
+Only positive works
+round 3459
+current s error is 0.574
+Only positive works
+round 3460
+current s error is 0.569
+Only positive works
+round 3461
+current s error is 0.573
+Only positive works
+round 3463
+current s error is 0.57
+Only positive works
+round 3465
+current s error is 0.572
+Only positive works
+round 3466
+current s error is 0.57
+Only positive works
+round 3473
+current s error is 0.573
+Only positive works
+round 3475
+current s error is 0.571
+Only positive works
+round 3477
+current s error is 0.571
+Only positive works
+round 3479
+current s error is 0.572
+Only positive works
+round 3480
+current s error is 0.574
+Only positive works
+round 3481
+current s error is 0.579
+Only positive works
+round 3485
+current s error is 0.579
+Only positive works
+round 3486
+current s error is 0.584
+Only positive works
+round 3487
+current s error is 0.581
+Only positive works
+round 3488
+current s error is 0.58
+Only positive works
+round 3492
+current s error is 0.578
+Only positive works
+round 3494
+current s error is 0.578
+Only positive works
+round 3495
+current s error is 0.583
+Only positive works
+round 3497
+current s error is 0.583
+Only positive works
+round 3500
+current s error is 0.584
+Only positive works
+round 3502
+current s error is 0.582
+Only positive works
+round 3505
+current s error is 0.586
+Only positive works
+round 3506
+current s error is 0.581
+Only positive works
+round 3508
+current s error is 0.584
+Only positive works
+round 3510
+current s error is 0.583
+Only positive works
+round 3511
+current s error is 0.588
+Only positive works
+round 3512
+current s error is 0.59
+Only positive works
+round 3513
+current s error is 0.586
+Only positive works
+round 3515
+current s error is 0.588
+Only positive works
+round 3516
+current s error is 0.589
+Only positive works
+round 3518
+current s error is 0.59
+Only positive works
+round 3520
+current s error is 0.59
+Only positive works
+round 3521
+current s error is 0.588
+Only positive works
+round 3523
+current s error is 0.592
+Only positive works
+round 3526
+current s error is 0.588
+Only positive works
+round 3527
+current s error is 0.588
+Only positive works
+round 3528
+current s error is 0.591
+Only positive works
+round 3533
+current s error is 0.588
+Only positive works
+round 3539
+current s error is 0.593
+Only positive works
+round 3541
+current s error is 0.589
+Only positive works
+round 3542
+current s error is 0.59
+Only positive works
+round 3543
+current s error is 0.589
+Only positive works
+round 3544
+current s error is 0.588
+Only positive works
+round 3545
+current s error is 0.59
+Only positive works
+round 3546
+current s error is 0.591
+Only positive works
+round 3547
+current s error is 0.591
+Only positive works
+round 3548
+current s error is 0.591
+Only positive works
+round 3549
+current s error is 0.588
+Only positive works
+round 3550
+current s error is 0.592
+Only positive works
+round 3552
+current s error is 0.59
+Only positive works
+round 3554
+current s error is 0.59
+Only positive works
+round 3555
+current s error is 0.596
+Only positive works
+round 3556
+current s error is 0.592
+Only positive works
+round 3558
+current s error is 0.588
+Only positive works
+round 3560
+current s error is 0.591
+Only positive works
+round 3562
+current s error is 0.592
+Only positive works
+round 3563
+current s error is 0.597
+Only positive works
+round 3564
+current s error is 0.597
+Only positive works
+round 3565
+current s error is 0.606
+Only positive works
+round 3566
+current s error is 0.601
+Only positive works
+round 3569
+current s error is 0.6
+Only positive works
+round 3570
+current s error is 0.606
+Only positive works
+round 3571
+current s error is 0.606
+Only positive works
+round 3572
+current s error is 0.606
+Only positive works
+round 3573
+current s error is 0.602
+Only positive works
+round 3574
+current s error is 0.603
+Only positive works
+round 3575
+current s error is 0.606
+Only positive works
+round 3577
+current s error is 0.611
+Only positive works
+round 3579
+current s error is 0.611
+Only positive works
+round 3581
+current s error is 0.611
+Only positive works
+round 3582
+current s error is 0.615
+Only positive works
+round 3583
+current s error is 0.611
+Only positive works
+round 3584
+current s error is 0.61
+Only positive works
+round 3585
+current s error is 0.612
+Only positive works
+round 3586
+current s error is 0.609
+Only positive works
+round 3587
+current s error is 0.612
+Only positive works
+round 3590
+current s error is 0.615
+Only positive works
+round 3593
+current s error is 0.61
+Only positive works
+round 3595
+current s error is 0.61
+Only positive works
+round 3596
+current s error is 0.614
+Only positive works
+round 3598
+current s error is 0.615
+Only positive works
+round 3601
+current s error is 0.616
+Only positive works
+round 3603
+current s error is 0.615
+Only positive works
+round 3606
+current s error is 0.621
+Only positive works
+round 3607
+current s error is 0.621
+Only positive works
+round 3608
+current s error is 0.624
+Only positive works
+round 3609
+current s error is 0.623
+Only positive works
+round 3610
+current s error is 0.624
+Only positive works
+round 3612
+current s error is 0.623
+Only positive works
+round 3613
+current s error is 0.624
+Only positive works
+round 3615
+current s error is 0.622
+Only positive works
+round 3616
+current s error is 0.622
+Only positive works
+round 3617
+current s error is 0.624
+Only positive works
+round 3619
+current s error is 0.626
+Only positive works
+round 3620
+current s error is 0.628
+Only positive works
+round 3622
+current s error is 0.629
+Only positive works
+round 3623
+current s error is 0.631
+Only positive works
+round 3624
+current s error is 0.63
+Only positive works
+round 3626
+current s error is 0.633
+Only positive works
+round 3629
+current s error is 0.632
+Only positive works
+round 3631
+current s error is 0.636
+Only positive works
+round 3632
+current s error is 0.633
+Only positive works
+round 3633
+current s error is 0.631
+Only positive works
+round 3636
+current s error is 0.635
+Only positive works
+round 3637
+current s error is 0.635
+Only positive works
+round 3638
+current s error is 0.638
+Only positive works
+round 3641
+current s error is 0.634
+Only positive works
+round 3643
+current s error is 0.639
+Only positive works
+round 3645
+current s error is 0.641
+Only positive works
+round 3646
+current s error is 0.636
+Only positive works
+round 3647
+current s error is 0.637
+Only positive works
+round 3648
+current s error is 0.636
+Only positive works
+round 3649
+current s error is 0.633
+Only positive works
+round 3650
+current s error is 0.631
+Only positive works
+round 3651
+current s error is 0.634
+Only positive works
+round 3652
+current s error is 0.636
+Only positive works
+round 3653
+current s error is 0.634
+Only positive works
+round 3654
+current s error is 0.633
+Only positive works
+round 3656
+current s error is 0.636
+Only positive works
+round 3657
+current s error is 0.64
+Only positive works
+round 3658
+current s error is 0.64
+Only positive works
+round 3659
+current s error is 0.639
+Only positive works
+round 3660
+current s error is 0.631
+Only positive works
+round 3661
+current s error is 0.637
+Only positive works
+round 3664
+current s error is 0.64
+Only positive works
+round 3666
+current s error is 0.638
+Only positive works
+round 3667
+current s error is 0.64
+Only positive works
+round 3668
+current s error is 0.642
+Only positive works
+round 3669
+current s error is 0.636
+Only positive works
+round 3670
+current s error is 0.636
+Only positive works
+round 3672
+current s error is 0.638
+Only positive works
+round 3673
+current s error is 0.638
+Only positive works
+round 3674
+current s error is 0.637
+Only positive works
+round 3675
+current s error is 0.638
+Only positive works
+round 3677
+current s error is 0.634
+Only positive works
+round 3678
+current s error is 0.632
+Only positive works
+round 3679
+current s error is 0.635
+Only positive works
+round 3682
+current s error is 0.634
+Only positive works
+round 3683
+current s error is 0.631
+Only positive works
+round 3684
+current s error is 0.634
+Only positive works
+round 3685
+current s error is 0.634
+Only positive works
+round 3688
+current s error is 0.636
+Only positive works
+round 3689
+current s error is 0.639
+Only positive works
+round 3690
+current s error is 0.639
+Only positive works
+round 3691
+current s error is 0.637
+Only positive works
+round 3692
+current s error is 0.637
+Only positive works
+round 3693
+current s error is 0.636
+Only positive works
+round 3694
+current s error is 0.635
+Only positive works
+round 3696
+current s error is 0.639
+Only positive works
+round 3699
+current s error is 0.641
+Only positive works
+round 3700
+current s error is 0.638
+Only positive works
+round 3701
+current s error is 0.64
+Only positive works
+round 3704
+current s error is 0.64
+Only positive works
+round 3705
+current s error is 0.643
+Only positive works
+round 3706
+current s error is 0.641
+Only positive works
+round 3707
+current s error is 0.643
+Only positive works
+round 3708
+current s error is 0.647
+Only positive works
+round 3709
+current s error is 0.642
+Only positive works
+round 3710
+current s error is 0.648
+Only positive works
+round 3711
+current s error is 0.643
+Only positive works
+round 3712
+current s error is 0.649
+Only positive works
+round 3713
+current s error is 0.646
+Only positive works
+round 3714
+current s error is 0.645
+Only positive works
+round 3715
+current s error is 0.651
+Only positive works
+round 3716
+current s error is 0.64
+Only positive works
+round 3717
+current s error is 0.646
+Only positive works
+round 3718
+current s error is 0.647
+Only positive works
+round 3719
+current s error is 0.649
+Only positive works
+round 3720
+current s error is 0.648
+Only positive works
+round 3721
+current s error is 0.647
+Only positive works
+round 3722
+current s error is 0.649
+Only positive works
+round 3724
+current s error is 0.641
+Only positive works
+round 3725
+current s error is 0.641
+Only positive works
+round 3727
+current s error is 0.643
+Only positive works
+round 3728
+current s error is 0.641
+Only positive works
+round 3730
+current s error is 0.642
+Only positive works
+round 3732
+current s error is 0.645
+Only positive works
+round 3733
+current s error is 0.65
+Only positive works
+round 3735
+current s error is 0.643
+Only positive works
+round 3736
+current s error is 0.646
+Only positive works
+round 3737
+current s error is 0.647
+Only positive works
+round 3738
+current s error is 0.648
+Only positive works
+round 3739
+current s error is 0.649
+Only positive works
+round 3740
+current s error is 0.651
+Only positive works
+round 3741
+current s error is 0.656
+Only positive works
+round 3742
+current s error is 0.651
+Only positive works
+round 3744
+current s error is 0.655
+Only positive works
+round 3746
+current s error is 0.653
+Only positive works
+round 3747
+current s error is 0.654
+Only positive works
+round 3748
+current s error is 0.65
+Only positive works
+round 3749
+current s error is 0.647
+Only positive works
+round 3750
+current s error is 0.649
+Only positive works
+round 3752
+current s error is 0.643
+Only positive works
+round 3753
+current s error is 0.643
+Only positive works
+round 3754
+current s error is 0.643
+Only positive works
+round 3756
+current s error is 0.643
+Only positive works
+round 3758
+current s error is 0.644
+Only positive works
+round 3759
+current s error is 0.643
+Only positive works
+round 3760
+current s error is 0.647
+Only positive works
+round 3762
+current s error is 0.645
+Only positive works
+round 3763
+current s error is 0.647
+Only positive works
+round 3767
+current s error is 0.647
+Only positive works
+round 3768
+current s error is 0.648
+Only positive works
+round 3769
+current s error is 0.643
+Only positive works
+round 3771
+current s error is 0.646
+Only positive works
+round 3772
+current s error is 0.647
+Only positive works
+round 3773
+current s error is 0.646
+Only positive works
+round 3774
+current s error is 0.639
+Only positive works
+round 3775
+current s error is 0.648
+Only positive works
+round 3776
+current s error is 0.648
+Only positive works
+round 3777
+current s error is 0.651
+Only positive works
+round 3778
+current s error is 0.651
+Only positive works
+round 3780
+current s error is 0.651
+Only positive works
+round 3782
+current s error is 0.654
+Only positive works
+round 3783
+current s error is 0.653
+Only positive works
+round 3784
+current s error is 0.653
+Only positive works
+round 3785
+current s error is 0.655
+Only positive works
+round 3789
+current s error is 0.656
+Only positive works
+round 3790
+current s error is 0.654
+Only positive works
+round 3791
+current s error is 0.651
+Only positive works
+round 3793
+current s error is 0.651
+Only positive works
+round 3794
+current s error is 0.654
+Only positive works
+round 3796
+current s error is 0.658
+Only positive works
+round 3797
+current s error is 0.659
+Only positive works
+round 3799
+current s error is 0.657
+Only positive works
+round 3801
+current s error is 0.663
+Only positive works
+round 3803
+current s error is 0.66
+Only positive works
+round 3804
+current s error is 0.653
+Only positive works
+round 3806
+current s error is 0.658
+Only positive works
+round 3807
+current s error is 0.653
+Only positive works
+round 3808
+current s error is 0.653
+Only positive works
+round 3810
+current s error is 0.648
+Only positive works
+round 3813
+current s error is 0.651
+Only positive works
+round 3814
+current s error is 0.656
+Only positive works
+round 3817
+current s error is 0.659
+Only positive works
+round 3818
+current s error is 0.658
+Only positive works
+round 3820
+current s error is 0.655
+Only positive works
+round 3822
+current s error is 0.662
+Only positive works
+round 3823
+current s error is 0.659
+Only positive works
+round 3824
+current s error is 0.663
+Only positive works
+round 3827
+current s error is 0.663
+Only positive works
+round 3828
+current s error is 0.657
+Only positive works
+round 3830
+current s error is 0.653
+Only positive works
+round 3831
+current s error is 0.658
+Only positive works
+round 3836
+current s error is 0.653
+Only positive works
+round 3838
+current s error is 0.657
+Only positive works
+round 3839
+current s error is 0.66
+Only positive works
+round 3841
+current s error is 0.655
+Only positive works
+round 3844
+current s error is 0.655
+Only positive works
+round 3845
+current s error is 0.66
+Only positive works
+round 3847
+current s error is 0.667
+Only positive works
+round 3848
+current s error is 0.66
+Only positive works
+round 3851
+current s error is 0.662
+Only positive works
+round 3852
+current s error is 0.669
+Only positive works
+round 3853
+current s error is 0.67
+Only positive works
+round 3855
+current s error is 0.67
+Only positive works
+round 3856
+current s error is 0.67
+Only positive works
+round 3857
+current s error is 0.668
+Only positive works
+round 3858
+current s error is 0.669
+Only positive works
+round 3859
+current s error is 0.67
+Only positive works
+round 3860
+current s error is 0.672
+Only positive works
+round 3861
+current s error is 0.676
+Only positive works
+round 3862
+current s error is 0.67
+Only positive works
+round 3863
+current s error is 0.677
+Only positive works
+round 3865
+current s error is 0.677
+Only positive works
+round 3866
+current s error is 0.671
+Only positive works
+round 3867
+current s error is 0.671
+Only positive works
+round 3868
+current s error is 0.673
+Only positive works
+round 3870
+current s error is 0.675
+Only positive works
+round 3872
+current s error is 0.674
+Only positive works
+round 3873
+current s error is 0.672
+Only positive works
+round 3874
+current s error is 0.672
+Only positive works
+round 3876
+current s error is 0.674
+Only positive works
+round 3877
+current s error is 0.676
+Only positive works
+round 3879
+current s error is 0.671
+Only positive works
+round 3881
+current s error is 0.672
+Only positive works
+round 3882
+current s error is 0.671
+Only positive works
+round 3884
+current s error is 0.676
+Only positive works
+round 3885
+current s error is 0.675
+Only positive works
+round 3886
+current s error is 0.676
+Only positive works
+round 3887
+current s error is 0.673
+Only positive works
+round 3888
+current s error is 0.677
+Only positive works
+round 3890
+current s error is 0.676
+Only positive works
+round 3892
+current s error is 0.675
+Only positive works
+round 3893
+current s error is 0.677
+Only positive works
+round 3894
+current s error is 0.673
+Only positive works
+round 3895
+current s error is 0.673
+Only positive works
+round 3897
+current s error is 0.676
+Only positive works
+round 3899
+current s error is 0.672
+Only positive works
+round 3900
+current s error is 0.679
+Only positive works
+round 3902
+current s error is 0.682
+Only positive works
+round 3903
+current s error is 0.683
+Only positive works
+round 3905
+current s error is 0.68
+Only positive works
+round 3906
+current s error is 0.675
+Only positive works
+round 3908
+current s error is 0.679
+Only positive works
+round 3911
+current s error is 0.677
+Only positive works
+round 3912
+current s error is 0.675
+Only positive works
+round 3913
+current s error is 0.677
+Only positive works
+round 3915
+current s error is 0.677
+Only positive works
+round 3916
+current s error is 0.683
+Only positive works
+round 3917
+current s error is 0.684
+Only positive works
+round 3918
+current s error is 0.682
+Only positive works
+round 3920
+current s error is 0.678
+Only positive works
+round 3921
+current s error is 0.677
+Only positive works
+round 3922
+current s error is 0.681
+Only positive works
+round 3924
+current s error is 0.682
+Only positive works
+round 3925
+current s error is 0.681
+Only positive works
+round 3927
+current s error is 0.684
+Only positive works
+round 3928
+current s error is 0.682
+Only positive works
+round 3929
+current s error is 0.684
+Only positive works
+round 3930
+current s error is 0.678
+Only positive works
+round 3931
+current s error is 0.684
+Only positive works
+round 3932
+current s error is 0.686
+Only positive works
+round 3933
+current s error is 0.688
+Only positive works
+round 3935
+current s error is 0.688
+Only positive works
+round 3938
+current s error is 0.691
+Only positive works
+round 3939
+current s error is 0.694
+Only positive works
+round 3940
+current s error is 0.693
+Only positive works
+round 3941
+current s error is 0.692
+Only positive works
+round 3942
+current s error is 0.691
+Only positive works
+round 3945
+current s error is 0.691
+Only positive works
+round 3947
+current s error is 0.689
+Only positive works
+round 3948
+current s error is 0.688
+Only positive works
+round 3949
+current s error is 0.69
+Only positive works
+round 3950
+current s error is 0.689
+Only positive works
+round 3954
+current s error is 0.7
+Only positive works
+round 3957
+current s error is 0.698
+Only positive works
+round 3958
+current s error is 0.696
+Only positive works
+round 3961
+current s error is 0.694
+Only positive works
+round 3962
+current s error is 0.696
+Only positive works
+round 3964
+current s error is 0.698
+Only positive works
+round 3965
+current s error is 0.697
+Only positive works
+round 3968
+current s error is 0.701
+Only positive works
+round 3970
+current s error is 0.695
+Only positive works
+round 3971
+current s error is 0.698
+Only positive works
+round 3972
+current s error is 0.696
+Only positive works
+round 3974
+current s error is 0.697
+Only positive works
+round 3976
+current s error is 0.692
+Only positive works
+round 3977
+current s error is 0.695
+Only positive works
+round 3978
+current s error is 0.697
+Only positive works
+round 3980
+current s error is 0.699
+Only positive works
+round 3981
+current s error is 0.703
+Only positive works
+round 3982
+current s error is 0.7
+Only positive works
+round 3984
+current s error is 0.696
+Only positive works
+round 3985
+current s error is 0.699
+Only positive works
+round 3986
+current s error is 0.695
+Only positive works
+round 3987
+current s error is 0.701
+Only positive works
+round 3988
+current s error is 0.697
+Only positive works
+round 3989
+current s error is 0.698
+Only positive works
+round 3991
+current s error is 0.702
+Only positive works
+round 3996
+current s error is 0.699
+Only positive works
+round 3997
+current s error is 0.703
+Only positive works
+round 3998
+current s error is 0.702
+Only positive works
+round 3999
+current s error is 0.702
+Only positive works
+final SVM error is 0.514
+final SVM F1 is 0.19937694704049844
+final number of queries is

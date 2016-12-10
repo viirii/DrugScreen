@@ -1,0 +1,7 @@
+/home/ubuntu/.local/lib/python3.5/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Traceback (most recent call last):
+  File "dhm.py", line 299, in <module>
+  File "dhm.py", line 133, in dhm
+    
+AssertionError

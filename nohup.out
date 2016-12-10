@@ -1,0 +1,15 @@
+./bash_script.sh: line 3: log/EASY_0.log: No such file or directory
+./bash_script.sh: line 4: log/EASY_500.log: No such file or directory
+./bash_script.sh: line 5: log/EASY_1000.log: No such file or directory
+./bash_script.sh: line 6: log/EASY_1500.log: No such file or directory
+./bash_script.sh: line 7: log/EASY_2000.log: No such file or directory
+./bash_script.sh: line 8: log/MODERATE_0.log: No such file or directory
+./bash_script.sh: line 9: log/MODERATE_500.log: No such file or directory
+./bash_script.sh: line 10: log/MODERATE_1000.log: No such file or directory
+./bash_script.sh: line 11: log/MODERATE_1500.log: No such file or directory
+./bash_script.sh: line 12: log/MODERATE_2000.log: No such file or directory
+./bash_script.sh: line 13: log/DIFFICULT_0.log: No such file or directory
+./bash_script.sh: line 14: log/DIFFICULT_500.log: No such file or directory
+./bash_script.sh: line 15: log/DIFFICULT_1000.log: No such file or directory
+./bash_script.sh: line 16: log/DIFFICULT_1500.log: No such file or directory
+./bash_script.sh: line 17: log/DIFFICULT_2000.log: No such file or directory
