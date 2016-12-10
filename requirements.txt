@@ -1,5 +1,0 @@
-numpy
-mclearn
-joblib
-nose
-sklearn
