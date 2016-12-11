@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 DEC 2016 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 DEC 2016 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1137,11 +1137,11 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 202--217
 
 [7] [8] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 9047 strings out of 493089
- 142175 string characters out of 6134842
+ 9051 strings out of 493089
+ 142227 string characters out of 6134842
  288946 words of memory out of 5000000
  12120 multiletter control sequences out of 15000+600000
- 104811 words of font info for 218 fonts, out of 8000000 for 9000
+ 105207 words of font info for 221 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,12n,47p,1410b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
@@ -1150,7 +1150,7 @@ super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fou
 rier-mlit.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr
 8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on final_report.pdf (8 pages, 270564 bytes).
+Output written on final_report.pdf (8 pages, 271582 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
