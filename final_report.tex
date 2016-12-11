@@ -90,7 +90,7 @@ Input :
 \item Test data consists of 1000 testing instances, each with 1000 features and true label
 \item Blind prediction data consists of 1000 instances, each with 1000 features
 \item Each data(row) represents potential compound that may bind to the target
-\item Each feature(column) represents structural or chemical 
+\item Each feature(column) represents a structural or chemical feature
 \end{itemize}
 
 
@@ -99,7 +99,7 @@ Input :
 As with real world drug target screening, we began with assumption that only an extremely small fraction of compounds will bind to the target. Also, only a small fraction of the features would be relevant in predicting the label (are actual sites that the drug can potentially bind to). Our challenge is to first find which features are relevant in accurately predicting whether the compound will bind to the target or not, and then learning on those features.
 
 
-We performed gradient experiment, and measured the performance based on the number of queries made between initial learning and active learning, as the total number of queries is capped at 2500. Our predictions are then compared against random learner, as well as 0-guess, which predicts inactivity (label=0) for all compounds. 
+We performed a gradient experiment, and measured the performance based on the number of queries made between initial learning and active learning, as the total number of queries is capped at 2500. Our predictions are then compared against random learner, as well as 0-guess, which predicts inactivity (label=0) for all compounds. 
 
 
 \subsection{Learning Strategy}
@@ -109,21 +109,23 @@ Because of the imbalanced dataset (only small portion of the molecules actually 
 
 \subsubsection{Initial Feature Selection}
 
-Randomly chosen molecules are queried for their label and features. This initial phase is important in learning which features are relevant, in order to build a more relevant model. While data has been omitted, our previous attempts without explicit feature selection has returned low F1 score as well as error rate. For each feature, $\chi^2$ test was performed along with the true label, and we selected top 25 features to learn on.
+Randomly chosen molecules are queried for their label and features. This initial phase is important in learning which features are relevant, in order to build a more relevant model. While data has been omitted, our previous attempts without explicit feature selection has returned low F1 scores as well as high error rates. For each feature, $\chi^2$ test was performed along with the true label, and we selected top 25 features to learn on. We chose feature selection but not Principle Component Analysis (PCA) for dimension reduction because of the domain knowledge that only a small number of features are important. Selecting a feature rather than a principle component also produces more meaningful result in the domain. The importance of each domain can be useful for the study.
 
 \subsubsection{Active Compound Selection}
 
-We used selection strategy of \textit{largest positive score} which performed the best in ~\cite{ref:warmuth}. \textit{Largest positive score} compound is selected by computing a \textit{score} of activity based on signed distance from the SVM hyperplane. Given that most compounds are inactive and would be predicted to be 0, this strategy searches for the compounds that are predicted to be most active. Doing so narrows our hypothesis space, by focusing our search in the most likely regions of the hypothesis space. Given our goal of drug discovery for our target, false positives (drugs that are classified as binding to target, but does not) can be tolerated within reason, but false negatives are potentially costly. We do not expend our limited number of queries for looking up inactive compounds, but instead dedicate our efforts towards finding potentially active compounds which are few and far between. We confirm their label, or activity via query to the oracle. Note that this strategy works for our purpose of finding as many positive molecules that bind to drug target, but a different strategy such as choosing compounds near boundary may be more suited for studying the structure-activity relationship ~\cite{ref:warmuth}
+We used selection strategy of \textit{largest positive score} which performed the best in ~\cite{ref:warmuth}. \textit{Largest positive score} compound is selected by computing a probability of a compound to be positive. Given that most compounds are inactive and would be predicted to be 0, this strategy searches for the compounds that are predicted to be active with highest probability. We used the probability functionality of \textit{SVC} in sklearn package, which calculates the probability using 5-fold cross validation. Doing so narrows our hypothesis space, by focusing our search in the most likely regions of the hypothesis space. Given our goal of drug discovery for our target, false positives (drugs that are classified as binding to target, but does not) can be tolerated within reason, but false negatives are potentially costly. We do not expend our limited number of queries for looking up inactive compounds, but instead dedicate our efforts towards finding potentially active compounds which are few and far between. We confirm their label, or activity via query to the oracle. Note that this strategy works for our purpose of finding as many positive molecules that bind to drug target, but a different strategy such as choosing compounds near boundary may be more suited for studying the structure-activity relationship ~\cite{ref:warmuth}.
 
 \subsection{Classifier Strategy}
 
-SVM was chosen as our classifier for multiple reasons. SVM finds a hyperplane that maximizes the distance between the nearest data (support vectors) and the hyperplane. Given the high dimension of our input data (1000 features, reduced to 25 with feature selection) with assumption of linear separability, it was important that we choose a classifier that scales easily to high dimension, with no local optima. SVM separates inactive from active compounds by using maximum margin hyperplane for decision boundary. 
-Gaussian kernel (default) was used for training. 
+Support Vector Machine (SVM) was chosen as our classifier for multiple reasons. SVM finds a hyperplane that maximizes the distance between the nearest data (support vectors) and the hyperplane. Given the high dimension of our input data (1000 features), it was important that we choose a classifier that behaves well in a high-dimension feature space. SVM separates inactive from active compounds by using maximum margin hyperplane for decision boundary.  
+Gaussian kernel (default) was used for training. The kernel is computed between samples rather than in the feature space so we expect SVM to be robust when only a small number of features are relevant.
+Other classifiers such as random forest and winnow were also tested but did not produce comparable results.
 
 
 \section{Results}
 
-Gradient experiment was performed for varying number of queries divided between the initial learning (feature selection) and active learning (model learning). Figures for each section (difficulty) include the best performing division of queries for each data set, but full data is available in Table~\ref{f1table} for F1 score, and Table~\ref{errortable} for error rates. For all figures below, only the queries to the oracle during active learning is included (ex: if number of queries begin at 2000, it indicates 2000 queries have already been spent on feature selection). 
+A gradient experiment was performed for varying number of queries divided between the initial learning (feature selection) and active learning (model learning). Figures for each section (difficulty) include the best performing division of queries for each data set, but full data is available in Table~\ref{f1table} for F1 score, and Table~\ref{errortable} for error rates. For all figures below, only the queries to the oracle during active learning is included (ex: if number of queries begin at 2000, it indicates 2000 queries have already been spent on feature selection). The difference between the starting point of active learner and random learner can be explained by the random number generator since we randomly selected a same number of samples for each active learner and the companion random learner and chose to seed the random generator once with seed 0 to make it possible to reproduce the data easily. The difference does not affect our conclusions.
+
 \subsection{Easy}
 
 
@@ -215,9 +217,16 @@ This table shows the error rate of each test data after the model had been train
 \FloatBarrier
 
 
-
 \section{Conclusion}
+
+
+The increase of F1 score and the decrease of error rate using the active selection strategy can be observed in most cases. For example the F1 score for MODERATE dataset in Figure \ref{modf} increases from about the same as random selection to above 0.5 and the error rate for DIFFICULT dataset in Figure \ref{harderror} decreases from above predicting all zeros to much lower. Though figures are not included for the conciseness of the report, the pattern is more prevalent when fewer number of queries were spent on feature selection and more queries were conducted using active selection. However, as shown in Table \ref{f1table} andTable \ref{errortable}, using enough number of samples was critical for the overall performance. As a result, all the included figures were from the experiment where 2000 queries were used for initial learning and 500 were used for active learning. 
+
 While it has been omitted from the overall results, good amount of effort was spent on applying active learning strategy directly to the data without any feature selection. However, this ignores an important pieces of domain knowledge, where only a small subset of the training data are active, false negatives are highly undesirable, and only a small subset of features are useful in predicting activity. When we modified our strategy to conform to these domain knowledge, our error rate and F1 score improved greatly. Performance decreases with added noise in data as expected. 
+
+Our results indicates that selecting the relevant features is critical for the learning process. In a drug discovery study, the importance of the features can also be gained from other experiments such as changing a small part of the drug structure. If provided with the importance information, the active learner can do a better job in selecting the right candidate. It the cost of such experiments is lower or comparable, getting the importance of the features from these experiments should be also considered when allocating the limited resources. 
+
+
 
 
 \begin{thebibliography}{1}
